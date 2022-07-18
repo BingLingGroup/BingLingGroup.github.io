@@ -65,62 +65,62 @@ thumbnail:
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
 
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Soyuz 2.1b/Fregat | OneWeb #11
+<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> NextSpaceflight. Soyuz 2.1b/Fregat | OneWeb #11
 https://nextspaceflight.com/launches/details/2956
 
-<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a></escape> NASASpaceflight. Soyuz-ST update
+<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> NASASpaceflight. Soyuz-ST update
 https://forum.nasaspaceflight.com/index.php?topic=13239.msg2242368#msg2242368
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Lucy (spacecraft)
+<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> Wikipedia. Lucy (spacecraft)
 https://en.wikipedia.org/wiki/Lucy_(spacecraft)
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Discovery Program
+<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> Wikipedia. Discovery Program
 https://en.wikipedia.org/wiki/Discovery_Program
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Ariane 5 ECA | SES-17 & Syracuse-4A
+<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> NextSpaceflight. Ariane 5 ECA | SES-17 & Syracuse-4A
 https://nextspaceflight.com/launches/details/441
 
-<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a></escape> Gunter's Space Page. SES 17
+<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> Gunter's Space Page. SES 17
 https://space.skyrocket.de/doc_sdat/ses-17.htm
 
-<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>&nbsp;<a href = "#ref_7_s">&nbsp;↑&nbsp;</a></escape> J. A. Gonzalez del Amo. European Space Agency (ESA) Electric Propulsion Activities
+<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> J. A. Gonzalez del Amo. European Space Agency (ESA) Electric Propulsion Activities
 https://epic-src.eu/wp-content/uploads/ESA-EP-Activities-2017-DRESDEN.pdf
 
-<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a>&nbsp;<a href = "#ref_8_s">&nbsp;↑&nbsp;</a></escape> Gunter's Space Page. Syracuse 4A (Comsat-NG 1)
+<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> Gunter's Space Page. Syracuse 4A (Comsat-NG 1)
 https://space.skyrocket.de/doc_sdat/syracuse-4a.htm
 
-<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a>&nbsp;<a href = "#ref_9_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. H-IIA 202 | QZS-1R
+<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a></escape> <escape><a href = "#ref_9_s">↑</a></escape> NextSpaceflight. H-IIA 202 | QZS-1R
 https://nextspaceflight.com/launches/details/6820
 
-<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a>&nbsp;<a href = "#ref_10_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Quasi-Zenith Satellite System
+<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a></escape> <escape><a href = "#ref_10_s">↑</a></escape> Wikipedia. Quasi-Zenith Satellite System
 https://en.wikipedia.org/wiki/Quasi-Zenith_Satellite_System#Future_7_satellite_constellation
 
-<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a>&nbsp;<a href = "#ref_11_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Tundra orbit
+<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a></escape> <escape><a href = "#ref_11_s">↑</a></escape> Wikipedia. Tundra orbit
 https://en.wikipedia.org/wiki/Tundra_orbit
 
-<escape><a name = "ref_12_d"><a href = "#ref_12_d">[12]</a></a>&nbsp;<a href = "#ref_12_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Soyuz 2.1a | Progress MS-18
+<escape><a name = "ref_12_d"><a href = "#ref_12_d">[12]</a></a></escape> <escape><a href = "#ref_12_s">↑</a></escape> NextSpaceflight. Soyuz 2.1a | Progress MS-18
 https://nextspaceflight.com/launches/details/4096
 
-<escape><a name = "ref_13_d"><a href = "#ref_13_d">[13]</a></a>&nbsp;<a href = "#ref_13_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. SpaceX Crew-3
+<escape><a name = "ref_13_d"><a href = "#ref_13_d">[13]</a></a></escape> <escape><a href = "#ref_13_s">↑</a></escape> Wikipedia. SpaceX Crew-3
 https://en.wikipedia.org/wiki/SpaceX_Crew-3
 
-<escape><a name = "ref_14_d"><a href = "#ref_14_d">[14]</a></a>&nbsp;<a href = "#ref_14_s">&nbsp;↑&nbsp;</a></escape> NASA/Josh Valcarcel. Raja Chari
+<escape><a name = "ref_14_d"><a href = "#ref_14_d">[14]</a></a></escape> <escape><a href = "#ref_14_s">↑</a></escape> NASA/Josh Valcarcel. Raja Chari
 https://www.flickr.com/photos/nasa2explore/51387729705/
 
-<escape><a name = "ref_15_d"><a href = "#ref_15_d">[15]</a></a>&nbsp;<a href = "#ref_15_s">&nbsp;↑&nbsp;</a></escape> NASA/Josh Valcarcel. Thomas Marshburn
+<escape><a name = "ref_15_d"><a href = "#ref_15_d">[15]</a></a></escape> <escape><a href = "#ref_15_s">↑</a></escape> NASA/Josh Valcarcel. Thomas Marshburn
 https://www.flickr.com/photos/nasa2explore/51387458424/
 
-<escape><a name = "ref_16_d"><a href = "#ref_16_d">[16]</a></a>&nbsp;<a href = "#ref_16_s">&nbsp;↑&nbsp;</a></escape> NASA/Josh Valcarcel. Kayla Barron
+<escape><a name = "ref_16_d"><a href = "#ref_16_d">[16]</a></a></escape> <escape><a href = "#ref_16_s">↑</a></escape> NASA/Josh Valcarcel. Kayla Barron
 https://www.flickr.com/photos/nasa2explore/51387729330/
 
-<escape><a name = "ref_17_d"><a href = "#ref_17_d">[17]</a></a>&nbsp;<a href = "#ref_17_s">&nbsp;↑&nbsp;</a></escape> NASA/Josh Valcarcel. Matthias Maurer
+<escape><a name = "ref_17_d"><a href = "#ref_17_d">[17]</a></a></escape> <escape><a href = "#ref_17_s">↑</a></escape> NASA/Josh Valcarcel. Matthias Maurer
 https://www.flickr.com/photos/nasa2explore/51385965277/
 
-<escape><a name = "ref_18_d"><a href = "#ref_18_d">[18]</a></a>&nbsp;<a href = "#ref_18_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Crew Dragon Endurance
+<escape><a name = "ref_18_d"><a href = "#ref_18_d">[18]</a></a></escape> <escape><a href = "#ref_18_s">↑</a></escape> Wikipedia. Crew Dragon Endurance
 https://en.wikipedia.org/wiki/Crew_Dragon_Endurance
 
-<escape><a name = "ref_19_d"><a href = "#ref_19_d">[19]</a></a>&nbsp;<a href = "#ref_19_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Falcon 9 Block 5 | SpaceX Crew-3
+<escape><a name = "ref_19_d"><a href = "#ref_19_d">[19]</a></a></escape> <escape><a href = "#ref_19_s">↑</a></escape> NextSpaceflight. Falcon 9 Block 5 | SpaceX Crew-3
 https://nextspaceflight.com/launches/details/4738
 
-<escape><a name = "ref_20_d"><a href = "#ref_20_d">[20]</a></a>&nbsp;<a href = "#ref_20_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Rocket Launch Manifest
+<escape><a name = "ref_20_d"><a href = "#ref_20_d">[20]</a></a></escape> <escape><a href = "#ref_20_s">↑</a></escape> NextSpaceflight. Rocket Launch Manifest
 https://nextspaceflight.com/launches/

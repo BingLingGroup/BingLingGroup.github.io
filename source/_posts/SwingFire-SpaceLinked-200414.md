@@ -67,10 +67,10 @@ NASA发现除了SpaceX，其他方案中的技术方法都有显著缺陷。波�
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://spacenews.com/softbank-spearheads-oneweb-loan-offer-to-complete-spectrum-sale/">
-SoftBank spearheads OneWeb loan offer to complete spectrum sale</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://youtu.be/YIrIt0R47Z8">
-How OneWeb's system works</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://spacenews.com/spacex-beat-gateway-cargo-contract-competitors-on-price-and-performance/">
-SpaceX beat Gateway cargo contract competitors on price and performance</a></br><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://youtu.be/K4YMFP9O-as">
-Lockheed Martin Lunar Gateway Animation #IAC2018</a></br><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://twitter.com/BepiColombo/status/1249252304555040768">
-The last few glimpses of Earth</a></br><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://twitter.com/BepiColombo/status/1251125805603852288">
+<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://spacenews.com/softbank-spearheads-oneweb-loan-offer-to-complete-spectrum-sale/">
+SoftBank spearheads OneWeb loan offer to complete spectrum sale</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://youtu.be/YIrIt0R47Z8">
+How OneWeb's system works</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://spacenews.com/spacex-beat-gateway-cargo-contract-competitors-on-price-and-performance/">
+SpaceX beat Gateway cargo contract competitors on price and performance</a></br><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape><a href = "https://youtu.be/K4YMFP9O-as">
+Lockheed Martin Lunar Gateway Animation #IAC2018</a></br><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> <escape><a href = "https://twitter.com/BepiColombo/status/1249252304555040768">
+The last few glimpses of Earth</a></br><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> <escape><a href = "https://twitter.com/BepiColombo/status/1251125805603852288">
 A rotating marble.</a></escape>

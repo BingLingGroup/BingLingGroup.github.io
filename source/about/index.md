@@ -1,5 +1,5 @@
 ---
-layout:     post
+type:       "about"
 title:      关于冰灵的博客
 date:       2018-12-31 09:48:19
 author:     "冰灵"

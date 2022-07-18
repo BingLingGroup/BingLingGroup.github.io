@@ -88,59 +88,59 @@ thumbnail:
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
 
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. List of spaceflight launches in January–June 2021
+<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> Wikipedia. List of spaceflight launches in January–June 2021
 https://en.wikipedia.org/wiki/List_of_spaceflight_launches_in_January%E2%80%93June_2021#March
 
-<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a></escape> Elon Musk. We will need to make a lot of improvements to have a chance of completing 48 launches next year!
+<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> Elon Musk. We will need to make a lot of improvements to have a chance of completing 48 launches next year!
 https://twitter.com/elonmusk/status/1312249542125842434
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a></escape> SpaceX. Starlink Mission
+<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> SpaceX. Starlink Mission
 https://youtu.be/d5DzoKuhdNk
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a></escape> Zarya. 2021-017
+<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> Zarya. 2021-017
 https://www.zarya.info/Diaries/Launches/Launches.php?year=2021#017
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a></escape>  Global News. SpaceX rocket debris likely the reason for strange lights seen in skies over Pacific Northwest
+<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape>  Global News. SpaceX rocket debris likely the reason for strange lights seen in skies over Pacific Northwest
 https://youtu.be/dcx52ZE_UaI
 
-<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a></escape> SpaceX. Starlink Mission
+<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> SpaceX. Starlink Mission
 https://youtu.be/U4sWbTfrzj8
 
-<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>&nbsp;<a href = "#ref_7_s">&nbsp;↑&nbsp;</a></escape> SciNews. Long March-7A launches Shiyan-9
+<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> SciNews. Long March-7A launches Shiyan-9
 https://youtu.be/oqLqogMZ7bw
 
-<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a>&nbsp;<a href = "#ref_8_s">&nbsp;↑&nbsp;</a></escape> 中国运载火箭技术研究院. 长七A：一样的春天，不一样的曲线
+<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> 中国运载火箭技术研究院. 长七A：一样的春天，不一样的曲线
 https://mp.weixin.qq.com/s/ELVuAM9T2L1QhxbqmKGy2g
 
-<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a>&nbsp;<a href = "#ref_9_s">&nbsp;↑&nbsp;</a></escape> SciNews. Long March-4C launches Yaogan-31 04
+<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a></escape> <escape><a href = "#ref_9_s">↑</a></escape> SciNews. Long March-4C launches Yaogan-31 04
 https://youtu.be/YXJ8yM9095I
 
-<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a>&nbsp;<a href = "#ref_10_s">&nbsp;↑&nbsp;</a></escape> SpaceX. Starlink Mission
+<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a></escape> <escape><a href = "#ref_10_s">↑</a></escape> SpaceX. Starlink Mission
 https://youtu.be/JKf45ATgATc
 
-<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a>&nbsp;<a href = "#ref_11_s">&nbsp;↑&nbsp;</a></escape> Роскосмос ТВ. Трансляция пуска с космодрома Байконур ракеты-носителя «Союз-2.1а»
+<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a></escape> <escape><a href = "#ref_11_s">↑</a></escape> Роскосмос ТВ. Трансляция пуска с космодрома Байконур ракеты-носителя «Союз-2.1а»
 https://youtu.be/7wb12TG-K2Y
 
-<escape><a name = "ref_12_d"><a href = "#ref_12_d">[12]</a></a>&nbsp;<a href = "#ref_12_s">&nbsp;↑&nbsp;</a></escape> Gunter's Space Page. CAS500 1, 2
+<escape><a name = "ref_12_d"><a href = "#ref_12_d">[12]</a></a></escape> <escape><a href = "#ref_12_s">↑</a></escape> Gunter's Space Page. CAS500 1, 2
 https://space.skyrocket.de/doc_sdat/cas500-1.htm
 
-<escape><a name = "ref_13_d"><a href = "#ref_13_d">[13]</a></a>&nbsp;<a href = "#ref_13_s">&nbsp;↑&nbsp;</a></escape> Rocket Lab. They Go Up So Fast Launch 03/22/2021
+<escape><a name = "ref_13_d"><a href = "#ref_13_d">[13]</a></a></escape> <escape><a href = "#ref_13_s">↑</a></escape> Rocket Lab. They Go Up So Fast Launch 03/22/2021
 https://youtu.be/u5wmrGriVX0
 
-<escape><a name = "ref_14_d"><a href = "#ref_14_d">[14]</a></a>&nbsp;<a href = "#ref_14_s">&nbsp;↑&nbsp;</a></escape> Rocket Lab. They Go Up So Fast
+<escape><a name = "ref_14_d"><a href = "#ref_14_d">[14]</a></a></escape> <escape><a href = "#ref_14_s">↑</a></escape> Rocket Lab. They Go Up So Fast
 https://www.rocketlabusa.com/missions/completed-missions/they-go-up-so-fast/
 
-<escape><a name = "ref_15_d"><a href = "#ref_15_d">[15]</a></a>&nbsp;<a href = "#ref_15_s">&nbsp;↑&nbsp;</a></escape> SpaceX. Starlink Mission
+<escape><a name = "ref_15_d"><a href = "#ref_15_d">[15]</a></a></escape> <escape><a href = "#ref_15_s">↑</a></escape> SpaceX. Starlink Mission
 https://youtu.be/a15czI9B91c
 
-<escape><a name = "ref_16_d"><a href = "#ref_16_d">[16]</a></a>&nbsp;<a href = "#ref_16_s">&nbsp;↑&nbsp;</a></escape> Роскосмос ТВ. Пуск ракеты-носителя «Союз-2.1б» со спутниками OneWeb с космодрома Восточный
+<escape><a name = "ref_16_d"><a href = "#ref_16_d">[16]</a></a></escape> <escape><a href = "#ref_16_s">↑</a></escape> Роскосмос ТВ. Пуск ракеты-носителя «Союз-2.1б» со спутниками OneWeb с космодрома Восточный
 https://youtu.be/XMbEKthVx20
 
-<escape><a name = "ref_17_d"><a href = "#ref_17_d">[17]</a></a>&nbsp;<a href = "#ref_17_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. OneWeb satellite constellation
+<escape><a name = "ref_17_d"><a href = "#ref_17_d">[17]</a></a></escape> <escape><a href = "#ref_17_s">↑</a></escape> Wikipedia. OneWeb satellite constellation
 https://en.wikipedia.org/wiki/OneWeb_satellite_constellation
 
-<escape><a name = "ref_18_d"><a href = "#ref_18_d">[18]</a></a>&nbsp;<a href = "#ref_18_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. OneWeb satellite constellation
+<escape><a name = "ref_18_d"><a href = "#ref_18_d">[18]</a></a></escape> <escape><a href = "#ref_18_s">↑</a></escape> Wikipedia. OneWeb satellite constellation
 https://en.wikipedia.org/wiki/OneWeb_satellite_constellation#List_of_launches
 
-<escape><a name = "ref_19_d"><a href = "#ref_19_d">[19]</a></a>&nbsp;<a href = "#ref_19_s">&nbsp;↑&nbsp;</a></escape> 中国航天报. 厉害！长四丙火箭本月成功第二飞
+<escape><a name = "ref_19_d"><a href = "#ref_19_d">[19]</a></a></escape> <escape><a href = "#ref_19_s">↑</a></escape> 中国航天报. 厉害！长四丙火箭本月成功第二飞
 https://mp.weixin.qq.com/s/OD2TOxx5Gfa3cWhGLHKx6g

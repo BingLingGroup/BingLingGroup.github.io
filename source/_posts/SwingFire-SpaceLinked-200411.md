@@ -53,11 +53,11 @@ thumbnail: https://spacenews.com/wp-content/uploads/2020/04/Soyuz-Roscosmos-phot
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "http://www.xinhuanet.com/2020-04/09/c_1125834989.htm">
-PALAPA-N1卫星发射失利</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "http://9ifly.cn/thread-89280-14-1.html">
-长三乙光轨</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "http://weibo.com/3279752321/ICyDInSnk">
-林晓弈的微博 - 1</a></br><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "http://weibo.com/3279752321/ICyuwDWvi">
-林晓弈的微博 - 2</a></br><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://spacenews.com/virgin-orbits-vox-space-wins-35-million-u-s-space-force-launch-contract/">
-Virgin Orbit’s VOX Space wins $35 million U.S. Space Force launch contract</a></br><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://youtu.be/U7uNxrrlDoo">
-Cryogenic Captive Carry Test</a></br><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>&nbsp;<a href = "#ref_7_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "https://spacenews.com/russia-suspends-soyuz-rocket-production-amid-coronavirus/">
+<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://www.xinhuanet.com/2020-04/09/c_1125834989.htm">
+PALAPA-N1卫星发射失利</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "http://9ifly.cn/thread-89280-14-1.html">
+长三乙光轨</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "http://weibo.com/3279752321/ICyDInSnk">
+林晓弈的微博 - 1</a></br><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape><a href = "http://weibo.com/3279752321/ICyuwDWvi">
+林晓弈的微博 - 2</a></br><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> <escape><a href = "https://spacenews.com/virgin-orbits-vox-space-wins-35-million-u-s-space-force-launch-contract/">
+Virgin Orbit’s VOX Space wins $35 million U.S. Space Force launch contract</a></br><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> <escape><a href = "https://youtu.be/U7uNxrrlDoo">
+Cryogenic Captive Carry Test</a></br><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> <escape><a href = "https://spacenews.com/russia-suspends-soyuz-rocket-production-amid-coronavirus/">
 Russia suspends Soyuz rocket production amid coronavirus</a></escape>

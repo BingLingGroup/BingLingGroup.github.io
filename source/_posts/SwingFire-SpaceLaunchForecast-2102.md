@@ -59,26 +59,26 @@ thumbnail:
 ### 素材出处
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Falcon 9 Block 5 | Starlink V1 L19
+<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> NextSpaceflight. Falcon 9 Block 5 | Starlink V1 L19
 https://nextspaceflight.com/launches/details/2674
 
-<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a></escape> SpaceX. Standing down from this weekend’s launch attempt
+<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> SpaceX. Standing down from this weekend’s launch attempt
 https://twitter.com/SpaceX/status/1357785626561572864
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Soyuz 2.1a | Progress MS-16
+<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> NextSpaceflight. Soyuz 2.1a | Progress MS-16
 https://nextspaceflight.com/launches/details/2922
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a></escape> RT. Foes on the ground, but friends in space
+<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> RT. Foes on the ground, but friends in space
 https://www.rt.com/russia/512990-iss-astronauts-supply-share/
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Antares 230+ | Cygnus CRS NG-15
+<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> NextSpaceflight. Antares 230+ | Cygnus CRS NG-15
 https://nextspaceflight.com/launches/details/2663
 
-<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. PSLV-DL | Amazônia 1 & Others
+<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> NextSpaceflight. PSLV-DL | Amazônia 1 & Others
 https://nextspaceflight.com/launches/details/5651
 
-<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>&nbsp;<a href = "#ref_7_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Soyuz 2.1b/Fregat-M | Arktika-M n°1
+<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> NextSpaceflight. Soyuz 2.1b/Fregat-M | Arktika-M n°1
 https://nextspaceflight.com/launches/details/383
 
-<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a>&nbsp;<a href = "#ref_8_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Rocket Launch Manifest
+<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> NextSpaceflight. Rocket Launch Manifest
 https://nextspaceflight.com/launches/

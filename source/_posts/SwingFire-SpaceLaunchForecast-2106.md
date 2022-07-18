@@ -70,35 +70,35 @@ thumbnail:
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
 
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Pegasus XL | TacRL-2
+<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> NextSpaceflight. Pegasus XL | TacRL-2
 https://nextspaceflight.com/launches/details/6144
 
-<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a></escape> Spaceflight Now. Northrop Grumman’s Pegasus rocket selected for responsive launch demo
+<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> Spaceflight Now. Northrop Grumman’s Pegasus rocket selected for responsive launch demo
 https://spaceflightnow.com/2021/03/17/northrop-grummans-pegasus-rocket-selected-for-responsive-launch-demo/
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Minotaur I | NROL-111
+<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> NextSpaceflight. Minotaur I | NROL-111
 https://nextspaceflight.com/launches/details/361
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Minotaur (rocket family)
+<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> Wikipedia. Minotaur (rocket family)
 https://en.wikipedia.org/wiki/Minotaur_(rocket_family)
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Falcon 9 Block 5 | GPS III-5
+<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> NextSpaceflight. Falcon 9 Block 5 | GPS III-5
 https://nextspaceflight.com/launches/details/96
 
-<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. GPS Block III
+<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> Wikipedia. GPS Block III
 https://en.wikipedia.org/wiki/GPS_Block_III#Launch_history
 
-<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>&nbsp;<a href = "#ref_7_s">&nbsp;↑&nbsp;</a></escape> 航天爱好者网. 神舟十二号载人飞船
+<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> 航天爱好者网. 神舟十二号载人飞船
 http://www.spaceflightfans.cn/event/long-march-2f-launch-shenzhou-12-manned-spaceship
 
-<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a>&nbsp;<a href = "#ref_8_s">&nbsp;↑&nbsp;</a></escape> 航空航天港. 遥感三十号09组卫星
+<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> 航空航天港. 遥感三十号09组卫星
 https://9ifly.spacety.com/forum.php?mod=viewthread&tid=94870
 
-<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a>&nbsp;<a href = "#ref_9_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Falcon 9 Block 5 | Transporter 2
+<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a></escape> <escape><a href = "#ref_9_s">↑</a></escape> NextSpaceflight. Falcon 9 Block 5 | Transporter 2
 https://nextspaceflight.com/launches/details/2404
 
-<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a>&nbsp;<a href = "#ref_10_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Soyuz 2.1a | Progress MS-17
+<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a></escape> <escape><a href = "#ref_10_s">↑</a></escape> NextSpaceflight. Soyuz 2.1a | Progress MS-17
 https://nextspaceflight.com/launches/details/2976
 
-<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a>&nbsp;<a href = "#ref_11_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Rocket Launch Manifest
+<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a></escape> <escape><a href = "#ref_11_s">↑</a></escape> NextSpaceflight. Rocket Launch Manifest
 https://nextspaceflight.com/launches/

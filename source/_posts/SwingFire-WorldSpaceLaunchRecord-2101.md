@@ -73,38 +73,38 @@ thumbnail:
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
 
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. List of spaceflight launches in January–June 2021
+<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> Wikipedia. List of spaceflight launches in January–June 2021
 https://en.wikipedia.org/wiki/List_of_spaceflight_launches_in_January%E2%80%93June_2021#January
 
-<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a></escape> SpaceX. Turksat 5A Mission
+<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> SpaceX. Turksat 5A Mission
 https://youtu.be/9I0UYXVqIn8
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a></escape> Virgin Orbit. Launch Demo 2 Recap
+<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> Virgin Orbit. Launch Demo 2 Recap
 https://youtu.be/yrx2PBzeRdU
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a></escape> Virgin Orbit. Launcher 1 demo-2
+<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> Virgin Orbit. Launcher 1 demo-2
 https://streamable.com/9htk9b
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a></escape> Virgin Galactic. Elevating Unity - Episode 1: Captive Carry
+<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> Virgin Galactic. Elevating Unity - Episode 1: Captive Carry
 https://youtu.be/zV1g-dyzYx4
 
-<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a></escape> Stratolaunch. Stratolaunch First Flight
+<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> Stratolaunch. Stratolaunch First Flight
 https://youtu.be/VFHAz4AG-no
 
-<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>&nbsp;<a href = "#ref_7_s">&nbsp;↑&nbsp;</a></escape> SciNews. Long March-3B launches Tiantong-1 03
+<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> SciNews. Long March-3B launches Tiantong-1 03
 https://youtu.be/jJ8Qxm_hjc8
 
-<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a>&nbsp;<a href = "#ref_8_s">&nbsp;↑&nbsp;</a></escape> Rocket Lab. Another One Leaves The Crust Launch 01_20_2021
+<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> Rocket Lab. Another One Leaves The Crust Launch 01_20_2021
 https://youtu.be/NQyNuF-Du7c
 
-<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a>&nbsp;<a href = "#ref_9_s">&nbsp;↑&nbsp;</a></escape> SpaceX. Starlink Mission
+<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a></escape> <escape><a href = "#ref_9_s">↑</a></escape> SpaceX. Starlink Mission
 https://youtu.be/84Nct_Q9Lqw
 
-<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a>&nbsp;<a href = "#ref_10_s">&nbsp;↑&nbsp;</a></escape> SpaceX. Transporter-1 Mission
+<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a></escape> <escape><a href = "#ref_10_s">↑</a></escape> SpaceX. Transporter-1 Mission
 https://youtu.be/ScHI1cbkUv4
 
-<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a>&nbsp;<a href = "#ref_11_s">&nbsp;↑&nbsp;</a></escape> Chris B - NSF. A very cool graphical overview
+<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a></escape> <escape><a href = "#ref_11_s">↑</a></escape> Chris B - NSF. A very cool graphical overview
 https://twitter.com/NASASpaceflight/status/1353354665723908102
 
-<escape><a name = "ref_12_d"><a href = "#ref_12_d">[12]</a></a>&nbsp;<a href = "#ref_12_s">&nbsp;↑&nbsp;</a></escape> SciNews. Long March-4C launches Yaogan-31 02 satellites
+<escape><a name = "ref_12_d"><a href = "#ref_12_d">[12]</a></a></escape> <escape><a href = "#ref_12_s">↑</a></escape> SciNews. Long March-4C launches Yaogan-31 02 satellites
 https://youtu.be/1BHcKJtrJGc

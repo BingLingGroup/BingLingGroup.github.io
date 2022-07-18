@@ -1,4 +1,5 @@
 ---
+mathjax:    true
 layout:     post
 title:      autosub安装使用指南(windows及ubuntu)(200302)
 date:       2019-02-10 21:00:00

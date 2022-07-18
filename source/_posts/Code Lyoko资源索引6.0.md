@@ -343,7 +343,7 @@ CLE在youtube上部分似乎有版权问题，有些被youtube地区封禁了。
 ### 注释
 
 点击上箭头字符可返回原位置。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a>&nbsp;部分更新说明</escape>
+<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape>部分更新说明</escape>
 
 - 210221 更新说明
   - 修复了法语片源链接失效的问题
@@ -379,7 +379,7 @@ CLE在youtube上部分似乎有版权问题，有些被youtube地区封禁了。
 
 - [所有提交历史][github_commit_history]
 
-<escape></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a>&nbsp;何为恶意伸手贴</escape>
+<escape></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape>何为恶意伸手贴</escape>
 
 由于2017年以前发布的贴子目前暂时无法访问，请以以下引用版为准。
 
@@ -389,7 +389,7 @@ CLE在youtube上部分似乎有版权问题，有些被youtube地区封禁了。
 >无意义伸手将无码挂虚吧城墙并删贴。情节严重者封号3天。
 >ps:若所求资源置顶贴确实没有的，发帖/回帖询问时请请注明已看过置顶帖。
 
-<escape></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a>&nbsp;何为WEBRip</escape>
+<escape></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape>何为WEBRip</escape>
 
 因为b站在线版已经进行过较大幅度的码率压缩，再称WEB-DL已有不妥，所以这里称为WEBRip。
 

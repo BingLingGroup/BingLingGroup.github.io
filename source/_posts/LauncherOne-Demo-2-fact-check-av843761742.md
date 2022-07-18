@@ -58,32 +58,32 @@ tags:
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
 
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a></escape> Virgin Orbit. Launch Demo 2 Recap
+<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> Virgin Orbit. Launch Demo 2 Recap
 https://youtu.be/yrx2PBzeRdU
 
-<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a></escape> Virgin Orbit. Launcher 1 demo-2
+<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> Virgin Orbit. Launcher 1 demo-2
 https://streamable.com/9htk9b
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a></escape> 新华网. 维珍轨道公司空基运载火箭首次试射失败
+<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> 新华网. 维珍轨道公司空基运载火箭首次试射失败
 http://www.xinhuanet.com/2020-05/26/c_1126035271.htm
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a></escape> Hoven Vilion. 一个公司属于哪个国家通过什么来判定？
+<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> Hoven Vilion. 一个公司属于哪个国家通过什么来判定？
 https://www.zhihu.com/question/30897334/answer/49970244
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a></escape> Sharad Kumar Churiwala. How can you legally find out in what country a company is incorporated?
+<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> Sharad Kumar Churiwala. How can you legally find out in what country a company is incorporated?
 https://www.quora.com/How-can-you-legally-find-out-in-what-country-a-company-is-incorporated
 
-<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a></escape> Virgin Orbit. Meet The Virgin Orbit Team
+<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> Virgin Orbit. Meet The Virgin Orbit Team
 https://virginorbit.com/team/
 
-<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>&nbsp;<a href = "#ref_7_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Rocket Lab
+<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> Wikipedia. Rocket Lab
 https://en.wikipedia.org/wiki/Rocket_Lab
 
-<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a>&nbsp;<a href = "#ref_8_s">&nbsp;↑&nbsp;</a></escape> Virgin Orbit. Contact us
+<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> Virgin Orbit. Contact us
 https://virginorbit.com/contact-us/
 
-<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a>&nbsp;<a href = "#ref_9_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Northrop Grumman Pegasus
+<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a></escape> <escape><a href = "#ref_9_s">↑</a></escape> Wikipedia. Northrop Grumman Pegasus
 https://en.wikipedia.org/wiki/Northrop_Grumman_Pegasus
 
-<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a>&nbsp;<a href = "#ref_10_s">&nbsp;↑&nbsp;</a></escape> SciNews. Pegasus XL launches CYGNSS
+<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a></escape> <escape><a href = "#ref_10_s">↑</a></escape> SciNews. Pegasus XL launches CYGNSS
 https://youtu.be/c4EQyLv3pIo

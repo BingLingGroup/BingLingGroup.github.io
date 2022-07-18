@@ -111,7 +111,7 @@ thumbnail: "http://sarazanmai.com/img/v2/kv_pc.jpg"
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "http://sarazanmai.com/">皿三昧官网</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a>&nbsp;部分更新说明</escape>
+<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://sarazanmai.com/">皿三昧官网</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape>部分更新说明</escape>
 
 - 190627 更新说明
   - 替换sweetsub非压缩版链接
@@ -146,16 +146,16 @@ thumbnail: "http://sarazanmai.com/img/v2/kv_pc.jpg"
 
 - [所有提交历史][github_commit_history]
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a>&nbsp;更新时间说明</escape>
+<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape>更新时间说明</escape>
 
 皿三昧放映时间一般在东九区周五00:55/东八区周四23:55，想第一时间看的话可以关注各种直播/生放送消息，皿三昧吧置顶贴皿三昧吧群里有。
 最快的英字熟肉一般在[Nyaa][Nyaa_site]能找到，一般是东八区周五03:00-05:00更新，[相关搜索页面][Nyaa_sarazanmai](英字熟肉其实可以拿来直接看了)。[SweetSub的中字版本][Dmhy_sweetsub_sarazanmai]一般在东八区周五23:00到周六下午之前的时间段内更新，~~然后我才会搬运到网盘这边来~~（其实已经有Sweetsub官方在发布网盘版了，更新时间以[SweetSub官方信息][sweetsub_info]为准），大家都是用爱发电，稍安勿躁。
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a>&nbsp;外部简中字幕使用方法</escape>
+<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape>外部简中字幕使用方法</escape>
 
 外部简中字幕只是方便文本编辑器打开后查找台词的用途，用于外挂会出现字体无法加载的情况(你不嫌烦当然可以自己修改字幕文件中的字体名称，字体名称发生改变是因为字幕组使用了font subset工具导致的)，建议播放时仍然使用内封字幕的mkv视频进行播放~~(字幕组已经给你调好了就不要乱动了，好吧这说的是我自己)~~。
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a>&nbsp;弹幕文件使用方法</escape>
+<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> <escape>弹幕文件使用方法</escape>
 
 拖入弹弹Play播放器即可播放。
 目前更新至皿三昧在b站下架前的最后一集第七皿，前七集现在都有弹幕文件。

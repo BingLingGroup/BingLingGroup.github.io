@@ -55,35 +55,35 @@ thumbnail:
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
 
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Falcon 9 Block 5 | Starlink Group 2-1
+<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> NextSpaceflight. Falcon 9 Block 5 | Starlink Group 2-1
 https://nextspaceflight.com/launches/details/6796
 
-<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a>&nbsp;<a href = "#ref_2_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Starlink
+<escape><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> Wikipedia. Starlink
 https://en.wikipedia.org/wiki/Starlink#Launches
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a>&nbsp;<a href = "#ref_3_s">&nbsp;↑&nbsp;</a></escape> Arianespace. Soyuz Flight ST35
+<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> Arianespace. Soyuz Flight ST35
 https://nextspaceflight.com/launches/details/2954
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a>&nbsp;<a href = "#ref_4_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Inspiration4
+<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> Wikipedia. Inspiration4
 https://en.wikipedia.org/wiki/Inspiration4
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>&nbsp;<a href = "#ref_5_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Falcon 9 Block 5 | Inspiration4
+<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> NextSpaceflight. Falcon 9 Block 5 | Inspiration4
 https://nextspaceflight.com/launches/details/5761
 
-<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a>&nbsp;<a href = "#ref_6_s">&nbsp;↑&nbsp;</a></escape> 鲁迅. 华盖集·并非闲话（三）
+<escape><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> 鲁迅. 华盖集·并非闲话（三）
 http://www.ziyexing.com/luxun/luxun_zw_hgj_28.htm
 
-<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>&nbsp;<a href = "#ref_7_s">&nbsp;↑&nbsp;</a></escape> John Kraus. Inspiration4
+<escape><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> John Kraus. Inspiration4
 https://twitter.com/johnkrausphotos/status/1437068965092724741
 
-<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a>&nbsp;<a href = "#ref_8_s">&nbsp;↑&nbsp;</a></escape> Inspiration4. Dragon’s Cupola
+<escape><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> Inspiration4. Dragon’s Cupola
 https://twitter.com/inspiration4x/status/1433192632457564160
 
-<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a>&nbsp;<a href = "#ref_9_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Atlas V 401 | Landsat 9 & Others
+<escape><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a></escape> <escape><a href = "#ref_9_s">↑</a></escape> NextSpaceflight. Atlas V 401 | Landsat 9 & Others
 https://nextspaceflight.com/launches/details/401
 
-<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a>&nbsp;<a href = "#ref_10_s">&nbsp;↑&nbsp;</a></escape> Wikipedia. Landsat 9
+<escape><a name = "ref_10_d"><a href = "#ref_10_d">[10]</a></a></escape> <escape><a href = "#ref_10_s">↑</a></escape> Wikipedia. Landsat 9
 https://en.wikipedia.org/wiki/Landsat_9
 
-<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a>&nbsp;<a href = "#ref_11_s">&nbsp;↑&nbsp;</a></escape> NextSpaceflight. Rocket Launch Manifest
+<escape><a name = "ref_11_d"><a href = "#ref_11_d">[11]</a></a></escape> <escape><a href = "#ref_11_s">↑</a></escape> NextSpaceflight. Rocket Launch Manifest
 https://nextspaceflight.com/launches/

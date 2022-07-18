@@ -33,18 +33,11 @@ new_post_name: :title.md
 default_layout: post
 titlecase: false 
 # Transform title into titlecase
-external_link: true 
-# Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: false
-  line_number: true
-  auto_detect: true
-  tab_replace: true
   
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
@@ -57,7 +50,7 @@ prism_plugin:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
   
 # Category & Tag
@@ -80,29 +73,27 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-
-# https://github.com/hexojs/hexo-filter-auto-spacing
-auto_spacing: false
-
-# path - file path. By default is search.xml . If the file extension is .json, the output format will be JSON. Otherwise XML format file will be exported.
-# field - the search scope you want to search, you can chose:
-# post (Default) - will only covers all the posts of your blog.
-# page - will only covers all the pages of your blog.
-# all - will covers all the posts and pages of your blog.
-
-search:
-  path: search.xml
-  field: all
   
-math:
-  engine: 'mathjax' # or 'katex'
-  mathjax:
-    src: custom_mathjax_source
-    config:
-      # MathJax config
+highlight:
+  enable: true
+  auto_detect: false
+  line_number: true
+  line_threshold: 0
+  tab_replace: ''
+  exclude_languages:
+    - example
+  wrap: true
+  hljs: false
+
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  line_threshold: 0
+  tab_replace: ''

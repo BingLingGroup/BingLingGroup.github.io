@@ -305,4 +305,4 @@ ass_out.set_output()
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a>&nbsp;<a href = "#ref_1_s">&nbsp;↑&nbsp;</a>&nbsp;<a href = "http://www.aegisub.org/">aegisub官网</a></escape>
+<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://www.aegisub.org/">aegisub官网</a></escape>
