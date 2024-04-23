@@ -17,11 +17,11 @@ tags:
     - magnet
 thumbnail: "http://sarazanmai.com/img/v2/kv_pc.jpg"
 ---
->题图来源<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></a></escape>
+>题图来源<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape>
 >标题后面括号里的日期指的是最后更新日期，头像旁边的日期是最初发布日期。
 >PC版网页左上角从上到下第二个图标是目录，请多用目录。
 >网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。
->部分更新说明<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a></a></escape>
+>部分更新说明<escape><a name = "ref_2_s" href="#ref_2_d"><sup>[2]</sup></a></escape>
 
 <escape><font size=4>目录</font></escape>
 
@@ -34,7 +34,7 @@ thumbnail: "http://sarazanmai.com/img/v2/kv_pc.jpg"
 
 **20190620皿三昧已完结**，共11集。
 
-更新时间参见**更新时间说明**<escape><a name = "ref_3_s"><a href="#ref_3_d"><sup>[3]</sup></a></a></escape>，请尊重字幕组劳动成果，不要瞎催更。
+更新时间参见**更新时间说明**<escape><a name = "ref_3_s" href="#ref_3_d"><sup>[3]</sup></a></escape>，请尊重字幕组劳动成果，不要瞎催更。
 
 本文旨在通过网盘分流[SweetSub][sweetsub_github]字幕组制作的皿三昧动画熟肉，下载自动漫花园。以下不特别注明均为sweetsub的*WebRip 1080p HEVC-yuv420p10 AAC ASSx2*资源。
 
@@ -67,11 +67,11 @@ thumbnail: "http://sarazanmai.com/img/v2/kv_pc.jpg"
 - [sweetsub压缩包版][compress](dp6x)包括
   - sweetsub资源种子
   - sweetsub内封字幕视频(WebRip 1080p HEVC-yuv420p10 AAC ASSx2)
-  - ~~外部简中字幕(使用方法<escape><a name = "ref_4_s"><a href="#ref_4_d"><sup>[4]</sup></a></a></escape>)~~
+  - ~~外部简中字幕(使用方法<escape><a name = "ref_4_s" href="#ref_4_d"><sup>[4]</sup></a></escape>)~~
     - sweetsub已将所有皿三昧字幕开源，详见[SweetSub/Sarazanmai at master · tastysugar/SweetSub][sweetsub_github]
     - 开源版字幕会比发布版<escape><ruby>更<rt>gèng</rt></ruby></escape>新，所以此处网盘版字幕不再<escape><ruby>更<rt>gēng</rt></ruby></escape>新
     - 关于github文件批量下载的方式，可以右上download zip/clone，或者使用[Downgit][downgit_site]
-  - b站弹幕文件(使用方法<escape><a name = "ref_5_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>)
+  - b站弹幕文件(使用方法<escape><a name = "ref_5_s" href="#ref_5_d"><sup>[5]</sup></a></escape>)
 - [sweetsub非压缩版][raw](pbc6)包括
   - sweetsub内封字幕视频(WebRip 1080p HEVC-yuv420p10 AAC ASSx2)
   - 需要还原文件名的话可以使用*文件名批量重命名.bat*和同文件夹下的*dst_list.txt*
@@ -81,7 +81,7 @@ thumbnail: "http://sarazanmai.com/img/v2/kv_pc.jpg"
 - [英文字幕压缩包版][en_compress](9dj9)
 - [英文字幕非压缩版][en_raw](mfje)，以上两链接均包括
   - horriblesubs内封字幕视频
-    - 更新时间较快<escape><a name = "ref_3_s"><a href="#ref_3_d"><sup>[3]</sup></a></a></escape>但字幕质量一般
+    - 更新时间较快<escape><a name = "ref_3_s" href="#ref_3_d"><sup>[3]</sup></a></escape>但字幕质量一般
     - 如果真的需要质量较好的英文字幕的版本，可以考虑下载[asenshi][asenshi_site]的版本，一般在周六凌晨更新
   - [自制业余英译汉字幕][entocnsub]
     - 根据horriblesubs的英文字幕制作
@@ -111,7 +111,7 @@ thumbnail: "http://sarazanmai.com/img/v2/kv_pc.jpg"
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://sarazanmai.com/">皿三昧官网</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape>部分更新说明</escape>
+<escape></br><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://sarazanmai.com/">皿三昧官网</a></br><a name = "ref_2_d" href = "#ref_2_d">[2]</a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape>部分更新说明</escape>
 
 - 190627 更新说明
   - 替换sweetsub非压缩版链接
@@ -146,16 +146,16 @@ thumbnail: "http://sarazanmai.com/img/v2/kv_pc.jpg"
 
 - [所有提交历史][github_commit_history]
 
-<escape><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape>更新时间说明</escape>
+<escape><a name = "ref_3_d" href = "#ref_3_d">[3]</a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape>更新时间说明</escape>
 
 皿三昧放映时间一般在东九区周五00:55/东八区周四23:55，想第一时间看的话可以关注各种直播/生放送消息，皿三昧吧置顶贴皿三昧吧群里有。
 最快的英字熟肉一般在[Nyaa][Nyaa_site]能找到，一般是东八区周五03:00-05:00更新，[相关搜索页面][Nyaa_sarazanmai](英字熟肉其实可以拿来直接看了)。[SweetSub的中字版本][Dmhy_sweetsub_sarazanmai]一般在东八区周五23:00到周六下午之前的时间段内更新，~~然后我才会搬运到网盘这边来~~（其实已经有Sweetsub官方在发布网盘版了，更新时间以[SweetSub官方信息][sweetsub_info]为准），大家都是用爱发电，稍安勿躁。
 
-<escape><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape>外部简中字幕使用方法</escape>
+<escape><a name = "ref_4_d" href = "#ref_4_d">[4]</a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape>外部简中字幕使用方法</escape>
 
 外部简中字幕只是方便文本编辑器打开后查找台词的用途，用于外挂会出现字体无法加载的情况(你不嫌烦当然可以自己修改字幕文件中的字体名称，字体名称发生改变是因为字幕组使用了font subset工具导致的)，建议播放时仍然使用内封字幕的mkv视频进行播放~~(字幕组已经给你调好了就不要乱动了，好吧这说的是我自己)~~。
 
-<escape><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> <escape>弹幕文件使用方法</escape>
+<escape><a name = "ref_5_d" href = "#ref_5_d">[5]</a></escape> <escape><a href = "#ref_5_s">↑</a></escape> <escape>弹幕文件使用方法</escape>
 
 拖入弹弹Play播放器即可播放。
 目前更新至皿三昧在b站下架前的最后一集第七皿，前七集现在都有弹幕文件。

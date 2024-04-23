@@ -54,9 +54,9 @@ ASPT的文案主要来自F9写的专栏文章——说是这么说，实际上�
 
 关于字幕制作，第一步一般是使用autosub进行自动字幕生成，或者自动时间轴生成，这样能节省一定的时间，第二步是使用aegisub制作有样式和简单特效的ass字幕，比如我最喜欢的blur特效，这个blur特效的效果，到现在我用PS都不太好复现出来。
 
-关于字幕如何加到视频上，我给死沙推荐了Debugmode FrameServer，来解决字幕需要二压的问题，这样输出视频时就能直接压上了，关于这个话题不展开了，比较复杂，相关教程可以参考这几个文章<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></escape><escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a></escape>和视频<escape><a name = "ref_3_s"><a href="#ref_3_d"><sup>[3]</sup></a></escape>。其中，一遍过的方案我比较推荐的有两种，一种是把字幕生成视频，可让非编导入，另一种为非编导出视频时，让视频流通过可以挂载ass字幕的视频处理程序进行压制。前者对应的方案为
+关于字幕如何加到视频上，我给死沙推荐了Debugmode FrameServer，来解决字幕需要二压的问题，这样输出视频时就能直接压上了，关于这个话题不展开了，比较复杂，相关教程可以参考这几个文章<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape><escape><a name = "ref_2_s" href="#ref_2_d"><sup>[2]</sup></a></escape>和视频<escape><a name = "ref_3_s" href="#ref_3_d"><sup>[3]</sup></a></escape>。其中，一遍过的方案我比较推荐的有两种，一种是把字幕生成视频，可让非编导入，另一种为非编导出视频时，让视频流通过可以挂载ass字幕的视频处理程序进行压制。前者对应的方案为
 
-- domo大佬的aegisub压制脚本<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a></escape>（Vapoursynth+QSVEnc（Intel）/NVEnc（Nvidia）/VCEEnc（AMD）/x264）
+- domo大佬的aegisub压制脚本<escape><a name = "ref_2_s" href="#ref_2_d"><sup>[2]</sup></a></escape>（Vapoursynth+QSVEnc（Intel）/NVEnc（Nvidia）/VCEEnc（AMD）/x264）
 - [aegisub使用指南-作为mov导入非编](aegisub_guide.html#作为mov导入非编)（ffmpeg+libx264）
 
 后者对应的方案为
@@ -70,4 +70,4 @@ ASPT的文案主要来自F9写的专栏文章——说是这么说，实际上�
 
 ### 注释
 
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://www.bilibili.com/read/cv311967">小白哔哩哔哩免二压完全压制手册-上册-第七版-2018新直传大更新-Win&Mac&Ubuntu通用版</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://www.bilibili.com/read/cv3248940">【Aegisub脚本】Encode - Hardsub - VapourSynth 使用说明</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://b23.tv/BV1Y7411g7hp">vegas加速渲染教程__桥接渲染</a></escape>
+<escape></br><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://www.bilibili.com/read/cv311967">小白哔哩哔哩免二压完全压制手册-上册-第七版-2018新直传大更新-Win&Mac&Ubuntu通用版</a></br><a name = "ref_2_d" href = "#ref_2_d">[2]</a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://www.bilibili.com/read/cv3248940">【Aegisub脚本】Encode - Hardsub - VapourSynth 使用说明</a></br><a name = "ref_3_d" href = "#ref_3_d">[3]</a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://b23.tv/BV1Y7411g7hp">vegas加速渲染教程__桥接渲染</a></escape>

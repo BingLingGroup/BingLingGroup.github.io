@@ -15,7 +15,7 @@ thumbnail: "https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github
 >PC版网页左上角从上到下第二个图标是目录，请多用目录。
 >网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。
 >本文22张图，约1w字。
->题图来源<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></a></escape>。
+>题图来源<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape>。
 
 <escape><font size=4>目录</font></escape>
 
@@ -77,9 +77,9 @@ thumbnail: "https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github
 
 ### 总结
 
-n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a></a></escape>的屑作实至名归，如果评分网站可以评负分，我肯定就评负分了。
+n站2.6%好评<escape><a name = "ref_2_s" href="#ref_2_d"><sup>[2]</sup></a></escape>的屑作实至名归，如果评分网站可以评负分，我肯定就评负分了。
 
-我是比较同意[Nemo Ma][Nemo_Ma_zhihu]所说的讲不好故事<escape><a name = "ref_3_s"><a href="#ref_3_d"><sup>[3]</sup></a></a></escape>的说法，也许剧组一开始并非真的有这么大恶意去摸黑一期动画( 最 终 怜 悯 )，但实在是迫于能力有限，好话都讲成了坏话吧。另外我比较推荐这位大佬的逐集分析影评<escape><a name = "ref_4_s"><a href="#ref_4_d"><sup>[4]</sup></a></a></escape>，比我找的槽点要少一些。
+我是比较同意[Nemo Ma][Nemo_Ma_zhihu]所说的讲不好故事<escape><a name = "ref_3_s" href="#ref_3_d"><sup>[3]</sup></a></escape>的说法，也许剧组一开始并非真的有这么大恶意去摸黑一期动画( 最 终 怜 悯 )，但实在是迫于能力有限，好话都讲成了坏话吧。另外我比较推荐这位大佬的逐集分析影评<escape><a name = "ref_4_s" href="#ref_4_d"><sup>[4]</sup></a></escape>，比我找的槽点要少一些。
 
 ### 展开讲
 
@@ -93,7 +93,7 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 
 #### 逻辑漏洞
 
-主线本身就包含有很明显的逻辑漏洞了，剩下无数的逻辑漏洞除去两大类经典的“友军恰好赶到”以及“讲话时敌人不会攻击”的都合主义叙事<escape><a name = "ref_5_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>，还有很多根本数不清的人与人之间最基本的信任被打破了，譬如E01末尾和E06开篇撇下同伴光速逃跑的桥段。如果有合理的理由倒也可以理解，但是剧组只是疯狂挖坑不填，态度极为恶劣。<escape><a name = "ref_6_s"><a href="#ref_6_d"><sup>[6]</sup></a></a></escape>
+主线本身就包含有很明显的逻辑漏洞了，剩下无数的逻辑漏洞除去两大类经典的“友军恰好赶到”以及“讲话时敌人不会攻击”的都合主义叙事<escape><a name = "ref_5_s" href="#ref_5_d"><sup>[5]</sup></a></escape>，还有很多根本数不清的人与人之间最基本的信任被打破了，譬如E01末尾和E06开篇撇下同伴光速逃跑的桥段。如果有合理的理由倒也可以理解，但是剧组只是疯狂挖坑不填，态度极为恶劣。<escape><a name = "ref_6_s" href="#ref_6_d"><sup>[6]</sup></a></escape>
 
 而且不同于主线稀烂，但单元剧做得很优秀的星际牛仔，本部作品你就是想看优质的萌豚日常，也看不到，明明可以展开泡茶故事的羊驼(昏睡)红茶店，一直活在预告里，没有拿出来凑剧情。哪怕剧组只是规规矩矩做做泡茶番，我觉得兽娘2的潜力也比那些经典泡茶番要大得多，譬如把咕噜噜的身份彻底改成失散的却被意外冬眠的游客，苏醒之后的心愿是参观动物园，完成游览，留在羊驼的红茶店昏睡了10集，每集就是泡泡茶聊聊天做做动物科普顺便谈谈那个改变了公园的浮莲子小包出海的传奇故事，最后一集咕噜噜也找到了船出海了，不就完了？至于搞什么手游剧情线和天蓝怪作战吗，说四神把火山口还是封得严严实实的不就行了。
 
@@ -109,11 +109,11 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 
 #### S2E01
 
-开头薮猫和狞猫听到咕噜噜的肚子饿的叫声，便说不要吃我啦，装作卡哇伊的动作，说出这样一个在第一期里蛮严肃的台词，这是第一个槽点。<escape><a name = "ref_7_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>
+开头薮猫和狞猫听到咕噜噜的肚子饿的叫声，便说不要吃我啦，装作卡哇伊的动作，说出这样一个在第一期里蛮严肃的台词，这是第一个槽点。<escape><a name = "ref_7_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
 一期里面这个台词有多严肃呢？S1E01里这个台词是小包看到薮猫扑倒她以后为了保命说的。甚至到了S1E12里面小包刚刚复原，薮猫也是拿这句话试探小包还有没有以前的记忆，是担心得哭着说出来的。只是到最后让boss开口和薮猫说话，才是以娱乐的心态在玩这个梗，而且这是薮猫和小包之间限定的台词，二期这里薮猫和狞猫一上来就以如此轻佻的态度对咕噜噜，一个一期和手游里都没有登场过的新人物说这个，简直莫名其妙。
 
-而犰狳和穿山甲追击咕噜噜的剧情，也是有点为了模仿而模仿的，明显也是借鉴一期里面阿莱桑和耳廓狐追击小包的方法，开出一条副线来为叙事服务的。<escape><a name = "ref_7_2_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>
+而犰狳和穿山甲追击咕噜噜的剧情，也是有点为了模仿而模仿的，明显也是借鉴一期里面阿莱桑和耳廓狐追击小包的方法，开出一条副线来为叙事服务的。<escape><a name = "ref_7_2_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
 以上两个还算能接受，但是花嘴鸭带着狞猫薮猫咕噜噜三个人跳地缝那里的槽点，简直侮辱智商。也许同样是模仿一期动画里的下悬崖挑战，一期动画里的下悬崖是薮猫带着小包两个人爬下悬崖，薮猫以为作为一般的动物朋友，下个不是很高的悬崖是很简单的事情，但是小包就摔了一跤，为了让小包不是那么难堪，后面薮猫说出了代表一期精神的经典台词，“每种动物朋友的特长都不同嘛”，同样也是一期动画开头埋下的一个重要的伏笔。
 
@@ -133,7 +133,7 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 <escape><div title="亵 渎 经 典 x 3" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/KF2_reviews_no_good_at_all/KF_S2-01_[1080p]_001809.114.png" height="80%" width="80%"></div></escape>
 <escape><div align="middle">咕噜噜摔了(S2E01 18:08)</div></escape>
 
-逃到站台之后，甚至连薮猫不会开车门的地方，也要模仿一期动画S1E01薮猫不会开箱子的梗，但是又学不到位。<escape><a name = "ref_7_3_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>
+逃到站台之后，甚至连薮猫不会开车门的地方，也要模仿一期动画S1E01薮猫不会开箱子的梗，但是又学不到位。<escape><a name = "ref_7_3_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
 <escape><div title="经 典 再 现" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/KF2_reviews_no_good_at_all/[DHR&ANK-Raws]_KF_01_[1080p]_001458.546.png" height="80%" width="80%"></div></escape>
 <escape><div align="middle">一期动画薮猫打不开收纳盒(S1E01 14:58)</div></escape>
@@ -204,9 +204,9 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 <escape><div title="设 定 半 恼" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/KF2_reviews_no_good_at_all/KF_S2-05_[1080p]_000027.166.png" height="80%" width="80%"></div></escape>
 <escape><div align="middle">设定补充(S1E05 00:27)</div></escape>
 
-开场就滑稽了，狞猫一句“确实 我没见过幸运兽说话呢”，就把这个设定搪塞过去了？<escape><a name = "ref_7_4_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>一期动画的时候幸运野兽说话，可是小包身份的关键伏笔，是个动物朋友都大惊小怪的。为了防止薮猫习惯了幸运野兽说话而反应不够自然，E11的时候还专门让薮猫说了一句她习惯了幸运野兽说话，所以不感到惊讶了，还强调了一次这个设定，结果二期就直接糊弄过去了。怕是编剧写到这一集的脚本之前，都没想过这个问题。
+开场就滑稽了，狞猫一句“确实 我没见过幸运兽说话呢”，就把这个设定搪塞过去了？<escape><a name = "ref_7_4_s" href="#ref_7_d"><sup>[7]</sup></a></escape>一期动画的时候幸运野兽说话，可是小包身份的关键伏笔，是个动物朋友都大惊小怪的。为了防止薮猫习惯了幸运野兽说话而反应不够自然，E11的时候还专门让薮猫说了一句她习惯了幸运野兽说话，所以不感到惊讶了，还强调了一次这个设定，结果二期就直接糊弄过去了。怕是编剧写到这一集的脚本之前，都没想过这个问题。
 
-08:30那里猩猩的做派完全就是S1E06里狮子人设的照搬，一点改动都没有的抄袭。<escape><a name = "ref_7_5_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>
+08:30那里猩猩的做派完全就是S1E06里狮子人设的照搬，一点改动都没有的抄袭。<escape><a name = "ref_7_5_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
 而后续的剧情也是类似S1E06的剧情，但是切入点完全不一样。S1E06狮子的意思是让小包找出一种让驼鹿她们赢过她手下的方法，但又不产生伤亡，让双方尽快和解。这里猩猩却变成了希望学习人类操纵动物的方法，来消除动物之间的纷争，而咕噜噜还大言不惭地说她并不知道如何操纵动物。
 
@@ -218,7 +218,7 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 <escape><div title="池 沼 飞 机" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/KF2_reviews_no_good_at_all/KF_S2-05_[1080p]_002010.208.png" height="80%" width="80%"></div></escape>
 <escape><div align="middle">S2E05的燃烧纸飞机(S2E05 20:10)</div></escape>
 
-然后就是野兽(Beast)老虎从天而降，袭击了咕噜噜一行人，为了救下咕噜噜，小包扔出了点燃的纸飞机来吸引野兽的注意力。<escape><a name = "ref_7_6_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>这一幕也是和S1E12薮猫扔出纸飞机吸引天蓝怪的注意力一模一样，但是：
+然后就是野兽(Beast)老虎从天而降，袭击了咕噜噜一行人，为了救下咕噜噜，小包扔出了点燃的纸飞机来吸引野兽的注意力。<escape><a name = "ref_7_6_s" href="#ref_7_d"><sup>[7]</sup></a></escape>这一幕也是和S1E12薮猫扔出纸飞机吸引天蓝怪的注意力一模一样，但是：
 
 1. S1E12那一幕前面就有铺垫，关于大型天蓝怪特性的设定，是朝太阳的方向前进，讨厌海水(S1E12 07:21 未来小姐的录音)
 2. S1E01小包用纸飞机同样吸引过普通天蓝怪的注意力
@@ -231,7 +231,7 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 2. 小包怎么知道的燃烧的纸飞机这一方法的？(当时被动物朋友救下的小包并没有意识来目睹这些事情)
 3. 以及为什么不是别的动物朋友来救咕噜噜，而一定是突然出现的小包？
 
-这三个问题在接下来的E07甚至更后面并没有给任何回答，关于问题3，只给出了小包是采集制作料理的食材而正好经过那里，这就属于典型的都合主义叙事了<escape><a name = "ref_5_2_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>。而我相信大部分看过一期的观众都是反感这种没有任何铺垫，直接甩设定的故事的。
+这三个问题在接下来的E07甚至更后面并没有给任何回答，关于问题3，只给出了小包是采集制作料理的食材而正好经过那里，这就属于典型的都合主义叙事了<escape><a name = "ref_5_2_s" href="#ref_5_d"><sup>[5]</sup></a></escape>。而我相信大部分看过一期的观众都是反感这种没有任何铺垫，直接甩设定的故事的。
 
 #### S2E06
 
@@ -240,21 +240,21 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 <escape><div title="大 屠 杀" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/KF2_reviews_no_good_at_all/KF_S2-06_[720p]_000619.879.png"  height="80%" width="80%"></div></escape>
 <escape><div align="middle">一堆boss的本体(S2E06 06:19)</div></escape>
 
-然后不经意之间就抖露出许多刻意让观众细思极恐但实际上只是耍你们因为后面根本不给填坑又是都合主义叙事<escape><a name = "ref_5_3_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>的细节，譬如回到家以后的小包打开了抽屉，还专门给了个特写，里面有一堆手环形态的boss。<escape><a name = "ref_7_7_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>
+然后不经意之间就抖露出许多刻意让观众细思极恐但实际上只是耍你们因为后面根本不给填坑又是都合主义叙事<escape><a name = "ref_5_3_s" href="#ref_5_d"><sup>[5]</sup></a></escape>的细节，譬如回到家以后的小包打开了抽屉，还专门给了个特写，里面有一堆手环形态的boss。<escape><a name = "ref_7_7_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
 这里要说明一下，一期动画里面手环形态的boss是因为S1E12那里为了消灭天蓝怪，boss自愿沉到了海里丢失了身体才得到的，正常的boss都是有身体的部分的，这里一抽屉boss的~~眼镜和裤腰带~~本体不知道是想表达什么。
 
 更雷的在后面，一期动画里面傲慢的博士和助手在二期这里变成了小包的助手，实际上一直到S1E12的最后，博士和助手也是作为岛主的身份看待小包的，最多最多可能是感谢小包给她们做料理的程度，但不会反转变成二期这种给小包打下手的程度。
 
-之后博士给咕噜噜她们泡茶，拿出了计时的沙漏。沙漏在S1E07中也有出现过，它的意义与此处也是正好相反，刚好是博士她们考验小包能否按时做出料理的计时工具，这里变成博士自己用了，感觉人设也是产生了奇怪的变化。<escape><a name = "ref_7_8_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>
+之后博士给咕噜噜她们泡茶，拿出了计时的沙漏。沙漏在S1E07中也有出现过，它的意义与此处也是正好相反，刚好是博士她们考验小包能否按时做出料理的计时工具，这里变成博士自己用了，感觉人设也是产生了奇怪的变化。<escape><a name = "ref_7_8_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
 特别是后面08:05那两句台词“小包的助手博士”和“小包的助手博士的助手”，编剧你写出这两句台词的时候就不觉得绕吗。
 
-如果说前面博士端茶和点心还可以被弹幕说成是因为研究时作为小包这个人类的助手，可以理解，但后面吃饭的时候，11:05处变成了由博士来做料理就完全有问题了，S1E12博士他们请不怕火的棕熊做料理那一幕还历历在目呢，这里唐突地堆出一个设定<escape><a name = "ref_5_4_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>，但也是不给解释，好像一期的设定就跟说着玩儿一样。
+如果说前面博士端茶和点心还可以被弹幕说成是因为研究时作为小包这个人类的助手，可以理解，但后面吃饭的时候，11:05处变成了由博士来做料理就完全有问题了，S1E12博士他们请不怕火的棕熊做料理那一幕还历历在目呢，这里唐突地堆出一个设定<escape><a name = "ref_5_4_s" href="#ref_5_d"><sup>[5]</sup></a></escape>，但也是不给解释，好像一期的设定就跟说着玩儿一样。
 
 还好有一点还是尊重了的，博士做料理时的炉子不是明火(感觉像红外炉)，至少没有与一期动画里面多数动物朋友也怕火的设定发生冲突，以及博士喜欢吃辣，所以吃的蘑菇火锅里放了很多辣。
 
-吃完饭镜头一切，就到咕噜噜睡觉的情节了。咕噜噜做了个梦，就梦见是海底火山喷发导致了天蓝料的产生，然后马上从博士的书里翻出海底火山那一页，然后马上被博士她们拉取实地考证，哪怕是大半夜，然后博士她们做了这么长时间的研究，还会忘记把天蓝料和砂之星放太近会引发事故这么基本的设定吗？<escape><a name = "ref_5_5_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>槽点太多已经吐不过来了。
+吃完饭镜头一切，就到咕噜噜睡觉的情节了。咕噜噜做了个梦，就梦见是海底火山喷发导致了天蓝料的产生，然后马上从博士的书里翻出海底火山那一页，然后马上被博士她们拉取实地考证，哪怕是大半夜，然后博士她们做了这么长时间的研究，还会忘记把天蓝料和砂之星放太近会引发事故这么基本的设定吗？<escape><a name = "ref_5_5_s" href="#ref_5_d"><sup>[5]</sup></a></escape>槽点太多已经吐不过来了。
 
 18:00和天蓝怪的战斗部分，依然和前面的作战一样难看
 
@@ -283,24 +283,24 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 
 #### S2E08
 
-这集和S1E08一样，照例是PPP的唱跳集<escape><a name = "ref_7_9_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>，不过剧组还是懒得交代这个“自动行驶到下一个目的地”是怎么确定的。不同于一期里面行云流水一般的线路图，二期的目的地选择非常迷，有时候交代一下，有时候又忽略过去了。
+这集和S1E08一样，照例是PPP的唱跳集<escape><a name = "ref_7_9_s" href="#ref_7_d"><sup>[7]</sup></a></escape>，不过剧组还是懒得交代这个“自动行驶到下一个目的地”是怎么确定的。不同于一期里面行云流水一般的线路图，二期的目的地选择非常迷，有时候交代一下，有时候又忽略过去了。
 
-03:55处虎猫似乎知道薮猫的事情，但是后面PPP见到薮猫的反应说明PPP应该也是失忆了。不过别想了，后续的剧情依然没有填坑<escape><a name = "ref_5_6_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>。
+03:55处虎猫似乎知道薮猫的事情，但是后面PPP见到薮猫的反应说明PPP应该也是失忆了。不过别想了，后续的剧情依然没有填坑<escape><a name = "ref_5_6_s" href="#ref_5_d"><sup>[5]</sup></a></escape>。
 
 <escape><div title="纸 片 人" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/KF2_reviews_no_good_at_all/KF_S2-08_[720p]_000508.330.png" height="80%" width="80%"></div></escape>
 <escape><div align="middle">纸片人观众(S2E08 05:08)</div></escape>
 
 05:08处纸片人观众真的丢角川的脸，一期好歹用剪影，就是告诉观众做不了太精细的场景但不影响观看，尚可接受，二期这么做想蒙混过关，还被人看出来就纯属弄巧成拙了。套用弹幕中的一句话就是感谢角川在百忙之中用这样的观众敷衍我们。特别说明一下，这个地方纸片人一是没有处理透视直接加的2D贴图上去，另一个则是这里的镜头还是一个拉镜，摄像机不断地远离拍摄对象，导致这种纸片人透视问题更为明显。
 
-06:56处朱鹮又来试镜了，可是S1E12里面朱鹮已经和PPP合作了，怎么又试镜了，而且PPP还捂住耳朵觉得很难听，明明S1E12里面还能接受来着。不要想了，这里的坑后面也没填<escape><a name = "ref_5_7_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>。而且此处狞猫和薮猫捂的都是人类耳朵，在一期里面也是不可想象的。
+06:56处朱鹮又来试镜了，可是S1E12里面朱鹮已经和PPP合作了，怎么又试镜了，而且PPP还捂住耳朵觉得很难听，明明S1E12里面还能接受来着。不要想了，这里的坑后面也没填<escape><a name = "ref_5_7_s" href="#ref_5_d"><sup>[5]</sup></a></escape>。而且此处狞猫和薮猫捂的都是人类耳朵，在一期里面也是不可想象的。
 
 09:15处狞猫对薮猫的质疑终于让我理解了狞猫薮猫咕噜噜三人组中狞猫这个角色存在的意义，显然~~被二期剧组洗脑~~失忆的薮猫只剩下贪玩和好奇的心，不可能帮到之前也没有交情，之后也很难有交情的咕噜噜去找家，而咕噜噜本人也是居心叵测，连自己是不是人都要犹豫半天不承认，关键是她并没有完全失忆这点实在是太可疑了。这样子如果放任薮猫和咕噜噜发展下去怕不是就要发展成S2E03那样的驯兽师剧情了，于是狞猫作为拿着剧本的角色(雾)一直督促着另外两人搞清楚现在的目标是找家，来维持住主线的发展。
 
-13:00处又是滥用BGM……老是用一期里面boss去世的BGM烘托一些二期的琐碎剧情这是虾仁猪心啊！而且PPP突然反感虎猫是不是也有点过了，完全没有铺垫不说<escape><a name = "ref_5_8_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>，演戏剧也并不是虎猫自己提出来的而是博士的主意。
+13:00处又是滥用BGM……老是用一期里面boss去世的BGM烘托一些二期的琐碎剧情这是虾仁猪心啊！而且PPP突然反感虎猫是不是也有点过了，完全没有铺垫不说<escape><a name = "ref_5_8_s" href="#ref_5_d"><sup>[5]</sup></a></escape>，演戏剧也并不是虎猫自己提出来的而是博士的主意。
 
 15:30处PPP表示不知道人类的事情，再度验证了她们已经失忆了。
 
-然后莫名其妙<escape><a name = "ref_5_9_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>来了个助攻天蓝怪，就把戏剧演完了，我：？？？这和咕噜噜一点关系都没有啊，狞猫为什么及时没有上场啊，为什么实时打天蓝怪啊，天蓝怪不要面子的啊，柠檬地，为什么？
+然后莫名其妙<escape><a name = "ref_5_9_s" href="#ref_5_d"><sup>[5]</sup></a></escape>来了个助攻天蓝怪，就把戏剧演完了，我：？？？这和咕噜噜一点关系都没有啊，狞猫为什么及时没有上场啊，为什么实时打天蓝怪啊，天蓝怪不要面子的啊，柠檬地，为什么？
 
 接下来就是本作经费最高的一段PPP唱跳了，开头居然特例给了一拍一的张数，但是又夹杂着二拍一，充分说明到底什么时候加到何种张数，这个剧组完全是随心所欲，做动画完全随便来。
 
@@ -328,9 +328,9 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 
 延续S2E09里甩锅的剧情，三人继续找东西。然后咕噜噜又开始迷之提议，说要分头找东西。
 
-03:20两只风鸟捡到了画册，把画册还给了咕噜噜，然后咕噜噜终于亲口承认了画册是回家的关键。之前我都一直搞不清楚画册是拿来干嘛的。然后就被两只风鸟劝说要往未来看不要往过去看，还说这些记忆可能是被篡改的，你的家里也许没有什么重要的东西，需要你回去找。就搞的风鸟好像是知情人士一样，但是后面也没有填坑<escape><a name = "ref_5_10_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>。
+03:20两只风鸟捡到了画册，把画册还给了咕噜噜，然后咕噜噜终于亲口承认了画册是回家的关键。之前我都一直搞不清楚画册是拿来干嘛的。然后就被两只风鸟劝说要往未来看不要往过去看，还说这些记忆可能是被篡改的，你的家里也许没有什么重要的东西，需要你回去找。就搞的风鸟好像是知情人士一样，但是后面也没有填坑<escape><a name = "ref_5_10_s" href="#ref_5_d"><sup>[5]</sup></a></escape>。
 
-然后碰到一个去旅馆的旅鸽，就又开始和S1E10一样，去旅馆了。<escape><a name = "ref_7_9_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>
+然后碰到一个去旅馆的旅鸽，就又开始和S1E10一样，去旅馆了。<escape><a name = "ref_7_9_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
 10:10处蝮蛇开的土特产商店居然在卖薮猫和狞猫的公仔，我 卖 我 自 己。看来剧组已经彻底弃疗直接硬广了。
 
@@ -346,7 +346,7 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 
 然后就远景红雾喷发，特别像eva二冲的场景，我：？？？，看来监督是彻底放飞自我，不仅开始模仿一期动画，还把烟草，eva加起来一起模仿了。
 
-接着等咕噜噜睁眼，才发现是她又做梦了，你怎么这么厉害做个梦都能预言<escape><a name = "ref_5_11_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>，而且这次又是预言什么火山喷发。
+接着等咕噜噜睁眼，才发现是她又做梦了，你怎么这么厉害做个梦都能预言<escape><a name = "ref_5_11_s" href="#ref_5_d"><sup>[5]</sup></a></escape>，而且这次又是预言什么火山喷发。
 
 接下来S2E03的海豹二人组救了咕噜噜，还说咕噜噜是画画的时候有强烈的情感所以才会产生特定的天蓝动物，弹幕马上开始刷是咕噜噜强烈的恶意导致的，咕噜噜是天 蓝 人，不能赞同更多。
 
@@ -358,9 +358,9 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 <escape><div title="便 乘 名 言" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/KF2_reviews_no_good_at_all/KF_S2-11_[720p]_000744.jpg" height="80%" width="80%"></div></escape>
 <escape><div align="middle">二期抄袭对话(S2E11 07:44)</div></escape>
 
-看到小包载着动物们走的那段，剧组又开始抄袭一期了，用同样是S1E11金丝猴说棕熊把小包他们怒斥一通不太合适，其实你是真的关心小包她们的话，套在鳄鱼小姐说豹子的情况上，这是第几次像素级抄袭了。但是同样是抄得非常不恰当，因为咕噜噜和这几个人交集并不是很大，还不至于如此关心，纯属用力过猛。能把一期的剧情了解得这么透彻，自己做出来比一期臭了几万倍的动画真的是屑。<escape><a name = "ref_7_10_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>
+看到小包载着动物们走的那段，剧组又开始抄袭一期了，用同样是S1E11金丝猴说棕熊把小包他们怒斥一通不太合适，其实你是真的关心小包她们的话，套在鳄鱼小姐说豹子的情况上，这是第几次像素级抄袭了。但是同样是抄得非常不恰当，因为咕噜噜和这几个人交集并不是很大，还不至于如此关心，纯属用力过猛。能把一期的剧情了解得这么透彻，自己做出来比一期臭了几万倍的动画真的是屑。<escape><a name = "ref_7_10_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
-09:10那里呼噜噜从车上掉下，小包连一句话都不说继续往前开，我：？？？<escape><a name = "ref_5_12_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>
+09:10那里呼噜噜从车上掉下，小包连一句话都不说继续往前开，我：？？？<escape><a name = "ref_5_12_s" href="#ref_5_d"><sup>[5]</sup></a></escape>
 
 12:30那里大耳狐又捂的是人类耳朵，公然与一期设定冲突。
 
@@ -378,12 +378,12 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 
 #### S2E12
 
-开 幕 雷 击，旅鸽说她太孤独了，居然想和天蓝旅鸽做朋友，反而追着天蓝旅鸽上了天台。天蓝旅鸽过来袭击旅鸽，反被咕噜噜救走，接着过来袭击咕噜噜，就在这千钧一发之际薮猫和狞猫赶到了，我：？？？<escape><a name = "ref_5_13_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>
+开 幕 雷 击，旅鸽说她太孤独了，居然想和天蓝旅鸽做朋友，反而追着天蓝旅鸽上了天台。天蓝旅鸽过来袭击旅鸽，反被咕噜噜救走，接着过来袭击咕噜噜，就在这千钧一发之际薮猫和狞猫赶到了，我：？？？<escape><a name = "ref_5_13_s" href="#ref_5_d"><sup>[5]</sup></a></escape>
 
 <escape><div title="便 乘 名 言 x 2" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/KF2_reviews_no_good_at_all/KF_S2-12_[1080p]_000426.jpg" height="80%" width="80%"></div></escape>
 <escape><div align="middle">求求你别秀了(S2E12 04:26)</div></escape>
 
-接着马上又玩一遍第十一集里鳄鱼和豹子已经玩过的梗，还夹杂着一期阿莱桑的公园危机梗<escape><a name = "ref_7_11_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>，我就好奇了咕噜噜和你们有几个交情就开始担心咕噜噜了完全说不过去好吗，小包在一期里面是帮浮莲子帮了一路才有那样的人缘，二期这是咕噜噜玩了一路就突然开始关心了，如此没有逻辑的东西还要强行重复一遍好像就有逻辑了一样。
+接着马上又玩一遍第十一集里鳄鱼和豹子已经玩过的梗，还夹杂着一期阿莱桑的公园危机梗<escape><a name = "ref_7_11_s" href="#ref_7_d"><sup>[7]</sup></a></escape>，我就好奇了咕噜噜和你们有几个交情就开始担心咕噜噜了完全说不过去好吗，小包在一期里面是帮浮莲子帮了一路才有那样的人缘，二期这是咕噜噜玩了一路就突然开始关心了，如此没有逻辑的东西还要强行重复一遍好像就有逻辑了一样。
 
 然后一通无双割草战斗，前面好歹还铺垫一下战斗操作，现在连铺垫都懒得铺垫了。咕噜噜和狞猫薮猫她们回房间，拿那幅造成天蓝动物再生的万恶之源的画作，进了房间遇到一个小boss四拳就解决了，我：？？？，手游手游.jpg
 
@@ -397,13 +397,13 @@ n站2.6%好评<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a><
 
 S1E12里面好歹也是挖过坑的大佬啊，到二期又开始踩原作人设，顺带省经费了吧，我几乎可以预见到如果没有驼鹿，一期动画也会变成这个样子.jpg
 
-镜头一转，咕噜噜拿到画赶回天台，本来和天蓝怪战斗的其他人全都过来欢迎，我：？？？<escape><a name = "ref_5_14_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>
+镜头一转，咕噜噜拿到画赶回天台，本来和天蓝怪战斗的其他人全都过来欢迎，我：？？？<escape><a name = "ref_5_14_s" href="#ref_5_d"><sup>[5]</sup></a></escape>
 
-这剧组别说是没做过战斗番，起码的逻辑都没有了吧，这骗小孩子都骗不过去的啊。接着敌方大将登场，博士和助手又在说着什么天蓝怪的强度是随着人类的感情发生变化，所以天蓝狞猫和天蓝薮猫会特别强，这又是莫名其妙的设定插入<escape><a name = "ref_5_15_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>，是在说其实咕噜噜就是万恶之源吗。
+这剧组别说是没做过战斗番，起码的逻辑都没有了吧，这骗小孩子都骗不过去的啊。接着敌方大将登场，博士和助手又在说着什么天蓝怪的强度是随着人类的感情发生变化，所以天蓝狞猫和天蓝薮猫会特别强，这又是莫名其妙的设定插入<escape><a name = "ref_5_15_s" href="#ref_5_d"><sup>[5]</sup></a></escape>，是在说其实咕噜噜就是万恶之源吗。
 
 然后强行要给咕噜噜打掩护，让她先带着画跑，找博士带画不是更好的选择嘛，叫咕噜噜带画是几个意思。狞猫还扯出了S2E01的缝隙设定，说是天台上裂了一条缝所以咕噜噜不敢跳，所以不敢跑出去，别说我要黑人问号了，我猜咕噜噜当时也是黑人问号，狞猫人设突然崩塌.jpg，好了剧组我知道了，我以后不吹狞猫了。
 
-更大的槽点是，这三个人说话说个没完了，但是天蓝怪就等着让他们一边在说话，你以为是RPG游戏吗？<escape><a name = "ref_5_16_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>譬如开个游戏菜单就 心 肺 停 止 ？
+更大的槽点是，这三个人说话说个没完了，但是天蓝怪就等着让他们一边在说话，你以为是RPG游戏吗？<escape><a name = "ref_5_16_s" href="#ref_5_d"><sup>[5]</sup></a></escape>譬如开个游戏菜单就 心 肺 停 止 ？
 
 之后咕噜噜逃到了小包过来接应的船上，小包说先接应咕噜噜到安全的地方，再回来接应其他动物朋友，换言之就是把其他动物朋友先丢下，又在虾仁猪心。
 
@@ -413,7 +413,7 @@ S1E12里面好歹也是挖过坑的大佬啊，到二期又开始踩原作人设
 
 这都哪儿是哪儿啊，难道咕噜噜是为了当驯兽师才作的画吗，这需要心灵拷问吗，不是其他动物朋友看到她画的画不错才请她画的吗，完全搞不懂剧组的逻辑，强行黑深残。
 
-然后这声 迫 真 吼 叫 可能由于过于 恶 臭 ，吸引来了 野 兽 老 虎 ，可能是咕噜噜 驯 兽 技 巧 过于高超，她居然带着野兽老虎，开着船回了旅馆，让野兽老虎几招就消灭了天蓝动物们，然后开始袭击其他动物朋友，我：？？？<escape><a name = "ref_5_17_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>
+然后这声 迫 真 吼 叫 可能由于过于 恶 臭 ，吸引来了 野 兽 老 虎 ，可能是咕噜噜 驯 兽 技 巧 过于高超，她居然带着野兽老虎，开着船回了旅馆，让野兽老虎几招就消灭了天蓝动物们，然后开始袭击其他动物朋友，我：？？？<escape><a name = "ref_5_17_s" href="#ref_5_d"><sup>[5]</sup></a></escape>
 
 更绝的操作在后面，其他动物朋友作鸟兽散以后，狞猫和薮猫居然说趁乱解决掉天蓝动物的头目天蓝薮猫和天蓝狞猫，我：？？？，槽点已经密集到我无法带着脑子观看了。
 
@@ -423,17 +423,17 @@ S1E12里面好歹也是挖过坑的大佬啊，到二期又开始踩原作人设
 
 野兽恐成本番最大 工 具 人 。
 
-然后就说要在旅馆剩下的停机坪那里，举办PPP的演唱会，这是在老虎的坟头蹦迪吗，这都什么鬼剧情，因为老虎是野兽就彻底抛弃他了吗，话说回来野兽就没别的抑制方法了吗，前面打天蓝怪的时候明明先精准避开了其他动物朋友，挖坑不填，天降设定<escape><a name = "ref_5_18_s"><a href="#ref_5_d"><sup>[5]</sup></a></a></escape>。
+然后就说要在旅馆剩下的停机坪那里，举办PPP的演唱会，这是在老虎的坟头蹦迪吗，这都什么鬼剧情，因为老虎是野兽就彻底抛弃他了吗，话说回来野兽就没别的抑制方法了吗，前面打天蓝怪的时候明明先精准避开了其他动物朋友，挖坑不填，天降设定<escape><a name = "ref_5_18_s" href="#ref_5_d"><sup>[5]</sup></a></escape>。
 
 然后还要玩一下薮猫失忆梗，让小包主动询问薮猫她们以前的事，那薮猫肯定不知道啊，然后让小包夸奖新的咕噜噜三人组很强，我：？？？
 
 这段剧情又一次虾仁猪心。如果说S2E06做出来是别有用心地虾仁猪心，S2E12则是一路编剧脱着线没带脑子，潜意识里还要虾仁猪心，口区口区。
 
-接着开始迫真自爆，放起了一期的OP当作ED<escape><a name = "ref_7_12_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>，我已经无法形容这二期剧组的神操作了，同样也无法理解，从任何一个角度都无法理解。剧组您配用一期的OP吗？您配个xx。
+接着开始迫真自爆，放起了一期的OP当作ED<escape><a name = "ref_7_12_s" href="#ref_7_d"><sup>[7]</sup></a></escape>，我已经无法形容这二期剧组的神操作了，同样也无法理解，从任何一个角度都无法理解。剧组您配用一期的OP吗？您配个xx。
 
 之后又是咕噜噜一通嘴炮，说不找家了，要陪着大家，帮助大家，这就算是把找家的故事糊弄过去了，这到底是什么个谜团一样的剧组脑回路，不是一般人类能理解的啊。
 
-结尾还不忘玩一下一期里面boss本体~~裤腰带和眼镜~~被海浪冲上来的梗<escape><a name = "ref_7_13_s"><a href="#ref_7_d"><sup>[7]</sup></a></a></escape>，这里是海浪把咕噜噜前面的迫真飞帽杀的帽子冲上来了。这已经是第n处迫真像素级抄袭一期了，真的被这种一本正经地把佳作的续篇做成fen动画的魄力给震撼到了，好歹pop子那边是明码标价就是fen动画，内容其实还有不少有趣认真的地方，这边真的口区口区。
+结尾还不忘玩一下一期里面boss本体~~裤腰带和眼镜~~被海浪冲上来的梗<escape><a name = "ref_7_13_s" href="#ref_7_d"><sup>[7]</sup></a></escape>，这里是海浪把咕噜噜前面的迫真飞帽杀的帽子冲上来了。这已经是第n处迫真像素级抄袭一期了，真的被这种一本正经地把佳作的续篇做成fen动画的魄力给震撼到了，好歹pop子那边是明码标价就是fen动画，内容其实还有不少有趣认真的地方，这边真的口区口区。
 
 ED里还不忘把咕噜噜的画作当成是回忆的场景，又又又又消费一期E12的ED播放方式，我已经
 
@@ -441,11 +441,11 @@ ED里还不忘把咕噜噜的画作当成是回忆的场景，又又又又消费
 
 所以以上几个场景就不截图了，太臭了。
 
-ED后的正片还把够惨的，独守家门的家犬拿出来涮，搞了一张疑似是咕噜噜，未来小姐，狞猫，薮猫，奈奈(漫画版主角<escape><a name = "ref_8_s"><a href="#ref_8_d"><sup>[8]</sup></a></a></escape>)和永远(手游版主角，没找到中文百科，只是有别的网友指出)的合影暗示咕噜噜才是公园园主本尊，你说你horse呢。
+ED后的正片还把够惨的，独守家门的家犬拿出来涮，搞了一张疑似是咕噜噜，未来小姐，狞猫，薮猫，奈奈(漫画版主角<escape><a name = "ref_8_s" href="#ref_8_d"><sup>[8]</sup></a></escape>)和永远(手游版主角，没找到中文百科，只是有别的网友指出)的合影暗示咕噜噜才是公园园主本尊，你说你horse呢。
 
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://www.zhihu.com/question/318500077/answer/641056205">如何评价兽娘动物园2最终话？ - 我永远喜欢segami的回答 - 知乎</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://zh.moegirl.org/zh-tw/%E5%85%BD%E5%A8%98%E5%8A%A8%E7%89%A9%E5%9B%AD2#.E6.97.B6.E9.97.B4.E8.A1.A8">動物朋友2 - 萌娘百科 万物皆可萌的百科全书</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://zhuanlan.zhihu.com/p/61116147">动物朋友 ２　最终话 分析·槽点 - 知乎</a></br><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape><a href = "https://www.zhihu.com/people/nemo-ma/posts">Nemo Ma - 知乎 - 文章</a></br><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a>↑<sup><a href = "#ref_5_s">5.1</a></escape> <escape><a href = "#ref_5_2_s">5.2</a></escape> <escape><a href = "#ref_5_3_s">5.3</a></escape> <escape><a href = "#ref_5_4_s">5.4</a></escape> <escape><a href = "#ref_5_5_s">5.5</a></escape> <escape><a href = "#ref_5_6_s">5.6</a></escape> <escape><a href = "#ref_5_7_s">5.7</a></escape> <escape><a href = "#ref_5_8_s">5.8</a></escape> <escape><a href = "#ref_5_9_s">5.9</a></escape> <escape><a href = "#ref_5_10_s">5.10</a></escape> <escape><a href = "#ref_5_11_s">5.11</a></escape> <escape><a href = "#ref_5_12_s">5.12</a></escape> <escape><a href = "#ref_5_13_s">5.13</a></escape> <escape><a href = "#ref_5_14_s">5.14</a></escape> <escape><a href = "#ref_5_15_s">5.15</a></escape> <escape><a href = "#ref_5_16_s">5.16</a></escape> <escape><a href = "#ref_5_17_s">5.17</a></escape> <escape><a href = "#ref_5_18_s">5.18</a></sup></escape> <escape><a href = "https://zh.moegirl.org/%E5%BE%A1%E9%83%BD%E5%90%88%E4%B8%BB%E4%B9%89">御都合主义 - 萌娘百科 万物皆可萌的百科全书</a></br><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> <escape><a href = "https://tieba.baidu.com/p/6089289003">木村驼鹿铁粉说【兽娘动物园吧】_百度贴吧</a></br><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a>↑<sup><a href = "#ref_7_s">7.1</a></escape> <escape><a href = "#ref_7_2_s">7.2</a></escape> <escape><a href = "#ref_7_3_s">7.3</a></escape> <escape><a href = "#ref_7_4_s">7.4</a></escape> <escape><a href = "#ref_7_5_s">7.5</a></escape> <escape><a href = "#ref_7_6_s">7.6</a></escape> <escape><a href = "#ref_7_7_s">7.7</a></escape> <escape><a href = "#ref_7_8_s">7.8</a></escape> <escape><a href = "#ref_7_9_s">7.9</a></escape> <escape><a href = "#ref_7_10_s">7.10</a></escape> <escape><a href = "#ref_7_11_s">7.11</a></escape> <escape><a href = "#ref_7_12_s">7.12</a></escape> <escape><a href = "#ref_7_13_s">7.13</a></sup>抄袭的部分</br><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> <escape><a href = "https://zh.moegirl.org/%E5%85%BD%E5%A8%98%E5%8A%A8%E7%89%A9%E5%9B%AD:%E5%A5%88%E5%A5%88">奈奈 - 萌娘百科 万物皆可萌的百科全书</a></escape>
+<escape></br><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://www.zhihu.com/question/318500077/answer/641056205">如何评价兽娘动物园2最终话？ - 我永远喜欢segami的回答 - 知乎</a></br><a name = "ref_2_d" href = "#ref_2_d">[2]</a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://zh.moegirl.org/zh-tw/%E5%85%BD%E5%A8%98%E5%8A%A8%E7%89%A9%E5%9B%AD2#.E6.97.B6.E9.97.B4.E8.A1.A8">動物朋友2 - 萌娘百科 万物皆可萌的百科全书</a></br><a name = "ref_3_d" href = "#ref_3_d">[3]</a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://zhuanlan.zhihu.com/p/61116147">动物朋友 ２　最终话 分析·槽点 - 知乎</a></br><a name = "ref_4_d" href = "#ref_4_d">[4]</a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape><a href = "https://www.zhihu.com/people/nemo-ma/posts">Nemo Ma - 知乎 - 文章</a></br><a name = "ref_5_d" href = "#ref_5_d">[5]</a>↑<sup><a href = "#ref_5_s">5.1</a></escape> <escape><a href = "#ref_5_2_s">5.2</a></escape> <escape><a href = "#ref_5_3_s">5.3</a></escape> <escape><a href = "#ref_5_4_s">5.4</a></escape> <escape><a href = "#ref_5_5_s">5.5</a></escape> <escape><a href = "#ref_5_6_s">5.6</a></escape> <escape><a href = "#ref_5_7_s">5.7</a></escape> <escape><a href = "#ref_5_8_s">5.8</a></escape> <escape><a href = "#ref_5_9_s">5.9</a></escape> <escape><a href = "#ref_5_10_s">5.10</a></escape> <escape><a href = "#ref_5_11_s">5.11</a></escape> <escape><a href = "#ref_5_12_s">5.12</a></escape> <escape><a href = "#ref_5_13_s">5.13</a></escape> <escape><a href = "#ref_5_14_s">5.14</a></escape> <escape><a href = "#ref_5_15_s">5.15</a></escape> <escape><a href = "#ref_5_16_s">5.16</a></escape> <escape><a href = "#ref_5_17_s">5.17</a></escape> <escape><a href = "#ref_5_18_s">5.18</a></sup></escape> <escape><a href = "https://zh.moegirl.org/%E5%BE%A1%E9%83%BD%E5%90%88%E4%B8%BB%E4%B9%89">御都合主义 - 萌娘百科 万物皆可萌的百科全书</a></br><a name = "ref_6_d" href = "#ref_6_d">[6]</a></escape> <escape><a href = "#ref_6_s">↑</a></escape> <escape><a href = "https://tieba.baidu.com/p/6089289003">木村驼鹿铁粉说【兽娘动物园吧】_百度贴吧</a></br><a name = "ref_7_d" href = "#ref_7_d">[7]</a>↑<sup><a href = "#ref_7_s">7.1</a></escape> <escape><a href = "#ref_7_2_s">7.2</a></escape> <escape><a href = "#ref_7_3_s">7.3</a></escape> <escape><a href = "#ref_7_4_s">7.4</a></escape> <escape><a href = "#ref_7_5_s">7.5</a></escape> <escape><a href = "#ref_7_6_s">7.6</a></escape> <escape><a href = "#ref_7_7_s">7.7</a></escape> <escape><a href = "#ref_7_8_s">7.8</a></escape> <escape><a href = "#ref_7_9_s">7.9</a></escape> <escape><a href = "#ref_7_10_s">7.10</a></escape> <escape><a href = "#ref_7_11_s">7.11</a></escape> <escape><a href = "#ref_7_12_s">7.12</a></escape> <escape><a href = "#ref_7_13_s">7.13</a></sup>抄袭的部分</br><a name = "ref_8_d" href = "#ref_8_d">[8]</a></escape> <escape><a href = "#ref_8_s">↑</a></escape> <escape><a href = "https://zh.moegirl.org/%E5%85%BD%E5%A8%98%E5%8A%A8%E7%89%A9%E5%9B%AD:%E5%A5%88%E5%A5%88">奈奈 - 萌娘百科 万物皆可萌的百科全书</a></escape>
 
 [Nemo_Ma_zhihu]: https://www.zhihu.com/people/nemo-ma

@@ -13,9 +13,9 @@ tags:
     - 每日宇航员
 thumbnail: "https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/CUfOnwSLWxY/CUfOnwSLWxY.jpg"
 ---
->这篇文章来自旋火的投稿，是原视频<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></a></escape>内容的精简版。
->原字幕文件<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a></a></escape>。
->题图来源<escape><a name = "ref_3_s"><a href="#ref_3_d"><sup>[3]</sup></a></a></escape>。
+>这篇文章来自旋火的投稿，是原视频<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape>内容的精简版。
+>原字幕文件<escape><a name = "ref_2_s" href="#ref_2_d"><sup>[2]</sup></a></escape>。
+>题图来源<escape><a name = "ref_3_s" href="#ref_3_d"><sup>[3]</sup></a></escape>。
 >PC版网页左上角从上到下第二个图标是目录，请多用目录。
 >网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。
 >标题后面括号里的日期指的是最后更新日期，头像旁边的日期是最初发布日期。
@@ -187,4 +187,4 @@ P：发射频率翻番，每月一次，会有从LC2的发射，我很看好光�
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://youtu.be/CUfOnwSLWxY">A conversation with Rocket Lab's Peter Beck on recovering Electron</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://raw.githubusercontent.com/Bourshevik0/subtitle_works/master/non-original/Everyday%20Astronaut/20191219-CUfOnwSLWxY.ass">20191219-CUfOnwSLWxY.ass</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://youtu.be/CUfOnwSLWxY?t=50">A conversation with Rocket Lab's Peter Beck on recovering Electron 00:51</a></escape>
+<escape></br><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://youtu.be/CUfOnwSLWxY">A conversation with Rocket Lab's Peter Beck on recovering Electron</a></br><a name = "ref_2_d" href = "#ref_2_d">[2]</a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://raw.githubusercontent.com/Bourshevik0/subtitle_works/master/non-original/Everyday%20Astronaut/20191219-CUfOnwSLWxY.ass">20191219-CUfOnwSLWxY.ass</a></br><a name = "ref_3_d" href = "#ref_3_d">[3]</a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://youtu.be/CUfOnwSLWxY?t=50">A conversation with Rocket Lab's Peter Beck on recovering Electron 00:51</a></escape>

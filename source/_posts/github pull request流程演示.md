@@ -103,7 +103,7 @@ pull request需要的流程主要是先远程克隆([fork][fork_zhihu])他人的
 
 <escape><div title="一列漂亮的小绿标.jpg" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/github%20pull%20request%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA/%E6%8F%90%E4%BA%A4%E9%AA%8C%E8%AF%81-4.png" height="80%" width="80%"></div></escape>
 
-关于<escape><a name = "签名验证"><a href="#签名验证">签名验证</a></a></escape>的具体操作方法，可以参考我写的另一篇文章[在windows版的sourcetree上设置gpg签名](在windows版的sourcetree上设置gpg签名.html)。
+关于<escape><a name = "签名验证" href="#签名验证">签名验证</a></escape>的具体操作方法，可以参考我写的另一篇文章[在windows版的sourcetree上设置gpg签名](在windows版的sourcetree上设置gpg签名.html)。
 
 如果你已经创建了pull request，忘记或者不清楚对提交进行签名，却被要求要进行签名~~被格格不入~~的时候，这时可以通过现在本地软重置提交再强制推送的方式更改掉你之前没有签名的分支，详见[反悔推送](#我想反悔推送-push-怎么办)的方法。注意你在强制推送之前，请务必先在本地做好带gpg签名的提交。
 

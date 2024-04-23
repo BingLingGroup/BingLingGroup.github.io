@@ -10,7 +10,7 @@ tags:
     - 游戏加速器
 thumbnail: "https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/cartel_07.jpg"
 ---
->题图来源<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></a></escape>
+>题图来源<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape>
 >PC版网页左上角从上到下第二个图标是目录，请多用目录。
 >网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。
 >标题后面括号里的日期指的是最后更新日期，头像旁边的日期是最初发布日期。
@@ -32,7 +32,7 @@ thumbnail: "https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github
 
 Netch是一款开源的游戏加速工具，不同于SSTap那样需要通过添加规则来实现黑名单代理，Netch原理更类似[Sockscap64](https://www.sockscap64.com/homepage/)，通过扫描游戏目录获得需要代理的进程名进行代理。
 
-与此同时Netch避免了SSTap的NAT问题<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a></a><a name = "ref_3_s"><a href="#ref_3_d"><sup>[3]</sup></a></a></escape>，使用SSTap加速部分P2P联机，对NAT类型有要求的游戏时，可能会因为NAT类型严格遇到无法加入联机，或者其他影响游戏体验的情况。
+与此同时Netch避免了SSTap的NAT问题<escape><a name = "ref_2_s" href="#ref_2_d"><sup>[2]</sup></a><a name = "ref_3_s" href="#ref_3_d"><sup>[3]</sup></a></escape>，使用SSTap加速部分P2P联机，对NAT类型有要求的游戏时，可能会因为NAT类型严格遇到无法加入联机，或者其他影响游戏体验的情况。
 
 ### 关于软件
 
@@ -119,4 +119,4 @@ ping的值未必准确，因为这只是你本地到代理服务器而非游戏�
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://photos.google.com/share/AF1QipPjwI4529KHV1S3r6ZosohpLXr6TRtNtqUtyJljbGd3rjDrCQla6tqB3spF_8QaUg/photo/AF1QipPBPhru6gZ2SlZ7dYBeZDAUTyUm_Y4LWKwJCqLs?key=WTdxUFREc01EZjNlV2FCbXFxOHZxUGJicFUxQWN3">Yuppie Psycho</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://www.right.com.cn/forum/thread-199299-1-1.html">NAT原理</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://github.com/HMBSbige/NatTypeTester">NAT类型检测工具</a></escape>
+<escape><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://photos.google.com/share/AF1QipPjwI4529KHV1S3r6ZosohpLXr6TRtNtqUtyJljbGd3rjDrCQla6tqB3spF_8QaUg/photo/AF1QipPBPhru6gZ2SlZ7dYBeZDAUTyUm_Y4LWKwJCqLs?key=WTdxUFREc01EZjNlV2FCbXFxOHZxUGJicFUxQWN3">Yuppie Psycho</a></br><a name = "ref_2_d" href = "#ref_2_d">[2]</a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://www.right.com.cn/forum/thread-199299-1-1.html">NAT原理</a></br><a name = "ref_3_d" href = "#ref_3_d">[3]</a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://github.com/HMBSbige/NatTypeTester">NAT类型检测工具</a></escape>

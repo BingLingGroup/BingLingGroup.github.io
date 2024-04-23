@@ -11,7 +11,7 @@ tags:
     - magnet
 thumbnail: "https://i.ytimg.com/vi/h48ilOz_eEs/maxresdefault.jpg"
 ---
->题图来源<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></a></escape>
+>题图来源<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape>
 >PC版网页左上角从上到下第二个图标是目录，请多用目录。
 >网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。
 
@@ -106,7 +106,7 @@ ios
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://youtu.be/h48ilOz_eEs">Yuppie Psycho - Welcome to Sintracorp thumbnail</a>
+<escape></br><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://youtu.be/h48ilOz_eEs">Yuppie Psycho - Welcome to Sintracorp thumbnail</a>
 
 [pandownload_site]: http://pandownload.com
 [qbt_site]: https://www.fosshub.com/qBittorrent.html

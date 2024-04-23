@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      aegisub使用指南(210624)
+title:      aegisub使用指南
 date:       2019-08-02 18:00:00
 author:     "冰灵"
 categories:
@@ -16,10 +16,9 @@ tags:
     - 帧服务器
 thumbnail: "http://static.aegisub.org/img/logo-large-bcf2435c.png"
 ---
->题图来源<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></a></escape>
->PC版网页左上角从上到下第二个图标是目录，请多用目录。
->网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。
->标题后面括号里的日期指的是最后更新日期，头像旁边的日期是最初发布日期。
+> 题图来源 <escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape>
+> PC版网页左上角从上到下第二个图标是目录，请多用目录。
+> 网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。
 
 <escape><font size=4>目录</font></escape>
 
@@ -196,9 +195,9 @@ choco install ffmpeg -y
 
 Vegas导入mov后，记得在mov文件-属性-媒体-Alpha通道中，修改为`直接(非蒙版的)`即可。注意如果有色差，是vegas自己的问题，需要在项目属性中确保：
 
-- 像素格式 - `32-bit浮点（全范围）`
-- gamma合成量 - `2.222（视频）`
-- 查看转变 - `关`
+- 像素格式 -`32-bit浮点（全范围）`
+- gamma合成量 -`2.222（视频）`
+- 查看转变 -`关`
 
 #### 使用帧服务器-avisynth压制
 
@@ -206,7 +205,7 @@ Vegas导入mov后，记得在mov文件-属性-媒体-Alpha通道中，修改为`
 
 主要是通过avs挂载字幕压制来做到的，在遵循前面的文章，打开小丸工具箱的avs界面准备填语句时，改成以下即可。
 
-```python
+``` python
 plugin_source_name = "小丸工具箱父目录\小丸工具箱236\tools\avs\plugins\VSFilter.DLL"
 video_source_name = "视频文件"
 ass_source_name = "字幕文件"
@@ -305,4 +304,4 @@ ass_out.set_output()
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://www.aegisub.org/">aegisub官网</a></escape>
+<escape><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://www.aegisub.org/">aegisub官网</a></escape>

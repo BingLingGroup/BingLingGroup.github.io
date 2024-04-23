@@ -34,17 +34,17 @@ thumbnail: https://pic4.zhimg.com/v2-8ea6d9391bf2918665f0e9cfc794b08b_r.jpg"
 
 ### 序
 
-大家好，我是长五遥三没有鸽的助手，旋火。这一期根据大家的投票<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></escape>，这期视频来简单讲讲国家航天局与航天科技集团，航天科工集团的区别。
+大家好，我是长五遥三没有鸽的助手，旋火。这一期根据大家的投票<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape>，这期视频来简单讲讲国家航天局与航天科技集团，航天科工集团的区别。
 
-为什么想做这么一期视频呢？一个是大家投票选中了，另一个也是常看咕咕星，啊不，ReachStar的视频的弹幕有感而发<escape><a name = "ref_2_s"><a href="#ref_2_d"><sup>[2]</sup></a></escape>，总有人在弹幕里问ReachStar是不是在航天局工作，可是这与他做坎巴拉视频没有必然联系啊。
+为什么想做这么一期视频呢？一个是大家投票选中了，另一个也是常看咕咕星，啊不，ReachStar的视频的弹幕有感而发<escape><a name = "ref_2_s" href="#ref_2_d"><sup>[2]</sup></a></escape>，总有人在弹幕里问ReachStar是不是在航天局工作，可是这与他做坎巴拉视频没有必然联系啊。
 
 ### 国家航天局
 
-我们先说说国家航天局，China National Space Administration，缩写CNSA。打开国家航天局官网，我们先来看看国家航天局的机构职能<escape><a name = "ref_3_s"><a href="#ref_3_d"><sup>[3]</sup></a></escape>。
+我们先说说国家航天局，China National Space Administration，缩写CNSA。打开国家航天局官网，我们先来看看国家航天局的机构职能<escape><a name = "ref_3_s" href="#ref_3_d"><sup>[3]</sup></a></escape>。
 
 >中国国家航天局是中华人民共和国负责民用航天管理及国际空间合作的政府机构，履行政府相应的管理职责。对航天活动实施行业管理，使其稳定、有序、健康、协调地发展。代表中国政府组织或领导开展航天领域对外交流与合作等活动。
 
-当然，其实在这之前还有一个旧版本的，旧版本的更清晰一点，我们来看看。<escape><a name = "ref_4_s"><a href="#ref_4_d"><sup>[4]</sup></a></escape>
+当然，其实在这之前还有一个旧版本的，旧版本的更清晰一点，我们来看看。<escape><a name = "ref_4_s" href="#ref_4_d"><sup>[4]</sup></a></escape>
 
 >1. 研究拟定国家航天政策和法规。
 >2. 研究制定国家航天发展规划、计划和行业标准。
@@ -55,15 +55,15 @@ thumbnail: https://pic4.zhimg.com/v2-8ea6d9391bf2918665f0e9cfc794b08b_r.jpg"
 
 相比于对航天发射活动进行全面的监督管理，CNSA更像是一个咨询和规划机构，而且并非涉及到国内所有重大航天领域。最典型的一个例子，中国载人航天是由中央军委装备发展部下属的中国载人航天办公室管理，而并不由国家航天局管理。
 
-但是，在重大科研项目组织方面，比如澳门首颗卫星，地磁观测科学与技术试验卫星的研制合作协定<escape><a name = "ref_5_s"><a href="#ref_5_d"><sup>[5]</sup></a></escape>，就是找的国家航天局进行的协议签署。实际上大家都知道，国内做卫星最厉害的应该是航天科技集团五院，也就是中国空间技术研究院，澳门之所以没有找五院签署，而是找国家航天局签署，就是因为航天局在履行这个组织的职责。至于对外合作，比如中国援埃及卫星，中巴地球资源卫星等等，这些也都是由国家航天局出面协调进行的。
+但是，在重大科研项目组织方面，比如澳门首颗卫星，地磁观测科学与技术试验卫星的研制合作协定<escape><a name = "ref_5_s" href="#ref_5_d"><sup>[5]</sup></a></escape>，就是找的国家航天局进行的协议签署。实际上大家都知道，国内做卫星最厉害的应该是航天科技集团五院，也就是中国空间技术研究院，澳门之所以没有找五院签署，而是找国家航天局签署，就是因为航天局在履行这个组织的职责。至于对外合作，比如中国援埃及卫星，中巴地球资源卫星等等，这些也都是由国家航天局出面协调进行的。
 
 ### 航天科技集团
 
-那么接下来我们来了解一下航天科技集团<escape><a name = "ref_6_s"><a href="#ref_6_d"><sup>[6]</sup></a></escape>，China Aerospace Science and Technology Corporation，缩写CASC。航天科技集团标志是一个箭头，这个标志我们也经常见啊，特别是去年成立的美国太空军也采用了这个标志，啊不对，我是指美国太空军沿用了他们在空军太空司令部时期的标志。
+那么接下来我们来了解一下航天科技集团<escape><a name = "ref_6_s" href="#ref_6_d"><sup>[6]</sup></a></escape>，China Aerospace Science and Technology Corporation，缩写CASC。航天科技集团标志是一个箭头，这个标志我们也经常见啊，特别是去年成立的美国太空军也采用了这个标志，啊不对，我是指美国太空军沿用了他们在空军太空司令部时期的标志。
 
 咳咳，这当然是题外话了。CASC参与的领域非常广泛。
 
-我们来看看航天科技集团的简介。<escape><a name = "ref_7_s"><a href="#ref_7_d"><sup>[7]</sup></a></escape>
+我们来看看航天科技集团的简介。<escape><a name = "ref_7_s" href="#ref_7_d"><sup>[7]</sup></a></escape>
 
 >中国航天科技集团成立于1999年7月1日。其前身源于1956年成立的国防部第五研究院，历经第七机械工业部、航天工业部、航空航天工业部、中国航天工业总公司和中国航天科技集团公司的历史沿革。
 >
@@ -75,7 +75,7 @@ thumbnail: https://pic4.zhimg.com/v2-8ea6d9391bf2918665f0e9cfc794b08b_r.jpg"
 
 #### CASC历史沿革
 
-然后我们来讲一下CASC的历史沿革，我们直接讲一下促成现在这个航天科技集团产生的关键节点。<escape><a name = "ref_8_s"><a href="#ref_8_d"><sup>[8]</sup></a></escape>
+然后我们来讲一下CASC的历史沿革，我们直接讲一下促成现在这个航天科技集团产生的关键节点。<escape><a name = "ref_8_s" href="#ref_8_d"><sup>[8]</sup></a></escape>
 
 >1993年3月22日，八届全国人大一次会议批准撤销航空航天工业部，分别成立中国航空工业总公司和中国航天工业总公司（国家航天局）。1993年6月，中国航天工业总公司（国家航天局）正式成立。
 
@@ -93,7 +93,7 @@ thumbnail: https://pic4.zhimg.com/v2-8ea6d9391bf2918665f0e9cfc794b08b_r.jpg"
 
 ### 航天科工集团
 
-现在，我们来讲讲航天科工集团。<escape><a name = "ref_9_s"><a href="#ref_9_d"><sup>[9]</sup></a></escape>
+现在，我们来讲讲航天科工集团。<escape><a name = "ref_9_s" href="#ref_9_d"><sup>[9]</sup></a></escape>
 
 航天科工集团主要负责导弹武器系统的研发和制造（包括地对地导弹、防空导弹和巡航导弹），以及微型卫星技术、固体运载火箭和信息技术的研发。
 
@@ -130,4 +130,4 @@ thumbnail: https://pic4.zhimg.com/v2-8ea6d9391bf2918665f0e9cfc794b08b_r.jpg"
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://t.bilibili.com/349539677094517770">下期视频做什么</a></br><a name = "ref_2_d"><a href = "#ref_2_d">[2]</a></a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://www.bilibili.com/video/av64593991">史上最复杂轨道！还原ISEE-3飞掠哈雷彗星</a></br><a name = "ref_3_d"><a href = "#ref_3_d">[3]</a></a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "http://www.cnsa.gov.cn/n6758821/#w_two">国家航天局机构职能</a></br><a name = "ref_4_d"><a href = "#ref_4_d">[4]</a></a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape><a href = "http://www.cnsa.gov.cn/n6758821/#w_two">国家航天局机构职能-老版本</a></br><a name = "ref_5_d"><a href = "#ref_5_d">[5]</a></a></escape> <escape><a href = "#ref_5_s">↑</a></escape> <escape><a href = "http://www.cnsa.gov.cn/n6759533/c6808475/content.html">《澳门特别行政区政府与国家航天局关于地磁观测科学与技术试验卫星联合研制项目的合作协定》 今日签署</a></br><a name = "ref_6_d"><a href = "#ref_6_d">[6]</a></a></escape> <escape><a href = "#ref_6_s">↑</a></escape> <escape><a href = "http://www.spacechina.com/n25/index.html">航天科技集团官网</a></br><a name = "ref_7_d"><a href = "#ref_7_d">[7]</a></a></escape> <escape><a href = "#ref_7_s">↑</a></escape> <escape><a href = "http://www.spacechina.com/n25/n142/n152/n164/index.html">航天科技集团官网集团简介</a></br><a name = "ref_8_d"><a href = "#ref_8_d">[8]</a></a></escape> <escape><a href = "#ref_8_s">↑</a></escape> <escape><a href = "http://www.spacechina.com/n25/n142/n152/n174/index.html">航天科技集团官网集团历史沿革</a></br><a name = "ref_9_d"><a href = "#ref_9_d">[9]</a></a></escape> <escape><a href = "#ref_9_s">↑</a></escape> <escape><a href = "http://www.casic.com.cn/n12377374/n12378092/index.html">航天科工集团官网集团简介</a></escape>
+<escape></br><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://t.bilibili.com/349539677094517770">下期视频做什么</a></br><a name = "ref_2_d" href = "#ref_2_d">[2]</a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://www.bilibili.com/video/av64593991">史上最复杂轨道！还原ISEE-3飞掠哈雷彗星</a></br><a name = "ref_3_d" href = "#ref_3_d">[3]</a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "http://www.cnsa.gov.cn/n6758821/#w_two">国家航天局机构职能</a></br><a name = "ref_4_d" href = "#ref_4_d">[4]</a></escape> <escape><a href = "#ref_4_s">↑</a></escape> <escape><a href = "http://www.cnsa.gov.cn/n6758821/#w_two">国家航天局机构职能-老版本</a></br><a name = "ref_5_d" href = "#ref_5_d">[5]</a></escape> <escape><a href = "#ref_5_s">↑</a></escape> <escape><a href = "http://www.cnsa.gov.cn/n6759533/c6808475/content.html">《澳门特别行政区政府与国家航天局关于地磁观测科学与技术试验卫星联合研制项目的合作协定》 今日签署</a></br><a name = "ref_6_d" href = "#ref_6_d">[6]</a></escape> <escape><a href = "#ref_6_s">↑</a></escape> <escape><a href = "http://www.spacechina.com/n25/index.html">航天科技集团官网</a></br><a name = "ref_7_d" href = "#ref_7_d">[7]</a></escape> <escape><a href = "#ref_7_s">↑</a></escape> <escape><a href = "http://www.spacechina.com/n25/n142/n152/n164/index.html">航天科技集团官网集团简介</a></br><a name = "ref_8_d" href = "#ref_8_d">[8]</a></escape> <escape><a href = "#ref_8_s">↑</a></escape> <escape><a href = "http://www.spacechina.com/n25/n142/n152/n174/index.html">航天科技集团官网集团历史沿革</a></br><a name = "ref_9_d" href = "#ref_9_d">[9]</a></escape> <escape><a href = "#ref_9_s">↑</a></escape> <escape><a href = "http://www.casic.com.cn/n12377374/n12378092/index.html">航天科工集团官网集团简介</a></escape>

@@ -16,7 +16,7 @@ tags:
     - magnet
 thumbnail: "https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Mawaru_Penguindrum_share/Mawaru_Penguindrum_share.jpg"
 ---
->题图来源<escape><a name = "ref_1_s"><a href="#ref_1_d"><sup>[1]</sup></a></a></escape>
+>题图来源<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape>
 
 ### 使用前请先看
 
@@ -38,7 +38,7 @@ thumbnail: "https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github
 ### 注释
 
 点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。
-<escape></br><a name = "ref_1_d"><a href = "#ref_1_d">[1]</a></a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://penguindrum.jp/">回转企鹅罐官网</a></escape>
+<escape></br><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://penguindrum.jp/">回转企鹅罐官网</a></escape>
 
 [nyaa_reinforce]: https://nyaa.si/view/321024
 [VCB_S_sub]: http://bbs.vcb-s.com/thread-164-1-1.html
