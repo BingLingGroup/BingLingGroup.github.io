@@ -81,7 +81,7 @@ deploy:
   type:
   
 highlight:
-  enable: true
+  enable: false
   auto_detect: false
   line_number: true
   line_threshold: 0
@@ -92,7 +92,7 @@ highlight:
   hljs: false
 
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   line_threshold: 0

@@ -369,8 +369,8 @@ codeblock:
     light: base16/solarized-light
     dark: base16/solarized-dark
   prism:
-    light: prism
-    dark: prism-dark
+    light: prism-solarizedlight
+    dark: prism-solarized-dark-atom
   # Add copy button on codeblock
   copy_button:
     enable: default
