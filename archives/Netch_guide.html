@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"binglinggroup.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"default","style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="题图来源[1]PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。标题后面括号里的日期指的是最后更新日期，头像旁边的日期是最初发布日期。  目录  简介 关于软件 使用方法 3.1 新建代理配置 3.2 快速创建模式 3.3 扫描 3.4 启动   线路选择 中二选择 注释  简介Netch是一款开源的游戏加速工具，不同于SSTap那样需">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Netch使用指南(190627)">
+<meta property="og:url" content="https://binglinggroup.github.io/archives/Netch_guide.html">
+<meta property="og:site_name" content="冰灵的博客 | BingLing&#39;s Blog">
+<meta property="og:description" content="题图来源[1]PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。标题后面括号里的日期指的是最后更新日期，头像旁边的日期是最初发布日期。  目录  简介 关于软件 使用方法 3.1 新建代理配置 3.2 快速创建模式 3.3 扫描 3.4 启动   线路选择 中二选择 注释  简介Netch是一款开源的游戏加速工具，不同于SSTap那样需">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24_210438.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24%20211537.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24%20211842.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24%20212036.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24%20212837.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24%20213121.png">
+<meta property="article:published_time" content="2019-06-24T19:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-23T05:47:34.000Z">
+<meta property="article:author" content="冰灵">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="游戏加速器">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24_210438.png">
+
+
+<link rel="canonical" href="https://binglinggroup.github.io/archives/Netch_guide.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://binglinggroup.github.io/archives/Netch_guide.html","path":"archives/Netch_guide.html","title":"Netch使用指南(190627)"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Netch使用指南(190627) | 冰灵的博客 | BingLing's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">冰灵的博客 | BingLing's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <img class="custom-logo-image" src="/images/favicon.png" alt="冰灵的博客 | BingLing's Blog">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%BD%AF%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">关于软件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">使用方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE"><span class="nav-number">3.1.</span> <span class="nav-text">新建代理配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E5%88%9B%E5%BB%BA%E6%A8%A1%E5%BC%8F"><span class="nav-number">3.2.</span> <span class="nav-text">快速创建模式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%AB%E6%8F%8F"><span class="nav-number">3.3.</span> <span class="nav-text">扫描</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8"><span class="nav-number">3.4.</span> <span class="nav-text">启动</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BA%BF%E8%B7%AF%E9%80%89%E6%8B%A9"><span class="nav-number">4.</span> <span class="nav-text">线路选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%AD%E4%BA%8C%E9%80%89%E6%8B%A9"><span class="nav-number">5.</span> <span class="nav-text">中二选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-number">6.</span> <span class="nav-text">注释</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="冰灵"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">冰灵</p>
+  <div class="site-description" itemprop="description">冰灵制作组的日志集散地</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">93</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/BingLingGroup" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;BingLingGroup" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://binglinggroup.github.io/archives/Netch_guide.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="冰灵">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="冰灵制作组的日志集散地">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Netch使用指南(190627) | 冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Netch使用指南(190627)
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-06-24 19:00:00" itemprop="dateCreated datePublished" datetime="2019-06-24T19:00:00Z">2019-06-24</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-04-23 05:47:34" itemprop="dateModified" datetime="2024-04-23T05:47:34Z">2024-04-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%BC%94%E7%A4%BA/" itemprop="url" rel="index"><span itemprop="name">演示</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/archives/Netch_guide.html#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="archives/Netch_guide.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>题图来源<escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape><br>PC版网页左上角从上到下第二个图标是目录，请多用目录。<br>网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。<br>标题后面括号里的日期指的是最后更新日期，头像旁边的日期是最初发布日期。</p>
+</blockquote>
+<p><escape><font size=4>目录</font></escape></p>
+<ol>
+<li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li>
+<li><a href="#%E5%85%B3%E4%BA%8E%E8%BD%AF%E4%BB%B6">关于软件</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95">使用方法</a><ul>
+<li>3.1 <a href="#%E6%96%B0%E5%BB%BA%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE">新建代理配置</a></li>
+<li>3.2 <a href="#%E5%BF%AB%E9%80%9F%E5%88%9B%E5%BB%BA%E6%A8%A1%E5%BC%8F">快速创建模式</a></li>
+<li>3.3 <a href="#%E6%89%AB%E6%8F%8F">扫描</a></li>
+<li>3.4 <a href="#%E5%90%AF%E5%8A%A8">启动</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BA%BF%E8%B7%AF%E9%80%89%E6%8B%A9">线路选择</a></li>
+<li><a href="#%E4%B8%AD%E4%BA%8C%E9%80%89%E6%8B%A9">中二选择</a></li>
+<li><a href="#%E6%B3%A8%E9%87%8A">注释</a></li>
+</ol>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Netch是一款开源的游戏加速工具，不同于SSTap那样需要通过添加规则来实现黑名单代理，Netch原理更类似<a target="_blank" rel="noopener" href="https://www.sockscap64.com/homepage/">Sockscap64</a>，通过扫描游戏目录获得需要代理的进程名进行代理。</p>
+<p>与此同时Netch避免了SSTap的NAT问题<escape><a name = "ref_2_s" href="#ref_2_d"><sup>[2]</sup></a><a name = "ref_3_s" href="#ref_3_d"><sup>[3]</sup></a></escape>，使用SSTap加速部分P2P联机，对NAT类型有要求的游戏时，可能会因为NAT类型严格遇到无法加入联机，或者其他影响游戏体验的情况。</p>
+<h3 id="关于软件"><a href="#关于软件" class="headerlink" title="关于软件"></a>关于软件</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://t.me/NetchXChannel">Netch版本发布频道(Telegram Channel)</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/NetchX/Netch">github仓库</a>: netchx&#x2F;Netch: Game acceleration tool. Support Socks5, Shadowsocks, ShadowsocksR, V2Ray protocol. UDP NAT FullCone<ul>
+<li>感觉有用别忘了素质三连(Star &amp; Watch &amp; Fork)</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/netchx/Netch/releases">github发布</a></li>
+<li><a target="_blank" rel="noopener" href="https://t.me/NetchX">Netch游戏加速工具讨论群(Telegram Group)</a><ul>
+<li>有问题可以进群讨论</li>
+</ul>
+</li>
+</ul>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
+<li>现在软件还处在早期开发阶段，可能后续版本会发生很大变化，操作仅供参考。</li>
+</ul>
+<h4 id="新建代理配置"><a href="#新建代理配置" class="headerlink" title="新建代理配置"></a>新建代理配置</h4><p>当前版本已添加配置编辑功能，根据自己的情况，使用订阅或者别的方法添加代理配置，我这里使用的是剪贴板导入。</p>
+<p>如果你想使用的代理工具目前Netch还不支持，可以通过socks5代理进行中转，也就是让Netch访问你的代理工具提供的socks5代理。</p>
+<p><escape><div title="剪贴板导入.jpg" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24_210438.png" height="80%" width="80%"></div><div align="middle">剪贴板导入.jpg</div></escape></p>
+<p><del>如果你发现你的程序没我截图的看起来清晰，可以右键Netch.exe-属性-兼容性-更改高DPI设置-替代高DPI缩放执行-系统(增强)。</del></p>
+<h4 id="快速创建模式"><a href="#快速创建模式" class="headerlink" title="快速创建模式"></a>快速创建模式</h4><p>如果你的游戏的模式已经被收录，也可以考虑直接使用已收录的模式。所有模式的文件，都在 <code>./mode/</code> 文件夹下，如果你需要多个模式的合并文件，可以使用记事本将其打开，将多个文件合并。</p>
+<p><escape><div title="点击快速创建模式.jpg" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24 211537.png" height="80%" width="80%"></div><div align="middle">点击快速创建模式.jpg</div></escape></p>
+<p><del>图中绿色的0是因为我使用了本地中转，Netch内建的ping功能未能检测出真实的延迟数据。</del></p>
+<p>ping的值未必准确，因为这只是你本地到代理服务器而非游戏服务器的延迟。</p>
+<p>如果你的游戏的模式没被收录，可以看接下来的扫描步骤来手动创建模式。</p>
+<p>接着点击菜单栏上的快速创建模式。</p>
+<h4 id="扫描"><a href="#扫描" class="headerlink" title="扫描"></a>扫描</h4><p>在弹出的窗口中点击扫描。</p>
+<p><escape><div title="扫描.jpg" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24 211842.png" height="50%" width="50%"></div><div align="middle">扫描.jpg</div></escape></p>
+<p>选择你要加速的游戏的安装路径，根据游戏不同，可能需要选择多个不同的目录进行扫描，参见<a target="_blank" rel="noopener" href="https://www.eaglemoe.com/archives/142">萌鹰的Netch教程</a>(包括GTAOL和R6S的配置方法)。</p>
+<blockquote>
+<ol start="4">
+<li>选定GTA5游戏目录，点击确定，软件会自动扫描目录下的exe程式并填写进去。</li>
+<li>再次点击扫描，选择socialclub的安装地址（一般为C:\Program Files\Rockstar Games\Social Club），点击确定，点击保存。</li>
+</ol>
+<p>注意：加入游戏时请不要忘记加入社交组件，比如说GTA不要忘记socialclub，彩虹六号不要忘记uplay。</p>
+</blockquote>
+<p>这里以战争雷霆为例，只需添加战争雷霆游戏根目录即可，当前版本暂时不支持输入目录路径进行扫描。</p>
+<p><escape><div title="选择路径.jpg" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24 212036.png" height="50%" width="50%"></div><div align="middle">选择路径.jpg</div></escape></p>
+<p>扫描时可能需要稍等片刻，扫描后记得填写备注，如果需要添加单个程序，也可以在添加按钮左侧的编辑栏中手动输入并添加。</p>
+<p>之后点保存进行保存。</p>
+<p><escape><div title="保存.jpg" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24 212837.png" height="50%" width="50%"></div><div align="middle">保存.jpg</div></escape></p>
+<h4 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h4><p>最后确认服务器一栏和模式一栏均为之前自己添加并需要使用的，没问题后点击启动即可。</p>
+<p><escape><div title="启动.jpg" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/Netch_guide/2019-06-24 213121.png" height="80%" width="80%"></div><div align="middle">启动.jpg</div></escape></p>
+<p>启动后，你再去游戏根目录或者别的启动器如Steam，Uplay启动游戏即可。此时游戏就已经被代理了。</p>
+<p>如果在Netch启动前就启动了游戏，建议重启游戏。</p>
+<p>如果需要Steam，Uplay等启动器也被代理，参照前面的方式对Steam，Uplay根目录也进行扫描即可。</p>
+<h3 id="线路选择"><a href="#线路选择" class="headerlink" title="线路选择"></a>线路选择</h3><p>普通人可以入手<a target="_blank" rel="noopener" href="https://n3ro.io/">n3ro</a>的线路(不负责推荐)，根据<a target="_blank" rel="noopener" href="https://t.me/sabershome/197">sabre大佬的科普</a>，iplc的线路较为稳定。</p>
+<h3 id="中二选择"><a href="#中二选择" class="headerlink" title="中二选择"></a>中二选择</h3><p>打算使用自己租赁的服务器加速游戏的中二人士可以了解一下，多种网络工具配合使用，战公网。</p>
+<p><a target="_blank" rel="noopener" href="https://www.moerats.com/archives/662/">UDPSpeeder+Udp2raw使用教程</a></p>
+<h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p>点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。<br><escape><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "https://photos.google.com/share/AF1QipPjwI4529KHV1S3r6ZosohpLXr6TRtNtqUtyJljbGd3rjDrCQla6tqB3spF_8QaUg/photo/AF1QipPBPhru6gZ2SlZ7dYBeZDAUTyUm_Y4LWKwJCqLs?key=WTdxUFREc01EZjNlV2FCbXFxOHZxUGJicFUxQWN3">Yuppie Psycho</a></br><a name = "ref_2_d" href = "#ref_2_d">[2]</a></escape> <escape><a href = "#ref_2_s">↑</a></escape> <escape><a href = "https://www.right.com.cn/forum/thread-199299-1-1.html">NAT原理</a></br><a name = "ref_3_d" href = "#ref_3_d">[3]</a></escape> <escape><a href = "#ref_3_s">↑</a></escape> <escape><a href = "https://github.com/HMBSbige/NatTypeTester">NAT类型检测工具</a></escape></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>冰灵
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://binglinggroup.github.io/archives/Netch_guide.html" title="Netch使用指南(190627)">https://binglinggroup.github.io/archives/Netch_guide.html</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+              <a href="/tags/%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8/" rel="tag"># 游戏加速器</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/Mawaru_Penguindrum_share.html" rel="prev" title="回转企鹅罐视频分享">
+                  <i class="fa fa-angle-left"></i> 回转企鹅罐视频分享
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/aegisub_guide.html" rel="next" title="aegisub使用指南">
+                  aegisub使用指南 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">冰灵</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"https-binglinggroup-github-io","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>

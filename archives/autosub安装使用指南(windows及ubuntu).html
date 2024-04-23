@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"binglinggroup.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"default","style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="题图来源(Code Lyoko E41的08分59秒位置)将浏览器拉窄即可看到全图。PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。autosub-0.4.0及以上版本支持python3。本文部分内容已过时，且不会更新，新的安装使用指南详见autosub&#x2F;README.zh-Hans.md at dev · BingLing">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="autosub安装使用指南(windows及ubuntu)(200302)">
+<meta property="og:url" content="https://binglinggroup.github.io/archives/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu).html">
+<meta property="og:site_name" content="冰灵的博客 | BingLing&#39;s Blog">
+<meta property="og:description" content="题图来源(Code Lyoko E41的08分59秒位置)将浏览器拉窄即可看到全图。PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。autosub-0.4.0及以上版本支持python3。本文部分内容已过时，且不会更新，新的安装使用指南详见autosub&#x2F;README.zh-Hans.md at dev · BingLing">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cloud.githubusercontent.com/assets/20913258/17700048/c3d84166-6389-11e6-9cda-2144e2c98ade.png">
+<meta property="og:image" content="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png">
+<meta property="og:image" content="https://help.github.com/assets/images/help/repository/https-url-clone.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu)/autosub_network.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu)/sticker_yczaebag.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/8603085/38403193-cb5a5e04-398b-11e8-8472-3dd3a73455f7.png">
+<meta property="article:published_time" content="2019-02-10T21:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-23T04:48:38.000Z">
+<meta property="article:author" content="冰灵">
+<meta property="article:tag" content="字幕">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="ubuntu">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="autosub">
+<meta property="article:tag" content="自动字幕">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cloud.githubusercontent.com/assets/20913258/17700048/c3d84166-6389-11e6-9cda-2144e2c98ade.png">
+
+
+<link rel="canonical" href="https://binglinggroup.github.io/archives/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu).html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://binglinggroup.github.io/archives/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu).html","path":"archives/autosub安装使用指南(windows及ubuntu).html","title":"autosub安装使用指南(windows及ubuntu)(200302)"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>autosub安装使用指南(windows及ubuntu)(200302) | 冰灵的博客 | BingLing's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">冰灵的博客 | BingLing's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <img class="custom-logo-image" src="/images/favicon.png" alt="冰灵的博客 | BingLing's Blog">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#windows-python2-7%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">windows python2.7环境安装配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B2%A1%E5%AE%89%E8%A3%85%E8%BF%87python"><span class="nav-number">2.1.</span> <span class="nav-text">没安装过python</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E8%BF%87python"><span class="nav-number">2.2.</span> <span class="nav-text">安装过python</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ubuntu-python2-7%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">ubuntu python2.7环境安装配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85pip"><span class="nav-number">4.</span> <span class="nav-text">安装pip</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#pip%E5%AE%89%E8%A3%85%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="nav-number">4.1.</span> <span class="nav-text">pip安装的注意事项</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85ffmpeg"><span class="nav-number">5.</span> <span class="nav-text">安装ffmpeg</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#windows%E4%BD%BF%E7%94%A8pip%E5%AE%89%E8%A3%85autosub"><span class="nav-number">6.</span> <span class="nav-text">windows使用pip安装autosub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ubuntu%E4%BD%BF%E7%94%A8pip%E5%AE%89%E8%A3%85autosub"><span class="nav-number">7.</span> <span class="nav-text">ubuntu使用pip安装autosub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8autosub"><span class="nav-number">8.</span> <span class="nav-text">使用autosub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8D%E8%83%BD%E7%A8%B3%E5%AE%9A%E8%BF%9E%E6%8E%A5google%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98"><span class="nav-number">9.</span> <span class="nav-text">不能稳定连接google服务器的网络问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#google%E8%A7%81%E4%BA%BA%E4%B8%8B%E8%8F%9C%E7%9A%84%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98"><span class="nav-number">10.</span> <span class="nav-text">google见人下菜的网络问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98"><span class="nav-number">11.</span> <span class="nav-text">其他问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91%E5%8A%9F%E8%83%BD"><span class="nav-number">12.</span> <span class="nav-text">自动翻译功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8"><span class="nav-number">13.</span> <span class="nav-text">图形界面使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E5%B9%95%E6%A0%BC%E5%BC%8F%E6%89%B9%E9%87%8F%E8%BD%AC%E6%8D%A2"><span class="nav-number">14.</span> <span class="nav-text">字幕格式批量转换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%84%E5%BD%95"><span class="nav-number">15.</span> <span class="nav-text">附录</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A4%E5%A4%84%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8windows%EF%BC%9F"><span class="nav-number">15.1.</span> <span class="nav-text">[1]为什么此处不推荐使用windows？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A4%E5%A4%84%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8ubuntu%EF%BC%9F"><span class="nav-number">15.2.</span> <span class="nav-text">[2]为什么此处推荐使用ubuntu？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8Bapt%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BF%A1%E6%81%AF%EF%BC%9F"><span class="nav-number">15.3.</span> <span class="nav-text">[3]如何查看apt包管理器中的软件信息？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-python3%E5%91%BD%E4%BB%A4%E7%9A%84%E5%88%87%E6%8D%A2%E6%96%B9%E6%B3%95"><span class="nav-number">15.4.</span> <span class="nav-text">[4]python3命令的切换方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E8%BD%AF%E4%BB%B6%E7%9A%84%E9%BB%98%E8%AE%A4%E8%BE%93%E5%87%BA%E5%A4%84%E7%90%86%E9%80%BB%E8%BE%91%E9%97%AE%E9%A2%98"><span class="nav-number">15.5.</span> <span class="nav-text">[5]软件的默认输出处理逻辑问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-%E6%8A%8Agoogle%E6%89%B9%E5%88%A4%E4%B8%80%E7%95%AA%E7%9A%84%E6%97%A0%E7%AB%AF%E8%81%94%E6%83%B3"><span class="nav-number">15.6.</span> <span class="nav-text">[6]把google批判一番的无端联想</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-autosub-windows%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94"><span class="nav-number">15.7.</span> <span class="nav-text">[7]autosub windows使用问题疑难解答</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-autosub-api%E8%B0%83%E7%94%A8%E5%8F%8A%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E5%8E%9F%E7%90%86%E6%A6%82%E8%A7%88"><span class="nav-number">15.8.</span> <span class="nav-text">[8]autosub api调用及语音识别原理概览</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="冰灵"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">冰灵</p>
+  <div class="site-description" itemprop="description">冰灵制作组的日志集散地</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">93</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/BingLingGroup" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;BingLingGroup" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://binglinggroup.github.io/archives/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu).html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="冰灵">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="冰灵制作组的日志集散地">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="autosub安装使用指南(windows及ubuntu)(200302) | 冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          autosub安装使用指南(windows及ubuntu)(200302)
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-02-10 21:00:00" itemprop="dateCreated datePublished" datetime="2019-02-10T21:00:00Z">2019-02-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-04-23 04:48:38" itemprop="dateModified" datetime="2024-04-23T04:48:38Z">2024-04-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%BC%94%E7%A4%BA/" itemprop="url" rel="index"><span itemprop="name">演示</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/archives/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu).html#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="archives/autosub安装使用指南(windows及ubuntu).html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu)/[Crappy%201080P]%20Code%20Lyoko%20S2E41_000859.164_0.png">题图来源(Code Lyoko E41的08分59秒位置)</a>将浏览器拉窄即可看到全图。<br>PC版网页左上角从上到下第二个图标是目录，请多用目录。<br>网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。<br><strong>autosub-0.4.0及以上版本支持python3。本文部分内容已过时，且不会更新，新的安装使用指南详见<a target="_blank" rel="noopener" href="https://github.com/BingLingGroup/autosub/blob/dev/docs/README.zh-Hans.md">autosub&#x2F;README.zh-Hans.md at dev · BingLingGroup&#x2F;autosub</a>。</strong></p>
+</blockquote>
+<p><escape><font size=4>目录</font></escape></p>
+<ol>
+<li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li>
+<li><a href="#windows-python2-7%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE">windows python2.7环境安装配置</a><ul>
+<li>2.1 <a href="#%E6%B2%A1%E5%AE%89%E8%A3%85%E8%BF%87python">没安装过python</a></li>
+<li>2.2 <a href="#%E5%AE%89%E8%A3%85%E8%BF%87python">安装过python</a></li>
+</ul>
+</li>
+<li><a href="#ubuntu-python2-7%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE">ubuntu python2.7环境安装配置</a></li>
+<li><a href="#%E5%AE%89%E8%A3%85pip">安装pip</a><ul>
+<li>4.1 <a href="#pip%E5%AE%89%E8%A3%85%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">pip安装的注意事项</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AE%89%E8%A3%85ffmpeg">安装ffmpeg</a></li>
+<li><a href="#windows%E4%BD%BF%E7%94%A8pip%E5%AE%89%E8%A3%85autosub">windows使用pip安装autosub</a></li>
+<li><a href="#ubuntu%E4%BD%BF%E7%94%A8pip%E5%AE%89%E8%A3%85autosub">ubuntu使用pip安装autosub</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8autosub">使用autosub</a></li>
+<li><a href="#%E4%B8%8D%E8%83%BD%E7%A8%B3%E5%AE%9A%E8%BF%9E%E6%8E%A5google%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98">不能稳定连接google服务器的网络问题</a></li>
+<li><a href="#google%E8%A7%81%E4%BA%BA%E4%B8%8B%E8%8F%9C%E7%9A%84%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98">google<del>见人下菜</del>的网络问题</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98">其他问题</a></li>
+<li><a href="#%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91%E5%8A%9F%E8%83%BD">自动翻译功能</a></li>
+<li><a href="#%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8">图形界面使用</a></li>
+<li><a href="#%E5%AD%97%E5%B9%95%E6%A0%BC%E5%BC%8F%E6%89%B9%E9%87%8F%E8%BD%AC%E6%8D%A2">字幕格式批量转换</a></li>
+<li><a href="#%E9%99%84%E5%BD%95">附录</a></li>
+</ol>
+<ul>
+<li>15.1 <a href="#1-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A4%E5%A4%84%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8windows%EF%BC%9F">为什么此处不推荐使用windows？</a></li>
+<li>15.2 <a href="#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A4%E5%A4%84%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8ubuntu%EF%BC%9F">为什么此处推荐使用ubuntu？</a></li>
+<li>15.3 <a href="#3-%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8Bapt%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BF%A1%E6%81%AF%EF%BC%9F">如何查看apt包管理器中的软件信息？</a></li>
+<li>15.4 <a href="#4-python3%E5%91%BD%E4%BB%A4%E7%9A%84%E5%88%87%E6%8D%A2%E6%96%B9%E6%B3%95">python3命令的切换方法</a></li>
+<li>15.5 <a href="#5-%E8%BD%AF%E4%BB%B6%E7%9A%84%E9%BB%98%E8%AE%A4%E8%BE%93%E5%87%BA%E5%A4%84%E7%90%86%E9%80%BB%E8%BE%91%E9%97%AE%E9%A2%98">软件的默认输出处理逻辑问题</a></li>
+<li>15.6 <a href="#6-%E6%8A%8Agoogle%E6%89%B9%E5%88%A4%E4%B8%80%E7%95%AA%E7%9A%84%E6%97%A0%E7%AB%AF%E8%81%94%E6%83%B3">把google批判一番的无端联想</a></li>
+<li>15.7 <a href="#7-autosub-windows%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94">autosub windows使用问题疑难解答</a></li>
+<li>15.8 <a href="#8-autosub-api%E8%B0%83%E7%94%A8%E5%8F%8A%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E5%8E%9F%E7%90%86%E6%A6%82%E8%A7%88">autosub api调用及语音识别原理概览</a></li>
+</ul>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p><a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/blob/master/README.md">autosub的readme</a>简介的<a target="_blank" rel="noopener" href="https://translate.google.com/#view=home&op=translate&sl=en&tl=zh-CN&text=Autosub%20is%20a%20utility%20for%20automatic%20speech%20recognition%20and%20subtitle%20generation.%20It%20takes%20a%20video%20or%20an%20audio%20file%20as%20input%2C%20performs%20voice%20activity%20detection%20to%20find%20speech%20regions%2C%20makes%20parallel%20requests%20to%20google%20Web%20Speech%20API%20to%20generate%20transcriptions%20for%20those%20regions%2C%20(optionally)%20translates%20them%20to%20a%20different%20language%2C%20and%20finally%20saves%20the%20resulting%20subtitles%20to%20disk.%20It%20supports%20a%20variety%20of%20input%20and%20output%20languages%20(to%20see%20which%2C%20run%20the%20utility%20with%20the%20argument%20--list-languages)%20and%20can%20currently%20produce%20subtitles%20in%20either%20the%20SRT%20format%20or%20simple%20JSON.">google翻译</a></p>
+<blockquote>
+<p>Autosub是一种用于自动语音识别和字幕生成的实用程序。它将视频或音频文件作为输入，执行语音活动检测以查找语音区域，向google Web Speech API发出并行请求以生成这些区域的转录，（可选）将它们转换为其他语言，最后保存结果字幕到本地。它支持各种输入和输出语言（使用参数–list-languages运行程序可查看支持的语言），并且当前可以生成SRT格式或简单JSON的字幕。</p>
+</blockquote>
+<p>由于使用了google的语音识别API，<del>而且提供了免费使用的google语音识别API key</del>，可以说autosub使用的是目前普通人可接触到的顶级的语音识别API也不为过。</p>
+<h3 id="windows-python2-7环境安装配置"><a href="#windows-python2-7环境安装配置" class="headerlink" title="windows python2.7环境安装配置"></a>windows python2.7环境安装配置</h3><p><a href="#1-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A4%E5%A4%84%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8windows%EF%BC%9F">[1]为什么此处不推荐使用windows？</a></p>
+<h4 id="没安装过python"><a href="#没安装过python" class="headerlink" title="没安装过python"></a>没安装过python</h4><p>如果你的windows之前没有安装过python，直接到python官网上下载安装python2.7，注意安装时在customize python 2.7界面下划到最底下选择Add Python.exe to Path。</p>
+<p><escape><div title="Add Python.exe to Path" align="middle"><img src="https://cloud.githubusercontent.com/assets/20913258/17700048/c3d84166-6389-11e6-9cda-2144e2c98ade.png" height="50%" width="50%"></div></escape><br><escape><div align="middle">Add Python.exe to Path</div></escape></p>
+<p>也可以考虑使用windows第三方包管理器<a target="_blank" rel="noopener" href="https://chocolatey.org/docs/installation">chocolatey</a>安装python2.7。</p>
+<p>安装好chocolatey之后，用管理员权限运行命令行或者Powershell(譬如Win+X调出快捷键菜单运行)，输入以下指令来安装python2.7。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">choco install python2 -y</span><br></pre></td></tr></table></figure>
+
+<p><a href="#%E5%AE%89%E8%A3%85pip">下一步：安装pip</a></p>
+<h4 id="安装过python"><a href="#安装过python" class="headerlink" title="安装过python"></a>安装过python</h4><p>如果你的windows安装过python2.7且没安装过python3，那么可以忽略掉python2.7环境安装配置这一部分了。</p>
+<p>如果你的windows安装过python3，且在种种原因之下不能卸载python3，那么你需要查看[windows python2与python3环境共存简易方法](windows python2与python3环境共存简易方法.html)。</p>
+<p><a href="#%E5%AE%89%E8%A3%85pip">下一步：安装pip</a></p>
+<h3 id="ubuntu-python2-7环境安装配置"><a href="#ubuntu-python2-7环境安装配置" class="headerlink" title="ubuntu python2.7环境安装配置"></a>ubuntu python2.7环境安装配置</h3><p><a href="#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A4%E5%A4%84%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8ubuntu%EF%BC%9F">[2]为什么此处推荐使用ubuntu？</a></p>
+<p>ubuntu的python2.7一般是自带的，你可以通过</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -V</span><br></pre></td></tr></table></figure>
+
+<p>查看当前python版本(注意<strong>V</strong>是大写)，如果python没有安装，可以通过</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install python -y</span><br></pre></td></tr></table></figure>
+
+<p>安装python2.7。<a href="#3-%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8Bapt%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BF%A1%E6%81%AF%EF%BC%9F">[3]如何查看apt包管理器中的软件信息？</a></p>
+<p>如果已安装的python命令对应的是python3的版本，而python2.7已经安装，可以通过<a target="_blank" rel="noopener" href="https://blog.csdn.net/u013894834/article/details/75305752">update-alternatives</a>这个命令来切换python版本。</p>
+<p>相关参考<a href="#4-python3%E5%91%BD%E4%BB%A4%E7%9A%84%E5%88%87%E6%8D%A2%E6%96%B9%E6%B3%95">[4]python3命令的切换方法</a></p>
+<p>ubuntu下一般python命令用于使用python2.7，python3命令用于使用python3</p>
+<h3 id="安装pip"><a href="#安装pip" class="headerlink" title="安装pip"></a>安装pip</h3><p>通过<a target="_blank" rel="noopener" href="https://pip.pypa.io/en/stable/installing/">pip官方文档</a>安装最新版即可。windows用户可以通过浏览器打开第一条指令中的那个链接，然后Ctrl-S另存为get-pip.py文件，在get-pip.py所在的文件夹打开命令行或者powershell，运行第二条指令即可。</p>
+<h4 id="pip安装的注意事项"><a href="#pip安装的注意事项" class="headerlink" title="pip安装的注意事项"></a>pip安装的注意事项</h4><ul>
+<li>运行上述指令时使用的是对应着python2.7版本的python指令</li>
+<li>ubuntu用户也可以使用apt包管理器中的python-pip软件包进行安装</li>
+<li>windows用户不建议使用chocolatey中的pip进行安装，版本过旧</li>
+<li>如果遇到了任何安装问题，一般通过<a target="_blank" rel="noopener" href="https://pip.pypa.io/en/stable/installing/">pip官方文档</a>的方法重新安装pip都可以解决</li>
+</ul>
+<h3 id="安装ffmpeg"><a href="#安装ffmpeg" class="headerlink" title="安装ffmpeg"></a>安装ffmpeg</h3><p>windows建议使用<a target="_blank" rel="noopener" href="https://chocolatey.org/docs/installation">chocolatey</a>安装ffmpeg。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">choco install ffmpeg -y</span><br></pre></td></tr></table></figure>
+
+<p>ubuntu则使用apt</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install ffmpeg -y</span><br></pre></td></tr></table></figure>
+
+<h3 id="windows使用pip安装autosub"><a href="#windows使用pip安装autosub" class="headerlink" title="windows使用pip安装autosub"></a>windows使用pip安装autosub</h3><p>由于原版autosub部分代码没有考虑到windows的问题，所以需要安装特别的版本。</p>
+<p>大家可以使用我fork的已经修改过源代码的可以在windows上安装使用的autosub的版本<a target="_blank" rel="noopener" href="https://github.com/BingLingGroup/autosub">BingLingGroup&#x2F;autosub</a>。</p>
+<p>有两种安装方法，一种是点击刚才这个项目主页右侧Clone or download按钮，在弹出的菜单中选择Download ZIP。</p>
+<p><escape><div title="Clone or download" align="middle"><img src="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png" height="50%" width="50%"></div></escape><br><escape><div align="middle">Clone or download</div></escape></p>
+<p><escape><br></escape><br><escape><br></escape></p>
+<p><escape><div title="Download ZIP" align="middle"><img src="https://help.github.com/assets/images/help/repository/https-url-clone.png" height="50%" width="50%"></div></escape><br><escape><div align="middle">Download ZIP</div></escape></p>
+<p>然后解压该zip文件，切换到setup.py所在目录，然后运行这条命令。这句命令最后有一个”.”表示当前目录。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install .</span><br></pre></td></tr></table></figure>
+
+<p><a href="#%E4%BD%BF%E7%94%A8autosub">下一步：使用autosub</a><br><escape><br></escape><br><escape><br></escape></p>
+<p>另一种是安装git，你可以使用<a target="_blank" rel="noopener" href="https://chocolatey.org/docs/installation">choco</a>来安装git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">choco install git -y</span><br></pre></td></tr></table></figure>
+
+<p>然后使用下面这条指令进行安装，也就是<a target="_blank" rel="noopener" href="https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support">pip的VCS功能</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install git+https://github.com/BingLingGroup/autosub.git@origin</span><br></pre></td></tr></table></figure>
+
+<p>如果你对我修改的代码产生疑虑，可以自己根据<a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/issues/31">Install AutoSub Step to Step in Windows with Translate subtitle #31</a>进行安装，我所作的改动基本上就是这个问题里提到的那些。</p>
+<p>也可以查看仓库对应的autosub-0.4.0-alpha版的<a target="_blank" rel="noopener" href="https://github.com/BingLingGroup/autosub/blob/alpha/docs/CHANGELOG.zh-Hans.md#040-alpha---2019-02-17">更新日志</a>和<a target="_blank" rel="noopener" href="https://github.com/BingLingGroup/autosub/commits/origin">提交历史</a>。</p>
+<p><a href="#%E4%BD%BF%E7%94%A8autosub">下一步：使用autosub</a></p>
+<h3 id="ubuntu使用pip安装autosub"><a href="#ubuntu使用pip安装autosub" class="headerlink" title="ubuntu使用pip安装autosub"></a>ubuntu使用pip安装autosub</h3><p>ubuntu用户运行以下指令，从PyPI(Python Package Index也即Python软件包索引)中安装autosub 0.3.12版，虽然版本没有原作者仓库<a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub">agermanidis&#x2F;autosub</a>里的新，但是不影响使用</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install autosub</span><br></pre></td></tr></table></figure>
+
+<p>或者安装git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install git -y</span><br></pre></td></tr></table></figure>
+
+<p>然后再通过<a target="_blank" rel="noopener" href="https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support">pip的VCS功能</a>安装github仓库里的代码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install git+https://github.com/agermanidis/autosub.git@master</span><br></pre></td></tr></table></figure>
+
+<h3 id="使用autosub"><a href="#使用autosub" class="headerlink" title="使用autosub"></a>使用autosub</h3><p>在命令行界面输入autosub -h可以得知autosub的输入参数。由于目前软件未提供翻译api而只提供了语音识别api，所以在不提供-K选项的情况下，所有尝试翻译的参数输入，即-S和-D的参数不一致的情况下都会失败。</p>
+<p>想了解自动翻译功能的可以跳转至<a href="#%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91%E5%8A%9F%E8%83%BD">自动翻译功能</a>。</p>
+<p>除此之外软件还有逻辑bug，所以建议输全-S和-D参数，格式类似以下这种</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">autosub -S zh-CN -D zh-CN [你的视频/音频文件名]</span><br></pre></td></tr></table></figure>
+
+<p>新建记事本-复制粘贴该行命令-修改后缀名为.bat即可双击使用，需要观看错误输出时注意在末尾加上call cmd，或者在命令行中运行。</p>
+<p><a href="#5-%E8%BD%AF%E4%BB%B6%E7%9A%84%E9%BB%98%E8%AE%A4%E8%BE%93%E5%87%BA%E5%A4%84%E7%90%86%E9%80%BB%E8%BE%91%E9%97%AE%E9%A2%98">[5]软件的默认输出处理逻辑问题</a></p>
+<h3 id="不能稳定连接google服务器的网络问题"><a href="#不能稳定连接google服务器的网络问题" class="headerlink" title="不能稳定连接google服务器的网络问题"></a>不能稳定连接google服务器的网络问题</h3><p>首先最大的问题是网络问题，如果你使用的是无法连接到google服务器的网络，windows端你可能需要在命令行界面下输入以下两个指令，以改变当前命令行的http proxy。注意http proxy一般由本地软件提供，譬如<a target="_blank" rel="noopener" href="https://github.com/Fndroid/clash_for_windows_pkg">克莱士</a>，127.0.0.1指本地IP，冒号后面的是本地软件提供的http proxy端口。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set http_proxy=http://127.0.0.1:1080</span><br><span class="line">set https_proxy=https://127.0.0.1:1080</span><br></pre></td></tr></table></figure>
+
+<p>ubuntu也需要类似的指令给终端上代理，只是你需要注意本地proxy软件是否提供http proxy功能，如果只提供socks5 proxy，你需要使用<a target="_blank" rel="noopener" href="https://blog.csdn.net/Jesse_Mx/article/details/52863204">polipo</a>将其转为http proxy然后使用。</p>
+<p>然而你依然可能遇到如图所示的错误(Connection broken)，多是因为你的网络不够稳定导致的，原因大概是google speech api对网络比较挑剔。</p>
+<p><escape><div title="Clone or download" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu)/autosub_network.png" height="80%" width="80%"></div></escape><br><escape><div align="middle">Clone or download</div></escape></p>
+<p>遇到这种错误，你可能需要更换网络环境。通常来讲，将运行平台更换为可稳定连接至google服务器的云服务器会比更换proxy更加有效，具体方式参考<a href="#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A4%E5%A4%84%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8ubuntu%EF%BC%9F">[2]为什么此处推荐使用ubuntu？</a></p>
+<h3 id="google见人下菜的网络问题"><a href="#google见人下菜的网络问题" class="headerlink" title="google见人下菜的网络问题"></a>google<del>见人下菜</del>的网络问题</h3><p>简言之：</p>
+<ul>
+<li>目前版本(0.4.0及以下版本)的autosub不要用香港IP，-S zh-CN的参数，去识别普通话的语音，不然会按照粤语识别输出繁体粤语(yue-Hant-HK)，识别结果也是完全错误。可以使用香港IP识别en，不会有影响。至于其他亚洲地区的IP，暂时没有尝试，不知道会不会对zh-CN识别普通话这一情况产生影响</li>
+<li>问题的具体分析参见<a href="#8-autosub-api%E8%B0%83%E7%94%A8%E5%8F%8A%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E5%8E%9F%E7%90%86%E6%A6%82%E8%A7%88">[8]autosub api调用及语音识别原理概览</a></li>
+</ul>
+<h3 id="其他问题"><a href="#其他问题" class="headerlink" title="其他问题"></a>其他问题</h3><p>如果你还遇到了一些问题，请先google错误代码，也可以参考<a href="#7-autosub-windows%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94">[7]autosub windows使用问题疑难解答</a>。</p>
+<h3 id="自动翻译功能"><a href="#自动翻译功能" class="headerlink" title="自动翻译功能"></a>自动翻译功能</h3><p>autosub并不自带免费google翻译API key，所以需要正常使用翻译功能，你可以考虑以下方法：</p>
+<ul>
+<li><p>使用在google上搜索可以白嫖的google翻译API key，用-K选项输入给autosub进行自动翻译</p>
+</li>
+<li><p>其他提供了<em>免费</em> 翻译API key的修改版autosub(<strong>免责声明</strong>，本文作者未尝试其有效性)：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/iWangJiaxiang/autosub/tree/master">iWangJiaxiang&#x2F;autosub</a></li>
+</ul>
+</li>
+<li><p>关于辅助类字幕自动翻译校对工具，可以考虑<a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/issues/31">issue 31教程</a>Translate your Subtitles那部分提到的<a target="_blank" rel="noopener" href="https://github.com/SubtitleEdit/subtitleedit/releases">Subtitle Edit</a></p>
+</li>
+<li><p>将视频上传至youtube，使用youtube-dl获取自动翻译字幕</p>
+</li>
+<li><p>付费使用google翻译API key</p>
+</li>
+</ul>
+<p><a href="#%E4%BD%BF%E7%94%A8autosub">返回使用autosub</a></p>
+<h3 id="图形界面使用"><a href="#图形界面使用" class="headerlink" title="图形界面使用"></a>图形界面使用</h3><p>嫌弃命令行界面的用户可以考虑一个GUI版本<a target="_blank" rel="noopener" href="https://github.com/raryelcostasouza/pyTranscriber">pyTranscriber</a>(**免责声明**，本文作者未尝试其有效性)</p>
+<h3 id="字幕格式批量转换"><a href="#字幕格式批量转换" class="headerlink" title="字幕格式批量转换"></a>字幕格式批量转换</h3><p>请使用ffmpeg对字幕格式进行转换，也可以考虑该<a target="_blank" rel="noopener" href="https://github.com/Bourshevik0/subtitle_works/blob/master/youtube-dl%20batch/ffmpeg_vtt2srt.bat">windows批处理脚本</a>。和附录<a href="#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E6%AD%A4%E5%A4%84%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8ubuntu%EF%BC%9F">[2]</a>所说的批处理使用方法类似，输入格式和输出格式均可修改，参考<a target="_blank" rel="noopener" href="https://trac.ffmpeg.org/wiki/HowToConvertSubtitleToASS">HowToConvertSubtitleToASS – FFmpeg</a>，<a target="_blank" rel="noopener" href="https://trac.ffmpeg.org/wiki/ExtractSubtitles">ExtractSubtitles – FFmpeg</a>。关于.sub等图形格式字幕的转换，建议使用<a target="_blank" rel="noopener" href="https://github.com/SubtitleEdit/subtitleedit/releases">Subtitle Edit</a>，校对起来更方便。</p>
+<h3 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h3><h4 id="1-为什么此处不推荐使用windows？"><a href="#1-为什么此处不推荐使用windows？" class="headerlink" title="[1]为什么此处不推荐使用windows？"></a>[1]为什么此处不推荐使用windows？</h4><p><escape><div title="用错图了.jpg" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/autosub安装使用指南(windows及ubuntu)/sticker_yczaebag.png" height="40%" width="40%"></div></escape><br><escape><div align="middle">ArchLinux使人笑颜倍增</div></escape></p>
+<p><em>不推荐在windows下安装使用autosub</em>，除非</p>
+<ul>
+<li><em>首先，你有着可<strong>稳定</strong>连接google服务器的网络环境</em></li>
+<li><em>其次，<strong>你自认为</strong>windows比ubuntu更方便使用，哪怕有的ubuntu甚至不需要额外安装python环境</em></li>
+<li><em>再次，你需要容忍一些autosub代码中windows有问题而ubuntu没问题的部分，或者使用非原github仓库或者非PyPI上的autosub代码来解决问题</em></li>
+</ul>
+<p><a href="#windows-python2-7%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE">返回windows python2.7环境安装配置</a></p>
+<h4 id="2-为什么此处推荐使用ubuntu？"><a href="#2-为什么此处推荐使用ubuntu？" class="headerlink" title="[2]为什么此处推荐使用ubuntu？"></a>[2]为什么此处推荐使用ubuntu？</h4><ul>
+<li><p><em>如果你肉身能<strong>稳定</strong>连接google服务器，依然建议使用ubuntu操作，因为更容易安装使用python和autosub</em></p>
+<ul>
+<li><em>同时请忽略以下这段说明</em></li>
+</ul>
+</li>
+<li><p><em>此处推荐的ubuntu环境一般为可<strong>稳定</strong>连接google服务器的ubuntu服务器</em></p>
+<ul>
+<li>*例如安装了ubuntu的虚拟专用服务器(<strong>V</strong>irtual <strong>P</strong>rivate <strong>S</strong>erver)或者弹性计算服务器(Elastic Compute Service)或者独立服务器(Dedicated Server)*</li>
+<li><em>远程服务器一般不可安装windows，即使可选，ubuntu的服务器软件环境还是比windows高到不知道哪里去了</em></li>
+<li><em>其他linux系统的使用此处略去</em></li>
+</ul>
+</li>
+</ul>
+<p>远程服务器操作指引：</p>
+<ul>
+<li>远程服务器ssh连接工具<a target="_blank" rel="noopener" href="https://blog.phpgao.com/cmder.html">cmder</a>(ssh连接命令<a target="_blank" rel="noopener" href="https://blog.phpgao.com/post_buy_faq.html"><em>如何登陆我的vps</em></a>)，xshell，MobaXterm等等</li>
+<li>远程文件交互工具winscp(文件上传下载)，<a target="_blank" rel="noopener" href="https://imnerd.org/use-caddy-replace-nginx.html">caddy</a>(文件下载)，jQuery-File-Upload(文件上传)</li>
+<li>ubuntu ssh配置，ubuntu ssh服务启动等等</li>
+<li>建议上传时只上传音频文件，上传视频文件既耗时也占用服务器存储空间</li>
+<li>以下是windows调用ffmpeg批量抽取当前文件夹下的视频的音频的批处理，新建记事本-复制粘贴代码-修改后缀名为.bat即可使用。由于autosub使用ffmpeg进音频转码，且无论什么音频或视频格式输入，都会转换为flac格式，所以此处音频输出采用非编码输出mka万能封装效率最高</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">set &quot;in_format=*.webm *.mp4&quot;</span><br><span class="line">rem 根据需要这里in_format修改为自己要输入的格式</span><br><span class="line">rem 注意不要去掉通配符*号</span><br><span class="line">rem 暂时不支持批量抽取一个视频中的多个音轨</span><br><span class="line">set &quot;out_format=.mka&quot;</span><br><span class="line">rem 此处输出格式不要修改，否则可能会输出失败</span><br><span class="line">rem 因为当前为非编码模式，只能使用mka这种万能封装</span><br><span class="line"></span><br><span class="line">@echo on</span><br><span class="line">for /f &quot;delims=^&quot; %%i in (&#x27;dir /b %in_format%&#x27;) do (</span><br><span class="line">    ffmpeg -i &quot;%%i&quot; -vn -acodec copy &quot;%%~ni%out_format%&quot;</span><br><span class="line">)</span><br><span class="line">@echo off</span><br><span class="line">rem 此处会将当前文件夹下的所有视频的音频进行抽取</span><br><span class="line">rem 文件名和原来的一致，扩展名为你设置的输出格式</span><br><span class="line"></span><br><span class="line">call cmd</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>如果安装了git bash或者其他可在windows下运行bash语言的终端，可以使用这个对格式有判断的bash脚本<a target="_blank" rel="noopener" href="https://askubuntu.com/questions/221026/how-can-i-batch-extract-audio-from-mp4-files-with-ffmpeg-without-decompression">bash - how can I batch extract audiofrom mp4 files with ffmpeg without decompression (automatic audio codec detection)? - Ask Ubuntu</a></li>
+<li>ubuntu端批量识别音频的bash脚本${C\infty ming}$ ${S\infty n}^{TM}$</li>
+</ul>
+<p>以及一些估计没人会和我一样踩的坑：</p>
+<ul>
+<li>如果你使用的ubuntu服务器内存空闲空间小于150MB，可能会遇到内存不够用的问题，错误信息会显示内存空间不够，分配失败，请关闭部分后台程序后再运行autosub即可。内存占用主要是调用ffmpeg转码音频为flac格式时发生的。</li>
+<li>虽然语音识别的任务是由google服务器进行，而音频分析时间轴生成的任务是在本地完成的，可以说识别速度的瓶颈基本不在本地，但是对于少数CPU特别弱的ubuntu服务器(点名批评半碗果20刀祖传OVZ架构单核服务器)，可能会遇到音频分析时间对CPU占用过大拖累识别速度的问题。我这里并不是建议你非得用多核服务器，我是说最好别碰OVZ架构。</li>
+</ul>
+<p><a href="#ubuntu-python2-7%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE">返回ubuntu python2.7环境安装配置</a></p>
+<h4 id="3-如何查看apt包管理器中的软件信息？"><a href="#3-如何查看apt包管理器中的软件信息？" class="headerlink" title="[3]如何查看apt包管理器中的软件信息？"></a>[3]如何查看apt包管理器中的软件信息？</h4><p>Ubuntu apt包管理器中的python软件包目前版本依然是python2.7，可以通过</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-cache show package python</span><br></pre></td></tr></table></figure>
+
+<p>查看python包的详情。</p>
+<p><a href="#ubuntu-python2-7%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE">返回ubuntu python2.7环境安装配置</a></p>
+<h4 id="4-python3命令的切换方法"><a href="#4-python3命令的切换方法" class="headerlink" title="[4]python3命令的切换方法"></a>[4]python3命令的切换方法</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.x 1</span><br><span class="line">update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.y 2</span><br><span class="line">update-alternatives --config python3</span><br></pre></td></tr></table></figure>
+
+<p>x和y代表某个python3的版本，以上方法来源<a target="_blank" rel="noopener" href="https://www.v2ex.com/t/429372#r_5389764">搞定了最新版本 EFB2.0.0， telegram 收发微信，工作正常。 - V2EX</a>。</p>
+<p><a href="#ubuntu-python2-7%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE">返回ubuntu python2.7环境安装配置</a></p>
+<h4 id="5-软件的默认输出处理逻辑问题"><a href="#5-软件的默认输出处理逻辑问题" class="headerlink" title="[5]软件的默认输出处理逻辑问题"></a>[5]软件的默认输出处理逻辑问题</h4><p><escape><div title="Error: Subtitle translation requires specified google Translate API key." align="middle"><img src="https://user-images.githubusercontent.com/8603085/38403193-cb5a5e04-398b-11e8-8472-3dd3a73455f7.png" height="100%" width="100%"></div></escape><br><escape><div align="middle">该逻辑问题的错误信息输出</div></escape></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">C:\&gt;autosub -h</span><br><span class="line">usage: autosub [-h] [-C CONCURRENCY] [-o OUTPUT] [-F FORMAT] [-S SRC_LANGUAGE]</span><br><span class="line">               [-D DST_LANGUAGE] [-K API_KEY] [--list-formats]</span><br><span class="line">               [--list-languages]</span><br><span class="line">               [source_path]</span><br><span class="line"></span><br><span class="line">positional arguments:</span><br><span class="line">  source_path           Path to the video or audio file to subtitle</span><br><span class="line"></span><br><span class="line">optional arguments:</span><br><span class="line">  -h, --<span class="built_in">help</span>            show this <span class="built_in">help</span> message and <span class="built_in">exit</span></span><br><span class="line">  -C CONCURRENCY, --concurrency CONCURRENCY</span><br><span class="line">                        Number of concurrent API requests to make</span><br><span class="line">  -o OUTPUT, --output OUTPUT</span><br><span class="line">                        Output path <span class="keyword">for</span> subtitles (by default, subtitles are</span><br><span class="line">                        saved <span class="keyword">in</span> the same directory and name as the <span class="built_in">source</span></span><br><span class="line">                        path)</span><br><span class="line">  -F FORMAT, --format FORMAT</span><br><span class="line">                        Destination subtitle format</span><br><span class="line">  -S SRC_LANGUAGE, --src-language SRC_LANGUAGE</span><br><span class="line">                        Language spoken <span class="keyword">in</span> <span class="built_in">source</span> file</span><br><span class="line">  -D DST_LANGUAGE, --dst-language DST_LANGUAGE</span><br><span class="line">                        Desired language <span class="keyword">for</span> the subtitles</span><br><span class="line">  -K API_KEY, --api-key API_KEY</span><br><span class="line">                        The google Translate API key to be used. (Required <span class="keyword">for</span></span><br><span class="line">                        subtitle translation)</span><br><span class="line">  --list-formats        List all available subtitle formats</span><br><span class="line">  --list-languages      List all available <span class="built_in">source</span>/destination languages</span><br></pre></td></tr></table></figure>
+
+<p>根据87号拉取请求<a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/pull/87">Perform speech recognition if dst_language is not denied. #87</a>，在视频源语言(SRC_LANGUAGE)不是默认字幕文件目标语言(DEFAULT_DST_LANGUAGE)en时，软件逻辑会出现问题，认为你希望将语音识别请求由视频源语言翻译成默认字幕文件目标语言。</p>
+<p>根据python的参数语法分析逻辑，如果你不给定某一参数的值，譬如-D参数的值，程序会使用默认值，默认值这里原作者使用的是给定的en，而不会根据-S的值变化，所以有悖一般用户的使用逻辑。</p>
+<p><a href="#%E4%BD%BF%E7%94%A8autosub">返回使用autosub</a></p>
+<h4 id="6-把google批判一番的无端联想"><a href="#6-把google批判一番的无端联想" class="headerlink" title="[6]把google批判一番的无端联想"></a>[6]把google批判一番的无端联想</h4><p>破案了，参考附录<a href="#8-autosub-api%E8%B0%83%E7%94%A8%E5%8F%8A%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E5%8E%9F%E7%90%86%E6%A6%82%E8%A7%88">[8]</a>，以下内容已过期。</p>
+<p>这个问题就很玄学了，我尝试过en和zh-CN的语音识别，但是只在zh-CN的语音识别上遇到过。查看–list-languages参数可知，zh-CN指的是Chinese (Simplified)，zh-TW指的是Chinese (Traditional)，但是你如果使用香港的IP地址使用zh-CN的参数对语音进行识别，会识别出繁体粤语来，<del>这既不简体也不普通话啊，难道google想暗示在香港地区zh-CN里的CN指的其实是Cantonese？《震惊！404公司又一乳滑石锤》</del>，关键是autosub不给你一个香港地区识别<strong>普通话简体中文</strong>的参数(其实也不完全，看后文)，而且如果你拿普通话的音频当作粤语去识别，那结果肯定是没法对上号的。</p>
+<p><del>而且实话讲只是支持粤语，又不是支持更加政治正确的吴语(<a target="_blank" rel="noopener" href="https://cloud.google.com/speech-to-text/docs/languages">没有吴语</a>)，显然也无法给google，用支持少数语言的名义洗地，这只是纯粹的商业化行为而已</del></p>
+<p><del>暂时没试在香港地区使用zh-TW参数能否按照普通话Mandarin识别出繁体，这样至少我还能把文本复制到word里面繁体转简体，说明我对常凯申的疯狂转进流学习得还不够透彻</del></p>
+<p>但是如果是使用美国的IP，那么zh-CN的识别结果就是很正常的，<del>google怎么会觉得法拉盛的高华用的是简体中文</del>。我之前看过代码，autosub没有对语言代码做过手脚，都是直接传给api了，<del>那只能说是google爸爸又<strong>不作恶</strong>了</del>，今且按不下表。</p>
+<p>那么对于我们这些不能左右<del>根据你IP个性化推荐语音识别结果</del>这些大公司的普通<del>白嫖</del>用户来讲，只能从根子上入手，用美国IP就是了。<del>生是洛圣都的人，死是洛圣都的鬼。</del></p>
+<p><del>再补充一下，我看了一下google speech api的文档，对于language code这一点而言已经有了新的标准<a target="_blank" rel="noopener" href="https://cloud.google.com/speech-to-text/docs/languages">语言支持 | Cloud Speech-to-Text API</a>。但是仍然很难解释，凭什么我给zh-CN的参数，google用我的IP，就给我转换成yue-Hant-HK了，要么你不给我转换报错也可以啊。不过我看了一下新版的api和autosub里面<a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/blob/master/autosub/constants.py">constants.py</a>的区别，确实也有pull request的余地，等以后作进一步研究吧。</del></p>
+<p>(当然我也没试验过除了香港以外亚洲地区zh-CN的识别结果如何，没钱啊)</p>
+<h4 id="7-autosub-windows使用问题疑难解答"><a href="#7-autosub-windows使用问题疑难解答" class="headerlink" title="[7]autosub windows使用问题疑难解答"></a>[7]autosub windows使用问题疑难解答</h4><p><a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/issues/94">Exception: Dependency not found: ffmpeg · Issue #94 · agermanidis&#x2F;autosub</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/issues/15">Temp Folder Permissions Denied on Windows 10 · Issue #15 · agermanidis&#x2F;autosub</a></p>
+<p><a href="#%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98">返回其他问题</a></p>
+<h4 id="8-autosub-api调用及语音识别原理概览"><a href="#8-autosub-api调用及语音识别原理概览" class="headerlink" title="[8]autosub api调用及语音识别原理概览"></a>[8]autosub api调用及语音识别原理概览</h4><p>为了研究language code在autosub里面的使用情况，我开始查看autosub的源代码，研究了半天它这api的调用方法，也翻了一会issue区的问题，才发现我前面完全搞错了这个api的来源。首先根据issue区里面的<a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/issues/1">your api key #1</a>开发者的回答，他这个api就是从chromium的源代码上面扒下来的，我发现这个api和cloud speech api其实没有太大关系，自然用法也不一样。具体情况可以参考这个回复<a target="_blank" rel="noopener" href="https://github.com/agermanidis/autosub/issues/111#issuecomment-463046630">api key Is it a charge item? #111</a>。我在google上搜到这么一个项目<a href="(https://github.com/gillesdemey/google-speech-v2)">google-speech-v2</a>，对这个api的使用提供了一点参考。我接下来有空会对修改后的代码进行测试，如果这个api能识别cloud speech api里面的语言代码，我会提交pull request对主项目进行改进。</p>
+<p><a href="#google%E8%A7%81%E4%BA%BA%E4%B8%8B%E8%8F%9C%E7%9A%84%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98">返回google<del>见人下菜</del>的网络问题</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>冰灵
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://binglinggroup.github.io/archives/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu).html" title="autosub安装使用指南(windows及ubuntu)(200302)">https://binglinggroup.github.io/archives/autosub安装使用指南(windows及ubuntu).html</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%AD%97%E5%B9%95/" rel="tag"># 字幕</a>
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+              <a href="/tags/python/" rel="tag"># python</a>
+              <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
+              <a href="/tags/windows/" rel="tag"># windows</a>
+              <a href="/tags/autosub/" rel="tag"># autosub</a>
+              <a href="/tags/%E8%87%AA%E5%8A%A8%E5%AD%97%E5%B9%95/" rel="tag"># 自动字幕</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/windows%20python2%E4%B8%8Epython3%E7%8E%AF%E5%A2%83%E5%85%B1%E5%AD%98%E7%AE%80%E6%98%93%E6%96%B9%E6%B3%95.html" rel="prev" title="windows python2与python3环境共存简易方法">
+                  <i class="fa fa-angle-left"></i> windows python2与python3环境共存简易方法
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90.html" rel="next" title="(含图片80MB)动画烟草记录之角色凛的脸红分析">
+                  (含图片80MB)动画烟草记录之角色凛的脸红分析 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">冰灵</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"https-binglinggroup-github-io","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>

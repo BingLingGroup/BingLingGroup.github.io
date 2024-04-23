@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"binglinggroup.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"default","style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="题图来源(Code Lyoko E73的11分50秒位置)将浏览器拉窄即可看到全图。PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。  目录  简介 原理 程序准备 3.1 安装Gpg4win 3.2 安装sourcetree   设置Gpg4win 设置github 设置sourcetree 疑难解答  本文章主要讲解在使用wind">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="在windows版的sourcetree上设置gpg签名">
+<meta property="og:url" content="https://binglinggroup.github.io/archives/%E5%9C%A8windows%E7%89%88%E7%9A%84sourcetree%E4%B8%8A%E8%AE%BE%E7%BD%AEgpg%E7%AD%BE%E5%90%8D.html">
+<meta property="og:site_name" content="冰灵的博客 | BingLing&#39;s Blog">
+<meta property="og:description" content="题图来源(Code Lyoko E73的11分50秒位置)将浏览器拉窄即可看到全图。PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。  目录  简介 原理 程序准备 3.1 安装Gpg4win 3.2 安装sourcetree   设置Gpg4win 设置github 设置sourcetree 疑难解答  本文章主要讲解在使用wind">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-02-01T14:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-23T04:48:32.000Z">
+<meta property="article:author" content="冰灵">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="sourcetree">
+<meta property="article:tag" content="git">
+<meta property="article:tag" content="github">
+<meta property="article:tag" content="gpg">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://binglinggroup.github.io/archives/%E5%9C%A8windows%E7%89%88%E7%9A%84sourcetree%E4%B8%8A%E8%AE%BE%E7%BD%AEgpg%E7%AD%BE%E5%90%8D.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://binglinggroup.github.io/archives/%E5%9C%A8windows%E7%89%88%E7%9A%84sourcetree%E4%B8%8A%E8%AE%BE%E7%BD%AEgpg%E7%AD%BE%E5%90%8D.html","path":"archives/在windows版的sourcetree上设置gpg签名.html","title":"在windows版的sourcetree上设置gpg签名"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>在windows版的sourcetree上设置gpg签名 | 冰灵的博客 | BingLing's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">冰灵的博客 | BingLing's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <img class="custom-logo-image" src="/images/favicon.png" alt="冰灵的博客 | BingLing's Blog">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8E%9F%E7%90%86"><span class="nav-number">2.</span> <span class="nav-text">原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A8%8B%E5%BA%8F%E5%87%86%E5%A4%87"><span class="nav-number">3.</span> <span class="nav-text">程序准备</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Gpg4win"><span class="nav-number">3.1.</span> <span class="nav-text">安装Gpg4win</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%85sourcetree"><span class="nav-number">3.2.</span> <span class="nav-text">安装sourcetree</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEGpg4win"><span class="nav-number">4.</span> <span class="nav-text">设置Gpg4win</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEgithub"><span class="nav-number">5.</span> <span class="nav-text">设置github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEsourcetree"><span class="nav-number">6.</span> <span class="nav-text">设置sourcetree</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94"><span class="nav-number">7.</span> <span class="nav-text">疑难解答</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="冰灵"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">冰灵</p>
+  <div class="site-description" itemprop="description">冰灵制作组的日志集散地</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">93</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/BingLingGroup" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;BingLingGroup" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://binglinggroup.github.io/archives/%E5%9C%A8windows%E7%89%88%E7%9A%84sourcetree%E4%B8%8A%E8%AE%BE%E7%BD%AEgpg%E7%AD%BE%E5%90%8D.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="冰灵">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="冰灵制作组的日志集散地">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="在windows版的sourcetree上设置gpg签名 | 冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          在windows版的sourcetree上设置gpg签名
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-02-01 14:00:00" itemprop="dateCreated datePublished" datetime="2019-02-01T14:00:00Z">2019-02-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-04-23 04:48:32" itemprop="dateModified" datetime="2024-04-23T04:48:32Z">2024-04-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%BC%94%E7%A4%BA/" itemprop="url" rel="index"><span itemprop="name">演示</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/archives/%E5%9C%A8windows%E7%89%88%E7%9A%84sourcetree%E4%B8%8A%E8%AE%BE%E7%BD%AEgpg%E7%AD%BE%E5%90%8D.html#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="archives/在windows版的sourcetree上设置gpg签名.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p><a target="_blank" rel="noopener" href="https://ws1.sinaimg.cn/large/b07fd0f8ly1fzqx5qjwv4j21hc0u0b29.jpg">题图来源(Code Lyoko E73的11分50秒位置)</a>将浏览器拉窄即可看到全图。<br>PC版网页左上角从上到下第二个图标是目录，请多用目录。<br>网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。</p>
+</blockquote>
+<p><escape><font size=4>目录</font></escape></p>
+<ol>
+<li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li>
+<li><a href="#%E5%8E%9F%E7%90%86">原理</a></li>
+<li><a href="#%E7%A8%8B%E5%BA%8F%E5%87%86%E5%A4%87">程序准备</a><ul>
+<li>3.1 <a href="#%E5%AE%89%E8%A3%85Gpg4win">安装Gpg4win</a></li>
+<li>3.2 <a href="#%E5%AE%89%E8%A3%85sourcetree">安装sourcetree</a></li>
+</ul>
+</li>
+<li><a href="#%E8%AE%BE%E7%BD%AEGpg4win">设置Gpg4win</a></li>
+<li><a href="#%E8%AE%BE%E7%BD%AEgithub">设置github</a></li>
+<li><a href="#%E8%AE%BE%E7%BD%AEsourcetree">设置sourcetree</a></li>
+<li><a href="#%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94">疑难解答</a></li>
+</ol>
+<p>本文章主要讲解在使用windows版sourcetree对github commit进行签名操作，本方法主要优点在于可根据不同仓库设置是否使用何种签名，而非全局使用某一特定签名。</p>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>GPG签名是什么？<a target="_blank" rel="noopener" href="https://github.com/longtian/gpg-howto">怎样为你的 Commit 加上 GPG 的签名</a></p>
+<blockquote>
+<p>为 Commit 带上 GPG 的签名就是一个很好的开始，它能够在一定程度上保证安全性。</p>
+</blockquote>
+<p>简而言之就是类似账号两步验证之类的确保你的github账号创建的提交(commit)是你本人做出的而不是别人盗用你账号做出的，类似的方法有mega网盘的账户还原密钥。</p>
+<h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p><a target="_blank" rel="noopener" href="http://www.ruanyifeng.com/blog/2013/07/gpg.html">GPG入门教程 - 阮一峰的网络日志</a></p>
+<h3 id="程序准备"><a href="#程序准备" class="headerlink" title="程序准备"></a>程序准备</h3><p>以下程序准备针对的操作系统环境是windows 10，git图形界面则是sourcetree。</p>
+<h4 id="安装Gpg4win"><a href="#安装Gpg4win" class="headerlink" title="安装Gpg4win"></a>安装Gpg4win</h4><p><a href="gpg4win_site">Gpg4win - Secure email and file encryption with GnuPG for Windows</a></p>
+<h4 id="安装sourcetree"><a href="#安装sourcetree" class="headerlink" title="安装sourcetree"></a>安装sourcetree</h4><p><a target="_blank" rel="noopener" href="https://www.sourcetreeapp.com/">sourcetree</a><br>一些设置建议可以参考[github pull request流程演示之安装sourcetree](github pull request流程演示.html#安装sourcetree)。</p>
+<h3 id="设置Gpg4win"><a href="#设置Gpg4win" class="headerlink" title="设置Gpg4win"></a>设置Gpg4win</h3><p>安装的是Gpg4win，此处以Kleopatra为例，同样你也可以使用其他GPG密钥管理界面，密钥管理方法应该是类似的。选择菜单栏-文件-新建密钥对，根据提示自行创建密钥，也可以参考<a target="_blank" rel="noopener" href="http://www.ruanyifeng.com/blog/2013/07/gpg.html">GPG入门教程 - 阮一峰的网络日志</a>。</p>
+<p><strong>注意</strong>， 邮箱账号需为你在github账号中验证过(verified)的邮箱，来源<a target="_blank" rel="noopener" href="https://help.github.com/articles/generating-a-new-gpg-key/#generating-a-gpg-key">Generating a new GPG key - User Documentation</a>，同时第8步中github也给你了隐藏邮箱的方法。</p>
+<p>创建完毕后，点击刚才创建的密钥对，右键-细节，公钥就是Kleopatra里面的指纹部分，点击导出获得私钥，你刚才被要求输入的那段密码是用于保护私钥的密码，并不是私钥本身。</p>
+<h3 id="设置github"><a href="#设置github" class="headerlink" title="设置github"></a>设置github</h3><p>参考github官方文档<a target="_blank" rel="noopener" href="https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/">Adding a new GPG key to your gitHub account - User Documentation</a>，以及官方推荐的设置步骤<a target="_blank" rel="noopener" href="https://help.github.com/articles/about-commit-signature-verification/#gpg-commit-signature-verification">About commit signature verification - User Documentation - gpg</a>。</p>
+<p>此处github需要粘贴进去的gpg key指的是在前一个步骤中生成的私钥。</p>
+<h3 id="设置sourcetree"><a href="#设置sourcetree" class="headerlink" title="设置sourcetree"></a>设置sourcetree</h3><p>严格意义上这里并不是设置sourcetree，而是设置每个仓库(repository)提交所需的配置文件，位置是：</p>
+<blockquote>
+<p>仓库文件夹&#x2F;.git&#x2F;config</p>
+</blockquote>
+<p>全局(global)配置文件在windows当前用户的用户文件夹根目录下：</p>
+<blockquote>
+<p>C:&#x2F;Users&#x2F;你的用户名&#x2F;.gitconfig</p>
+</blockquote>
+<p>当然如果你用命令行操作git的话，可以参考git官方文档的local参数说明<a target="_blank" rel="noopener" href="https://git-scm.com/docs/git-config#git-config---local">git - git-config Documentation - local</a>和配置文件读取顺序说明<a target="_blank" rel="noopener" href="https://git-scm.com/docs/git-config#FILES">git - git-config Documentation - files</a>。</p>
+<p>根据配置文件读取顺序说明，可以得知git提交(commit)的时候，在不加特定参数时，会先读取全局配置文件(global git config)，然后再读取本地配置文件(local git config)，如果在全局配置文件里面设置了特定用户的gpg签名，而你有多个github用户或者多个gpg签名或者有的仓库不想使用gpg签名的时候，就会出现混乱。</p>
+<p>本篇文章原创部分最大的地方也就在这里<del>换句话说其他地方都是抄的</del>，之前我参照的一个教程<a target="_blank" rel="noopener" href="https://xiaoxi654.me/2018/12/28/%E5%A6%82%E4%BD%95%E5%9C%A8Windows%E7%89%88%E7%9A%84Sourcetree%E4%B8%8A%E5%90%AF%E7%94%A8GPG%E7%AD%BE%E5%90%8D/">在Windows版的Sourcetree上启用GPG签名</a>只说了全局的方法，但是如上所述会出现混乱的情况，所以我这里给出的方法是不在全局配置文件处进行设置。而是对每个仓库的配置文件进行设置，设置方法和全局配置文件的写法一样，添加以下字段即可。</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">[</span>user<span class="punctuation">]</span></span><br><span class="line">    name =</span><br><span class="line"># name指gpg签名生成时你填的名字</span><br><span class="line">    email =</span><br><span class="line"># email指gpg签名生成时你填的邮箱</span><br><span class="line">    signingkey =</span><br><span class="line"># signingkey指公钥ID的后八位，或者说指纹的后八位</span><br><span class="line"><span class="punctuation">[</span>commit<span class="punctuation">]</span></span><br><span class="line">    gpgSign = <span class="literal"><span class="keyword">true</span></span></span><br><span class="line"># 此处gpgSign的值可为<span class="literal"><span class="keyword">true</span></span>或者<span class="literal"><span class="keyword">false</span></span>，<span class="literal"><span class="keyword">true</span></span>指开启gpg签名</span><br><span class="line"><span class="punctuation">[</span>gpg<span class="punctuation">]</span></span><br><span class="line">    program = c<span class="punctuation">:</span>\\Program Files (x86)\\GnuPG\\bin\\gpg.exe</span><br><span class="line"># 这里program的位置是Gpg4win安装时的默认位置</span><br><span class="line"># 如果你当时没装在这个路径，请自行修改</span><br><span class="line"># 注意两条反斜线中一条是用来转义的，务必确保路径名中的反斜线是有两条的</span><br></pre></td></tr></table></figure>
+
+<p>这样设置好了以后，再提交的时候，git就会调用gpg，要求你对提交进行签名，此时你需要输入那串用于保护私钥的密码。</p>
+<h3 id="疑难解答"><a href="#疑难解答" class="headerlink" title="疑难解答"></a>疑难解答</h3><p>前面所讲都是让sourcetree使用内嵌的git的情况下进行的操作，因为sourcetree使用oauth绑定多个github账号时的[各种问题](github pull request流程演示.html#推送-push-你刚才的提交-commit)，所以没怎么试过用外部git单独操作的情况是否能成功设置。理论上这套教程也可以用于单独安装的git，<del>毕竟以上各种玄学问题的解释都是从git的官方文档里找的</del>，我本人尝试的结果是可以用于强制推送的指令，其他还没试过。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>冰灵
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://binglinggroup.github.io/archives/%E5%9C%A8windows%E7%89%88%E7%9A%84sourcetree%E4%B8%8A%E8%AE%BE%E7%BD%AEgpg%E7%AD%BE%E5%90%8D.html" title="在windows版的sourcetree上设置gpg签名">https://binglinggroup.github.io/archives/在windows版的sourcetree上设置gpg签名.html</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+              <a href="/tags/windows/" rel="tag"># windows</a>
+              <a href="/tags/sourcetree/" rel="tag"># sourcetree</a>
+              <a href="/tags/git/" rel="tag"># git</a>
+              <a href="/tags/github/" rel="tag"># github</a>
+              <a href="/tags/gpg/" rel="tag"># gpg</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/github%20pull%20request%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA.html" rel="prev" title="github pull request流程演示">
+                  <i class="fa fa-angle-left"></i> github pull request流程演示
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/windows%20python2%E4%B8%8Epython3%E7%8E%AF%E5%A2%83%E5%85%B1%E5%AD%98%E7%AE%80%E6%98%93%E6%96%B9%E6%B3%95.html" rel="next" title="windows python2与python3环境共存简易方法">
+                  windows python2与python3环境共存简易方法 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">冰灵</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"https-binglinggroup-github-io","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>

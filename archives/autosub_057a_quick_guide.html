@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"binglinggroup.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"default","style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="题图来源(Code Lyoko E91的23分17秒位置)将浏览器拉窄即可看到全图。PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。请配合readme使用autosub&#x2F;README.zh-Hans.md at dev · BingLingGroup&#x2F;autosub。  目录  简介 下载 Google Speec">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="autosub-0.5.7a安装使用极速指南">
+<meta property="og:url" content="https://binglinggroup.github.io/archives/autosub_057a_quick_guide.html">
+<meta property="og:site_name" content="冰灵的博客 | BingLing&#39;s Blog">
+<meta property="og:description" content="题图来源(Code Lyoko E91的23分17秒位置)将浏览器拉窄即可看到全图。PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。请配合readme使用autosub&#x2F;README.zh-Hans.md at dev · BingLingGroup&#x2F;autosub。  目录  简介 下载 Google Speec">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-05-07T21:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-23T04:48:38.000Z">
+<meta property="article:author" content="冰灵">
+<meta property="article:tag" content="字幕">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="ubuntu">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="autosub">
+<meta property="article:tag" content="自动字幕">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://binglinggroup.github.io/archives/autosub_057a_quick_guide.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://binglinggroup.github.io/archives/autosub_057a_quick_guide.html","path":"archives/autosub_057a_quick_guide.html","title":"autosub-0.5.7a安装使用极速指南"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>autosub-0.5.7a安装使用极速指南 | 冰灵的博客 | BingLing's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">冰灵的博客 | BingLing's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <img class="custom-logo-image" src="/images/favicon.png" alt="冰灵的博客 | BingLing's Blog">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD"><span class="nav-number">2.</span> <span class="nav-text">下载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Google-Speech-V2%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">Google Speech V2使用方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%AF%E9%A3%9E%E4%BA%91%E6%B5%81%E5%BC%8FWebAPI"><span class="nav-number">4.</span> <span class="nav-text">讯飞云流式WebAPI</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BF%BB%E8%AF%91%E5%AD%97%E5%B9%95"><span class="nav-number">5.</span> <span class="nav-text">翻译字幕</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%BE%E5%A3%B0"><span class="nav-number">6.</span> <span class="nav-text">尾声</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="冰灵"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">冰灵</p>
+  <div class="site-description" itemprop="description">冰灵制作组的日志集散地</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">93</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/BingLingGroup" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;BingLingGroup" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://binglinggroup.github.io/archives/autosub_057a_quick_guide.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="冰灵">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="冰灵制作组的日志集散地">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="autosub-0.5.7a安装使用极速指南 | 冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          autosub-0.5.7a安装使用极速指南
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-05-07 21:00:00" itemprop="dateCreated datePublished" datetime="2020-05-07T21:00:00Z">2020-05-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-04-23 04:48:38" itemprop="dateModified" datetime="2024-04-23T04:48:38Z">2024-04-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%BC%94%E7%A4%BA/" itemprop="url" rel="index"><span itemprop="name">演示</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/archives/autosub_057a_quick_guide.html#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="archives/autosub_057a_quick_guide.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p><a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/autosub_guide/[Crappy%201080P]%20Code%20Lyoko%20S4E91.mp4_002317.431.jpg">题图来源(Code Lyoko E91的23分17秒位置)</a>将浏览器拉窄即可看到全图。<br>PC版网页左上角从上到下第二个图标是目录，请多用目录。<br>网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。<br><strong>请配合readme使用<a target="_blank" rel="noopener" href="https://github.com/BingLingGroup/autosub/blob/dev/docs/README.zh-Hans.md">autosub&#x2F;README.zh-Hans.md at dev · BingLingGroup&#x2F;autosub</a>。</strong></p>
+</blockquote>
+<p><escape><font size=4>目录</font></escape></p>
+<ol>
+<li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li>
+<li><a href="#%E4%B8%8B%E8%BD%BD">下载</a></li>
+<li><a href="#google-speech-v2%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95">Google Speech V2使用方法</a></li>
+<li><a href="#%E8%AE%AF%E9%A3%9E%E4%BA%91%E6%B5%81%E5%BC%8Fwebapi">讯飞云流式WebAPI</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E5%AD%97%E5%B9%95">翻译字幕</a></li>
+<li><a href="#%E5%B0%BE%E5%A3%B0">尾声</a></li>
+</ol>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>简单提下，autosub是一个字幕自动生成工具。它能使用auditok来自动检测语音区域，通过ffmpeg根据语音区域来切割音频，通过多个API将语音转为文字，以及通过py-googletrans将字幕文本翻译。</p>
+<p>目前只支持短语音识别，也就是API不返回句子时间戳，需要本地进行分句和分割音频的那种。目前支持的API为Google Speech V2，Google Cloud Speech-to-Text，讯飞开放平台语音听写流式版WebAPI，百度短语音识别&#x2F;短语音识别极速版。本期将主要讲解Google Speech V2，讯飞，py-googletrans的使用方法。</p>
+<p>请注意，目前本程序自身不提供任何语音识别和翻译的功能，所有语音识别和翻译的功能都来自于公开的API，具体来讲，不仅需要在使用时保持联网，也需要用户在特定情况下自己注册相关账号，其所产生的费用与本程序无关，且本程序许可GPLv2中已有相关声明，本程序不对其行为作任何担保。如果需要任何帮助，欢迎通过各种联系方式有偿咨询我。</p>
+<h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>这里主要讲解windows用户如何下载使用独立发布包，关于使用python环境和pip进行安装的方法请参考另一期的说明。</p>
+<p>点开项目主页——当然如果你打不开github，那么请用微云的版本——点击中间的release，找到最上面这个0.5.7-alpha发布的Assets，点击这个三角形展开，选择其中一个下载，我个人推荐用nuitka，因为启动速度比较快，体积也比较小。</p>
+<p>下载完以后解压，现在autosub支持双击启动，只是你双击之后仍然是需要输入参数。</p>
+<h3 id="Google-Speech-V2使用方法"><a href="#Google-Speech-V2使用方法" class="headerlink" title="Google Speech V2使用方法"></a>Google Speech V2使用方法</h3><p>如果你需要识别中文，可以跳过这一节，因为谷歌的中文语音识别真的很一般。</p>
+<p>这个API的密钥是公开的，使用它不需要注册账户，也不会产生费用，但是请不要滥用它。</p>
+<p>如果你能直连谷歌，使用以下指令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">autosub -i 输入视频或音频文件 -S 语言代码</span><br></pre></td></tr></table></figure>
+
+<p>语言代码需要用<code>-lsc</code>进行查看，譬如美式英语使用<code>en-US</code>。</p>
+<p>然后回车运行即可。</p>
+<p>如果你不能直连谷歌，需要使用http proxy，请在以上输入选项的基础上加上这个选项:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-hsp</span><br></pre></td></tr></table></figure>
+
+<p>只输入<code>-hsp</code>意味着使用了const参数，或者说是将环境变量http_proxy改成了<code>https://127.0.0.1:1080</code>，如果你需要修改端口或者地址，请把你需要输入的参数填写在这个选项后面，如:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-hsp http://127.0.0.1:12345</span><br></pre></td></tr></table></figure>
+
+<h3 id="讯飞云流式WebAPI"><a href="#讯飞云流式WebAPI" class="headerlink" title="讯飞云流式WebAPI"></a>讯飞云流式WebAPI</h3><p>这个API需要自己注册账户，超出免费额度后可能产生费用，一切后果自行承担。</p>
+<p>使用以下指令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">autosub -sapi xfyun -i 输入视频或音频文件 -sconf 讯飞云语音配置文件</span><br></pre></td></tr></table></figure>
+
+<p>语音配置文件是json格式的，推荐使用<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">Visual Studio Code</a>这个文本编辑器进行编辑。这里简要说明一下，下载安装VScode以后，到扩展商店里安装JSON Tools插件，安装完了以后，使用<code>Ctrl + Alt + M</code>快捷键可以格式化JSON文件。</p>
+<p>识别中文语言的json文件内容主要为下：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;app_id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;api_secret&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;api_key&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;business&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;language&quot;</span><span class="punctuation">:</span> <span class="string">&quot;zh_cn&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;domain&quot;</span><span class="punctuation">:</span> <span class="string">&quot;iat&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;accent&quot;</span><span class="punctuation">:</span> <span class="string">&quot;mandarin&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>其中，app_id，api_secret，api_key是你在讯飞云控制台创建的新应用里，<code>语音听写（流式版）</code>中能找到的服务接口认证信息里的项目，请一一对应填写好即可。</p>
+<h3 id="翻译字幕"><a href="#翻译字幕" class="headerlink" title="翻译字幕"></a>翻译字幕</h3><p>这个API的运行依赖于一个开源库py-googletrans，使用它不需要注册账户，也不会产生费用，但是请不要滥用它。</p>
+<p>使用以下指令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">autosub -i 输入字幕文件 -SRC 源语言代码 -D 目的语言代码</span><br></pre></td></tr></table></figure>
+
+<p>语言代码需要用<code>-ltc</code>进行查看，譬如英语使用<code>en</code>，这与<code>-lsc</code>不同。</p>
+<p>从识别出的字幕中翻译字幕，将以下选项加入前面所说的语音识别的命令中就可以了：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-SRC 源语言代码 -D 目的语言代码</span><br></pre></td></tr></table></figure>
+
+<p>也可以不输入选项<code>-SRC</code>，不输入时，程序自动判断输入语言的类型，类似谷歌翻译中的<code>自动识别源语言</code>的功能。</p>
+<p>如果你无法连接<code>translate.google.com</code>，请在以上选项的基础上，添加该选项：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-surl <span class="string">&quot;translate.google.cn&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>这样就可以直接使用了。</p>
+<h3 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h3><p>因为是极简教程，篇幅有限，很多东西没有展开讲。更多信息请参考readme，help信息，或者后续的教程。当然啦，后续我也会出视频讲讲更多关于autosub的东西，不一定是教程，比如未来可能推出的功能。如果你觉得这期视频不错，或者想要支持autosub的开发，请通过以下方式支持我，我们下期再见。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>冰灵
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://binglinggroup.github.io/archives/autosub_057a_quick_guide.html" title="autosub-0.5.7a安装使用极速指南">https://binglinggroup.github.io/archives/autosub_057a_quick_guide.html</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%AD%97%E5%B9%95/" rel="tag"># 字幕</a>
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+              <a href="/tags/python/" rel="tag"># python</a>
+              <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
+              <a href="/tags/windows/" rel="tag"># windows</a>
+              <a href="/tags/autosub/" rel="tag"># autosub</a>
+              <a href="/tags/%E8%87%AA%E5%8A%A8%E5%AD%97%E5%B9%95/" rel="tag"># 自动字幕</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/CNSA-CASC-CASIC-diff.html" rel="prev" title="CNSA与CASC和CASIC的区别">
+                  <i class="fa fa-angle-left"></i> CNSA与CASC和CASIC的区别
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/the-true-reasons-of-N1-failures.html" rel="next" title="简谈N1失败的直接原因">
+                  简谈N1失败的直接原因 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">冰灵</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"https-binglinggroup-github-io","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>

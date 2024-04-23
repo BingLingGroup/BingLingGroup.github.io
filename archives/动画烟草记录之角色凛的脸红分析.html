@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"binglinggroup.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"default","style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。  目录  简介 截图分析 2.1E012327 2.2E021405 2.3E031351 2.4E040620 2.5E041126 2.6E071450 2.7E072008 2.8E080900 2.9E100820 2.10E101830 2.11E111338   总结与预测">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="(含图片80MB)动画烟草记录之角色凛的脸红分析">
+<meta property="og:url" content="https://binglinggroup.github.io/archives/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90.html">
+<meta property="og:site_name" content="冰灵的博客 | BingLing&#39;s Blog">
+<meta property="og:description" content="PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。  目录  简介 截图分析 2.1E012327 2.2E021405 2.3E031351 2.4E040620 2.5E041126 2.6E071450 2.7E072008 2.8E080900 2.9E100820 2.10E101830 2.11E111338   总结与预测">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123271.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123272.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123273.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123274.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123275.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123276.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123277.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123278.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0214051.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0214052.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0214053.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0214054.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0313511.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0313512.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1102591.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0406201.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0406202.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0406203.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0411261.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0411262.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0411263.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0411264.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0411265.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0714501.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0714502.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0714503.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0720081.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0720082.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0720083.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0809001.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0809002.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0809003.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0809004.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1008201.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1008202.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1008203.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1008204.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1008205.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1008206.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1018301.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1018302.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1018303.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1018304.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1018305.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1113382.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1113382.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1113383.PNG">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E1113384.jpg">
+<meta property="article:published_time" content="2019-03-27T21:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-23T04:48:32.000Z">
+<meta property="article:author" content="冰灵">
+<meta property="article:tag" content="动画">
+<meta property="article:tag" content="新番">
+<meta property="article:tag" content="截图">
+<meta property="article:tag" content="烟草动画">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90/E0123271.PNG">
+
+
+<link rel="canonical" href="https://binglinggroup.github.io/archives/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://binglinggroup.github.io/archives/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90.html","path":"archives/动画烟草记录之角色凛的脸红分析.html","title":"(含图片80MB)动画烟草记录之角色凛的脸红分析"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>(含图片80MB)动画烟草记录之角色凛的脸红分析 | 冰灵的博客 | BingLing's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">冰灵的博客 | BingLing's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <img class="custom-logo-image" src="/images/favicon.png" alt="冰灵的博客 | BingLing's Blog">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%88%AA%E5%9B%BE%E5%88%86%E6%9E%90"><span class="nav-number">2.</span> <span class="nav-text">截图分析</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#E012327"><span class="nav-number">2.1.</span> <span class="nav-text">E012327</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E021405"><span class="nav-number">2.2.</span> <span class="nav-text">E021405</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E031351"><span class="nav-number">2.3.</span> <span class="nav-text">E031351</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E040620"><span class="nav-number">2.4.</span> <span class="nav-text">E040620</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E041126"><span class="nav-number">2.5.</span> <span class="nav-text">E041126</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E071450"><span class="nav-number">2.6.</span> <span class="nav-text">E071450</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E072008"><span class="nav-number">2.7.</span> <span class="nav-text">E072008</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E080900"><span class="nav-number">2.8.</span> <span class="nav-text">E080900</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E100820"><span class="nav-number">2.9.</span> <span class="nav-text">E100820</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E101830"><span class="nav-number">2.10.</span> <span class="nav-text">E101830</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#E111338"><span class="nav-number">2.11.</span> <span class="nav-text">E111338</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%BB%E7%BB%93%E4%B8%8E%E9%A2%84%E6%B5%8B"><span class="nav-number">3.</span> <span class="nav-text">总结与预测</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="冰灵"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">冰灵</p>
+  <div class="site-description" itemprop="description">冰灵制作组的日志集散地</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">93</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/BingLingGroup" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;BingLingGroup" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://binglinggroup.github.io/archives/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="冰灵">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="冰灵制作组的日志集散地">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="(含图片80MB)动画烟草记录之角色凛的脸红分析 | 冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          (含图片80MB)动画烟草记录之角色凛的脸红分析
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-03-27 21:00:00" itemprop="dateCreated datePublished" datetime="2019-03-27T21:00:00Z">2019-03-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-04-23 04:48:32" itemprop="dateModified" datetime="2024-04-23T04:48:32Z">2024-04-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8A%A8%E7%94%BB%E6%9D%82%E8%B0%88/" itemprop="url" rel="index"><span itemprop="name">动画杂谈</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/archives/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90.html#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="archives/动画烟草记录之角色凛的脸红分析.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>PC版网页左上角从上到下第二个图标是目录，请多用目录。<br>网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。</p>
+</blockquote>
+<p><escape><font size=4>目录</font></escape></p>
+<ol>
+<li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li>
+<li><a href="#%E6%88%AA%E5%9B%BE%E5%88%86%E6%9E%90">截图分析</a><ul>
+<li>2.1<a href="#E012327">E012327</a></li>
+<li>2.2<a href="#E021405">E021405</a></li>
+<li>2.3<a href="#E031351">E031351</a></li>
+<li>2.4<a href="#E040620">E040620</a></li>
+<li>2.5<a href="#E041126">E041126</a></li>
+<li>2.6<a href="#E071450">E071450</a></li>
+<li>2.7<a href="#E072008">E072008</a></li>
+<li>2.8<a href="#E080900">E080900</a></li>
+<li>2.9<a href="#E100820">E100820</a></li>
+<li>2.10<a href="#E101830">E101830</a></li>
+<li>2.11<a href="#E111338">E111338</a></li>
+</ul>
+</li>
+<li><a href="#%E6%80%BB%E7%BB%93%E4%B8%8E%E9%A2%84%E6%B5%8B">总结与预测</a></li>
+</ol>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>趁着E12还没出来之前对凛和若叶的关系进行简要分析和预测。（不过这个文章发出来的时候好像已经放完了）</p>
+<p>虽然是这么说，但是这篇记录是做在E12之前的，所以文章中的观点和结论不会被结局影响。</p>
+<p>关于若叶的脸红场景，可以参考这篇<a target="_blank" rel="noopener" href="https://tieba.baidu.com/p/6080433176">若叶的脸红分析</a>。</p>
+<p>我承认我是看完E11之后，有点预设立场地看待这些脸红场景，不过还是想说服大家从一般后宫番的套路中跳出来，理解这些伏笔和E11的联系。</p>
+<p>通过搜索弹幕中的关键词找到大概11处凛因为若叶脸红的场景，分别是E01的23:27处，E02的14:05处，E03的13:51处，E04的06:20处，E04的11:26处，E07的14:50处，E07的20:08处，E07的20:08处，E08的09:00处，E10的08:20处，E10的18:30处，E11的13:38处。</p>
+<h3 id="截图分析"><a href="#截图分析" class="headerlink" title="截图分析"></a>截图分析</h3><h4 id="E012327"><a href="#E012327" class="headerlink" title="E012327"></a>E012327</h4><p><escape><div title="E0123271" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0123271.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0123271</div></escape></p>
+<p><escape><div title="E0123272" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0123272.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0123272</div></escape></p>
+<p><escape><div title="E0123273" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0123273.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0123273</div></escape></p>
+<p><escape><div title="E0123274" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0123274.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0123274</div></escape></p>
+<p><escape><div title="E0123275" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0123275.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0123275</div></escape></p>
+<p><escape><div title="E0123276" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0123276.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0123276</div></escape></p>
+<p><escape><div title="E01232767" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0123277.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0123277</div></escape></p>
+<p><escape><div title="E0123278" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0123278.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0123278</div></escape></p>
+<p>E012327这一幕其实驼鹿已经留下伏笔了，E01的ED过场，或者说这个不完整的ED的过场，只用了一片烟草，和其他集的不一样，其实已经是在明示凛脸红的原因来自记忆之叶，当然也有次要一点的原因，是若叶对凛想要保护姐妹的情感的揭露，让凛感到有些不好意思。类似的原因还有若叶对小绿的称赞导致律姐脸红和若叶对丽奈的称赞导致丽奈脸红，其实都是这个原因，但是要说成是恋爱，似乎还差得比较远。</p>
+<h4 id="E021405"><a href="#E021405" class="headerlink" title="E021405"></a>E021405</h4><p><escape><div title="E0214051" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0214051.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0214051</div></escape></p>
+<p><escape><div title="E0214052" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0214052.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0214052</div></escape></p>
+<p><escape><div title="E0214053" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0214053.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0214053</div></escape></p>
+<p><escape><div title="E0214054" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0214054.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0214054</div></escape></p>
+<p>E021405这一幕更是连续用两个特写镜头表明记忆之叶对凛的作用，特别是这一段凛回忆不起来但很感动的情形，其实正对应着E11里面莉莉对最后若叶的诀别的一种强烈的思念，特别是对若叶乐观精神的一种赞叹，或许也有着对自己不争气的一些后悔情绪在内。但要说凛和若叶之间的关系，在这个位置应该还没有展开。</p>
+<h4 id="E031351"><a href="#E031351" class="headerlink" title="E031351"></a>E031351</h4><p><escape><div title="E0313511" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0313511.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0313511</div></escape></p>
+<p><escape><div title="E0313512" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0313512.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0313512</div></escape></p>
+<p>E031351这一幕可以作两重理解，一种是凛认为若叶的观察是一种冒犯，感到了害羞，此处似乎可以引出一套恋爱心理学观点（雾），另一种则是可以解释成是E11的那一幕莉莉对若叶喜爱烟草的印象对凛产生了影响，又让凛脸红了。印象里E03这一集都是在讲若叶对烟草的好奇，所以我觉得后一种说法更可靠一些。而且莉莉分裂以后丧失了记忆，应该没有这么强烈的羞耻观吧，而且我觉得监督肯定也不是想着要表现这些东西的。</p>
+<p><escape><div title="E0313512" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1102591.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0313512</div></escape></p>
+<p>E11莉莉对若叶的评价。</p>
+<h4 id="E040620"><a href="#E040620" class="headerlink" title="E040620"></a>E040620</h4><p><escape><div title="E0406201" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0406201.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0406201</div></escape></p>
+<p><escape><div title="E0406202" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0406202.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0406202</div></escape></p>
+<p><escape><div title="E0406203" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0406203.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0406203</div></escape></p>
+<p>E040620这一幕我觉得就是比较明显地为凛这种外强中干（雾）的傲娇性格的刻画吧，若叶称赞一句，自己却很不好意思地回绝了，拿凉作为挡箭盘（这里字幕应该搞错了，我记得b站版是凉，绿是力的另一种翻译）</p>
+<h4 id="E041126"><a href="#E041126" class="headerlink" title="E041126"></a>E041126</h4><p><escape><div title="E0411261" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0411261.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0411261</div></escape></p>
+<p><escape><div title="E0411262" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0411262.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0411262</div></escape></p>
+<p><escape><div title="E0411263" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0411263.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0411263</div></escape></p>
+<p><escape><div title="E0411264" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0411264.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0411264</div></escape></p>
+<p><escape><div title="E0411265" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0411265.jpg" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0411265</div></escape></p>
+<p>E041126这一幕我觉得和E031351的解释差不多，可以解释成凛的羞耻心，也可以解释成记忆之叶的记忆，算是驼鹿反复暗示这片叶子的重要性，而且这里也是若叶第一次提出想研究记忆之叶，但是被凛拒绝了，若叶申请了三次才成功，所以弹幕里有人说非要最后到挖掘机那里再问的显然是没仔细看动画，若叶之前问了好几次了但是都被凛拒绝了，若叶也不想到最后再问的啊。</p>
+<h4 id="E071450"><a href="#E071450" class="headerlink" title="E071450"></a>E071450</h4><p><escape><div title="E0714501" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0714501.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0714501</div></escape></p>
+<p><escape><div title="E0714502" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0714502.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0714502</div></escape></p>
+<p><escape><div title="E0714503" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0714503.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0714503</div></escape></p>
+<p>E071450这一幕可以用E040620也就是凛的性格来解释，凛一直希望自己变强，不借助姐妹们的帮助，自己就能把姐妹们保护好（其实也有点像E11最后那里莉莉不想借助若叶的保护，想要自己解决问题一样），所以出现了帮大忙的若叶以后，凛心里其实放下了很大的担子，但是又不好意思把自己内心柔弱的一面表现出来，她的性格不像律姐那样直接一些，更喜欢装强（不过确实也挺强的，就算是傲娇吧）</p>
+<h4 id="E072008"><a href="#E072008" class="headerlink" title="E072008"></a>E072008</h4><p><escape><div title="E0720081" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0720081.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0720081</div></escape></p>
+<p><escape><div title="E0720082" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0720082.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0720082</div></escape></p>
+<p><escape><div title="E0720083" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0720083.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0720083</div></escape></p>
+<p>E072008这一幕可以用E021405来解释，同样也揭示了凛之前遭受的失去姐妹的痛苦有多大，让她都不敢往这么好的方向去想。</p>
+<h4 id="E080900"><a href="#E080900" class="headerlink" title="E080900"></a>E080900</h4><p><escape><div title="E0809001" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0809001.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0809001</div></escape></p>
+<p><escape><div title="E0809002" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0809002.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0809002</div></escape></p>
+<p><escape><div title="E0809003" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0809003.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0809003</div></escape></p>
+<p><escape><div title="E0809004" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E0809004.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E0809004</div></escape></p>
+<p>E080900这一幕也可以用E040620也就是凛的性格来解释，不过驼鹿这次给了一个镜头就是凛自己的叶子也开始发光了，这可能算是凛x若叶关系的一个正式展开，前面虽然有很多次脸红，但是都可以用别的方式解释过去，这里的特写就实在绕不过去了，只能说是凛对若叶确实是有感情了……不过我觉得若叶方面的回应剧情实在是太少了……预感这个cp到最后可能要虐。这之后就是若叶第二次，也是具体地问出要研究记忆之叶，但是又被凛拒绝了……只能说明凛脑子不转弯，想想还是陆姐好，开局五分钟马上交流两人共同爱好，互相脸红（雾）</p>
+<h4 id="E100820"><a href="#E100820" class="headerlink" title="E100820"></a>E100820</h4><p><escape><div title="E1008201" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1008201.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1008201</div></escape></p>
+<p><escape><div title="E1008202" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1008202.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1008202</div></escape></p>
+<p><escape><div title="E1008203" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1008203.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1008203</div></escape></p>
+<p><escape><div title="E1008204" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1008204.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1008204</div></escape></p>
+<p><escape><div title="E1008205" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1008205.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1008205</div></escape></p>
+<p><escape><div title="E1008206" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1008206.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1008206</div></escape></p>
+<p>E100820这一幕类似于E021405，凛惊讶于若叶虽然弱小但是勇敢的精神（此处应有小包：人类的赞歌，就是勇气的赞歌！）</p>
+<h4 id="E101830"><a href="#E101830" class="headerlink" title="E101830"></a>E101830</h4><p><escape><div title="E1018301" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1018301.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1018301</div></escape></p>
+<p><escape><div title="E1018302" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1018302.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1018302</div></escape></p>
+<p><escape><div title="E1018303" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1018303.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1018303</div></escape></p>
+<p><escape><div title="E1018304" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1018304.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1018304</div></escape></p>
+<p><escape><div title="E1018305" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1018305.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1018305</div></escape></p>
+<p>E101830这一幕若叶终于是提出了要看记忆之叶，而且是正当理由，或许这里有一个误会，若叶觉得是我喜欢摸烟草没错，凛如果已经有喜欢若叶的情感，大概已经误会成若叶更想要摸自己的那个烟草，而不仅仅是摸别的烟草（雾）（你是我的奶茶并感）</p>
+<h4 id="E111338"><a href="#E111338" class="headerlink" title="E111338"></a>E111338</h4><p><escape><div title="E1113381" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1113382.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1113382</div></escape></p>
+<p><escape><div title="E1113382" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1113382.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1113382</div></escape></p>
+<p><escape><div title="E1113383" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1113383.PNG" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1113383</div></escape></p>
+<p><escape><div title="E1113384" align="middle"><img src="
+https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/动画烟草记录之角色凛的脸红分析/E1113384.jpg" height="80%" width="80%"></div></escape><br><escape><div align="middle">E1113384</div></escape></p>
+<p>E111338这一幕接上E080900凛自己的叶子开始发光的线索，说明凛对若叶也有了情感，而不仅仅是记忆之叶。如果说是凛喜欢若叶，那还真是迟钝得厉害，不过若叶是一点这种想法都没有表现出来，大人就是要正经一点（雾）（若叶无论是大叔还是正太这种性格都超棒（雾</p>
+<h3 id="总结与预测"><a href="#总结与预测" class="headerlink" title="总结与预测"></a>总结与预测</h3><p>总结：</p>
+<p>凛对若叶脸红的原因大致三条：</p>
+<ol>
+<li><p>记忆之叶对若叶印象的影响</p>
+</li>
+<li><p>若叶对凛的称赞让凛感到不好意思，凛的性格，以及凛的经历</p>
+</li>
+<li><p>若叶对凛的帮助让凛很感动</p>
+</li>
+</ol>
+<p>预测：</p>
+<ol>
+<li><p>凛大概率还是会和若叶变成官配cp，但应该是凛主动追求若叶</p>
+</li>
+<li><p>如果有了别的走向，这对cp的结局可能会特别虐，譬如若叶对凛无感拒绝，或者凛消失了这种</p>
+</li>
+<li><p>如果最后变成很普通的boy meets girl……感觉E11神回的作用就被削弱很多了，若叶那种微妙的大叔感应该和同为大叔的<del>陆哥</del>陆姐配在一起的（雾）</p>
+</li>
+</ol>
+<p>PS:</p>
+<ol>
+<li><p><del>陆姐赛高</del></p>
+</li>
+<li><p>若叶是我的你们都别抢（便乘</p>
+</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>冰灵
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://binglinggroup.github.io/archives/%E5%8A%A8%E7%94%BB%E7%83%9F%E8%8D%89%E8%AE%B0%E5%BD%95%E4%B9%8B%E8%A7%92%E8%89%B2%E5%87%9B%E7%9A%84%E8%84%B8%E7%BA%A2%E5%88%86%E6%9E%90.html" title="(含图片80MB)动画烟草记录之角色凛的脸红分析">https://binglinggroup.github.io/archives/动画烟草记录之角色凛的脸红分析.html</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%8A%A8%E7%94%BB/" rel="tag"># 动画</a>
+              <a href="/tags/%E6%96%B0%E7%95%AA/" rel="tag"># 新番</a>
+              <a href="/tags/%E6%88%AA%E5%9B%BE/" rel="tag"># 截图</a>
+              <a href="/tags/%E7%83%9F%E8%8D%89%E5%8A%A8%E7%94%BB/" rel="tag"># 烟草动画</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/autosub%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97(windows%E5%8F%8Aubuntu).html" rel="prev" title="autosub安装使用指南(windows及ubuntu)(200302)">
+                  <i class="fa fa-angle-left"></i> autosub安装使用指南(windows及ubuntu)(200302)
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/KF2_reviews_no_good_at_all.html" rel="next" title="(含图片48MB)动物朋友2简评——塞住理客中的嘴">
+                  (含图片48MB)动物朋友2简评——塞住理客中的嘴 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">冰灵</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"https-binglinggroup-github-io","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>

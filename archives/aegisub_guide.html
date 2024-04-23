@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"binglinggroup.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"default","style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="题图来源 [1]PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。  目录  下载软件 软件初始设置 2.1 Win10系统DPI缩放 2.2 Aegisub默认选项调整 2.2.1 颜色标准 2.2.2 样式入门 2.2.3 特效入门     加载视频和音频 打轴 4.1 视频区打轴 4.2 音频区打轴   翻译 压制 6.1 作为m">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="aegisub使用指南">
+<meta property="og:url" content="https://binglinggroup.github.io/archives/aegisub_guide.html">
+<meta property="og:site_name" content="冰灵的博客 | BingLing&#39;s Blog">
+<meta property="og:description" content="题图来源 [1]PC版网页左上角从上到下第二个图标是目录，请多用目录。网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。  目录  下载软件 软件初始设置 2.1 Win10系统DPI缩放 2.2 Aegisub默认选项调整 2.2.1 颜色标准 2.2.2 样式入门 2.2.3 特效入门     加载视频和音频 打轴 4.1 视频区打轴 4.2 音频区打轴   翻译 压制 6.1 作为m">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/properties-compatibility.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/properties-compatibility-change-dpi.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/layer-number.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/overview.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/audio-view.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/video-view.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/video-view-buttons.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/audio-view-buttons.png">
+<meta property="article:published_time" content="2019-08-02T18:00:00.000Z">
+<meta property="article:modified_time" content="2024-04-23T06:02:20.000Z">
+<meta property="article:author" content="冰灵">
+<meta property="article:tag" content="字幕">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="时间轴">
+<meta property="article:tag" content="aegisub">
+<meta property="article:tag" content="x264">
+<meta property="article:tag" content="压制">
+<meta property="article:tag" content="Premiere">
+<meta property="article:tag" content="帧服务器">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/properties-compatibility.png">
+
+
+<link rel="canonical" href="https://binglinggroup.github.io/archives/aegisub_guide.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://binglinggroup.github.io/archives/aegisub_guide.html","path":"archives/aegisub_guide.html","title":"aegisub使用指南"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>aegisub使用指南 | 冰灵的博客 | BingLing's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">冰灵的博客 | BingLing's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <img class="custom-logo-image" src="/images/favicon.png" alt="冰灵的博客 | BingLing's Blog">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6"><span class="nav-number">1.</span> <span class="nav-text">下载软件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E5%88%9D%E5%A7%8B%E8%AE%BE%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">软件初始设置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Win10%E7%B3%BB%E7%BB%9FDPI%E7%BC%A9%E6%94%BE"><span class="nav-number">2.1.</span> <span class="nav-text">Win10系统DPI缩放</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Aegisub%E9%BB%98%E8%AE%A4%E9%80%89%E9%A1%B9%E8%B0%83%E6%95%B4"><span class="nav-number">3.</span> <span class="nav-text">Aegisub默认选项调整</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A2%9C%E8%89%B2%E6%A0%87%E5%87%86"><span class="nav-number">3.1.</span> <span class="nav-text">颜色标准</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%B7%E5%BC%8F%E5%85%A5%E9%97%A8"><span class="nav-number">3.2.</span> <span class="nav-text">样式入门</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%89%B9%E6%95%88%E5%85%A5%E9%97%A8"><span class="nav-number">3.3.</span> <span class="nav-text">特效入门</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%A0%E8%BD%BD%E8%A7%86%E9%A2%91%E5%92%8C%E9%9F%B3%E9%A2%91"><span class="nav-number">4.</span> <span class="nav-text">加载视频和音频</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%93%E8%BD%B4"><span class="nav-number">5.</span> <span class="nav-text">打轴</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A7%86%E9%A2%91%E5%8C%BA%E6%89%93%E8%BD%B4"><span class="nav-number">5.1.</span> <span class="nav-text">视频区打轴</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%9F%B3%E9%A2%91%E5%8C%BA%E6%89%93%E8%BD%B4"><span class="nav-number">5.2.</span> <span class="nav-text">音频区打轴</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BF%BB%E8%AF%91"><span class="nav-number">6.</span> <span class="nav-text">翻译</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8E%8B%E5%88%B6"><span class="nav-number">7.</span> <span class="nav-text">压制</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%9C%E4%B8%BAmov%E5%AF%BC%E5%85%A5%E9%9D%9E%E7%BC%96"><span class="nav-number">7.1.</span> <span class="nav-text">作为mov导入非编</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%B8%A7%E6%9C%8D%E5%8A%A1%E5%99%A8-avisynth%E5%8E%8B%E5%88%B6"><span class="nav-number">7.2.</span> <span class="nav-text">使用帧服务器-avisynth压制</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">8.</span> <span class="nav-text">其他</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-number">9.</span> <span class="nav-text">注释</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="冰灵"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">冰灵</p>
+  <div class="site-description" itemprop="description">冰灵制作组的日志集散地</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">93</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/BingLingGroup" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;BingLingGroup" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://binglinggroup.github.io/archives/aegisub_guide.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="冰灵">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="冰灵制作组的日志集散地">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="aegisub使用指南 | 冰灵的博客 | BingLing's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          aegisub使用指南
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2019-08-02 18:00:00" itemprop="dateCreated datePublished" datetime="2019-08-02T18:00:00Z">2019-08-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-04-23 06:02:20" itemprop="dateModified" datetime="2024-04-23T06:02:20Z">2024-04-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%BC%94%E7%A4%BA/" itemprop="url" rel="index"><span itemprop="name">演示</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/archives/aegisub_guide.html#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="archives/aegisub_guide.html" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>题图来源 <escape><a name = "ref_1_s" href="#ref_1_d"><sup>[1]</sup></a></escape><br>PC版网页左上角从上到下第二个图标是目录，请多用目录。<br>网页右下角按钮为返回顶部，请多用返回顶部来查看顶部目录。</p>
+</blockquote>
+<p><escape><font size=4>目录</font></escape></p>
+<ol>
+<li><a href="#%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6">下载软件</a></li>
+<li><a href="#%E8%BD%AF%E4%BB%B6%E5%88%9D%E5%A7%8B%E8%AE%BE%E7%BD%AE">软件初始设置</a><ul>
+<li>2.1 <a href="#win10%E7%B3%BB%E7%BB%9Fdpi%E7%BC%A9%E6%94%BE">Win10系统DPI缩放</a></li>
+<li>2.2 <a href="#aegisub%E9%BB%98%E8%AE%A4%E9%80%89%E9%A1%B9%E8%B0%83%E6%95%B4">Aegisub默认选项调整</a><ul>
+<li>2.2.1 <a href="#%E9%A2%9C%E8%89%B2%E6%A0%87%E5%87%86">颜色标准</a></li>
+<li>2.2.2 <a href="#%E6%A0%B7%E5%BC%8F%E5%85%A5%E9%97%A8">样式入门</a></li>
+<li>2.2.3 <a href="#%E7%89%B9%E6%95%88%E5%85%A5%E9%97%A8">特效入门</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%8A%A0%E8%BD%BD%E8%A7%86%E9%A2%91%E5%92%8C%E9%9F%B3%E9%A2%91">加载视频和音频</a></li>
+<li><a href="#%E6%89%93%E8%BD%B4">打轴</a><ul>
+<li>4.1 <a href="#%E8%A7%86%E9%A2%91%E5%8C%BA%E6%89%93%E8%BD%B4">视频区打轴</a></li>
+<li>4.2 <a href="#%E9%9F%B3%E9%A2%91%E5%8C%BA%E6%89%93%E8%BD%B4">音频区打轴</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BF%BB%E8%AF%91">翻译</a></li>
+<li><a href="#%E5%8E%8B%E5%88%B6">压制</a><ul>
+<li>6.1 <a href="#%E4%BD%9C%E4%B8%BAmov%E5%AF%BC%E5%85%A5%E9%9D%9E%E7%BC%96">作为mov导入非编</a></li>
+<li>6.2 <a href="#%E4%BD%BF%E7%94%A8%E5%B8%A7%E6%9C%8D%E5%8A%A1%E5%99%A8-avisynth%E5%8E%8B%E5%88%B6">使用帧服务器-avisynth压制</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%B6%E4%BB%96">其他</a></li>
+<li><a href="#%E6%B3%A8%E9%87%8A">注释</a></li>
+</ol>
+<h3 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h3><p><a target="_blank" rel="noopener" href="https://aegi.vmoe.info/downloads/">下载地址</a></p>
+<p>完整版为安装包版本，便携版为免安装的版本，如果是windows系统，下载32位版本，建议使用安装包版本。</p>
+<h3 id="软件初始设置"><a href="#软件初始设置" class="headerlink" title="软件初始设置"></a>软件初始设置</h3><h4 id="Win10系统DPI缩放"><a href="#Win10系统DPI缩放" class="headerlink" title="Win10系统DPI缩放"></a>Win10系统DPI缩放</h4><p><escape><div title="属性-兼容性" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/properties-compatibility.png" height="60%" width="60%"></div><div align="middle">属性-兼容性</div></br><div title="更改高DPI设置" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/properties-compatibility-change-dpi.png" height="60%" width="60%"></div><div align="middle">更改高DPI设置</div></escape></p>
+<p>属性-兼容性-更改高DPI设置-替代高DPI缩放行为-应用程序。<br>这样能让软件显示更加清楚。</p>
+<h3 id="Aegisub默认选项调整"><a href="#Aegisub默认选项调整" class="headerlink" title="Aegisub默认选项调整"></a>Aegisub默认选项调整</h3><h4 id="颜色标准"><a href="#颜色标准" class="headerlink" title="颜色标准"></a>颜色标准</h4><p>打开Aegisub，选择菜单栏查看-选项，选择左侧高级-视频一栏，取消选择<code>强制BT.601</code>，现在越来越多的视频都是原生720P以上的了，原生720P以上的视频建议用BT.709，否则会有色差。</p>
+<h4 id="样式入门"><a href="#样式入门" class="headerlink" title="样式入门"></a>样式入门</h4><p>参见<a target="_blank" rel="noopener" href="https://aegi.vmoe.info/docs/3.2/Styles/">官方教程</a>，个人建议为避免侵权，请使用这些<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/27302723">商用免费字体</a>，个人推荐思源宋体和思源黑体。</p>
+<p>好看的样式一般为，字体主要颜色为白色或亮色，边框颜色为黑色或暗色，无阴影，不会调色的推荐用android应用（酷安）MD配色参考，或者是<a target="_blank" rel="noopener" href="https://material.io/resources/color">网页版material design取色器</a>。</p>
+<p>至于以下两种搭配，一是较大的字重配合较细的边框，二是较小的字重配合较粗的边框，可根据自己的喜好自行选择。不过我个人是推荐使用部分透明的厚边框搭配较小字重使用，譬如厚度达到或超过4像素，透明度90，字重为medium甚至更小。</p>
+<p>如果喜欢模糊特效的，可以通过菜单栏-自动化-添加边角模糊，<code>Ctrl-A</code>全选，然后再<code>Ctrl-H</code>将<code>&#123;\be1&#125;</code>标签全部替换成<code>&#123;\blur4&#125;</code>以达到效果。<code>blur</code>的模糊感比<code>be</code>更好，这里只是借助脚本批量添加特效而已。如果对选择对象有疑虑的，可以考虑使用菜单栏-字幕-选择多行功能。</p>
+<h4 id="特效入门"><a href="#特效入门" class="headerlink" title="特效入门"></a>特效入门</h4><p>续上，如果喜欢有模糊阴影特效的，aegisub不能直接添加带模糊的阴影，但是可以曲线救国，复制相关字幕行，将边框调至0，主要颜色调为你需要的阴影颜色，然后加<code>&#123;\blur&#125;</code>标签，这样即可达到字体本身模糊而非边框模糊的效果。</p>
+<p>为了和普通字幕有一定位移差距，可以添加<code>&#123;\pos&#125;</code>标签来控制位置，同时<code>&#123;\pos&#125;</code>标签也可以通过视频区最左一列向下第二个拖放字幕按钮控制。注意位置的控制和行对齐方式<code>&#123;\a&#125;</code>有关。</p>
+<p>正常情况下渲染器是不允许字幕重叠的，除非添加了自定义<code>&#123;\pos&#125;</code>标签，或者添加了层次编号。在添加了<code>&#123;\pos&#125;</code>标签不加层次编号的情况下，其图层上下是以字幕在字幕行位置的先后顺序来控制的，换句话说字幕行位置越靠前，图层越靠下。</p>
+<p><escape><div title="层次编号" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/layer-number.png" height="80%" width="80%"></div><div align="middle">层次编号</div></escape></p>
+<p>层次编号也是类似的，层次编号在文本区最左边，0为最底层，数字越大层越靠上。相关的特效标签详细描述，包括一些匀速运动效果的制作，可以参考ass<a target="_blank" rel="noopener" href="https://aegi.vmoe.info/docs/3.2/ASS_Tags/">特效标签</a>。以及很重要的<a target="_blank" rel="noopener" href="https://aegi.vmoe.info/docs/3.2/Karaoke_Timing_Tutorial/">卡拉OK特效制作</a>。</p>
+<h3 id="加载视频和音频"><a href="#加载视频和音频" class="headerlink" title="加载视频和音频"></a>加载视频和音频</h3><p>选择菜单栏视频-打开视频，选择视频文件打开。</p>
+<p><escape><div title="界面一览" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/overview.png" height="80%" width="80%"></div><div align="middle">界面一览</div></escape></p>
+<p>打开之后的界面如图所示，左上为视频区，右上为音频区，音频区下方为文字编辑区，文字编辑区下方是字幕栏。这里我们需要知道一个概念叫做焦点，如果你之前动过音频编辑区中的按键，那你的焦点就停留在音频区，无法使用别的区的快捷键，其他的也是类似。</p>
+<p><escape><div title="音频区" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/audio-view.png" height="80%" width="80%"></div><div align="middle">音频区</div></escape></p>
+<p>音频区建议打开频谱分析模式，而不是波形图模式。频谱分析模式的按钮在右下角从右到左第三个，这样查看人声区域更为直观，而波形图可能会把人声和其他声音看混。</p>
+<p>注意保存！虽然该软件每隔60秒就会自动保存一次，但是不包含自动恢复功能（需要自己去<code>C:\Users\你的用户名\AppData\Roaming\Aegisub\autosave</code>下找，或者在菜单栏查看-选项-备份中自己选择自动保存目录），我建议定期使用<code>Ctrl-S</code>快捷键进行保存。</p>
+<p>所有快捷键都可以在选项-热键中修改，如果对以下介绍的快捷键不爽可以自己改。</p>
+<h3 id="打轴"><a href="#打轴" class="headerlink" title="打轴"></a>打轴</h3><p>打轴主要有两种方式。</p>
+<p>视频区打轴主要是面向视频画面的打轴，效率较低，建议只在特殊情况下使用。</p>
+<p>音频区打轴效率较高，建议作为主要的对话字幕的打轴方式。</p>
+<p>还有一种邪典打轴是先使用软件自动生成时间轴，再作调整，这方面比较便利的工具是subtitleedit，右键subtitleedit的音频区就可以找到一个猜测时间码，然后自动生成时间轴，如果不愿意在subtitleedit编辑字幕，也可以导出成srt或者ass再用aegisub来编辑。另外一个在自动探测时间轴上更准确的工具是autosub ，中文版的<a target="_blank" rel="noopener" href="https://github.com/BingLingGroup/autosub/blob/dev/docs/README.zh-Hans.md">使用说明</a>，只要输入-i xxx参数即可自动生成时间轴。（生成时间轴均是本地生成，不需要联网）</p>
+<p>subtitleedit真正强大的地方在于可以OCR各种硬字幕，大家如果有需求可以深入研究。</p>
+<p>对话字幕的打轴标准是，一行字幕不要过长，导致左边视频区的字幕发生折行现象。如果折行不是很明显，可以在字幕内容最前部分添加标签<code>&#123;\fs&#125;</code>。如果实在太长，请根据实际语意分句，后方音频区打轴会介绍分句的操作。</p>
+<h4 id="视频区打轴"><a href="#视频区打轴" class="headerlink" title="视频区打轴"></a>视频区打轴</h4><p><escape><div title="视频区" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/video-view.png" height="80%" width="80%"></div><div align="middle">视频区</div></escape></p>
+<p>视频区从左到右第9个按钮，是将当前视频区的时间，设置成当前字幕的起始时间<code>Ctrl-3</code>。</p>
+<p>第10个则是设置成结束时间<code>Ctrl-4</code>。有时候根据视频定位还是很有用的，譬如做那些字幕组常见的对场景的操作。在这种情况下，保持焦点在视频区这边，然后用鼠标滚轮可以按帧细调时间，非常方便对场景。</p>
+<p>左边两个按钮则刚好相反，是让视频界面的时间，设置成字幕的始&#x2F;末时间，快捷键分别是<code>Ctrl-1</code>和<code>Ctrl-2</code>。</p>
+<p>当前字幕指的是当前字幕区选中的字幕，这里推荐将选项-视频里的<code>选择行改变后，视频位置变为所选行的开始时间</code>这一项取消了勾选，意味着原先单击就会改变视频位置，现在需要双击，这样可以方便我们在不需要改变当前活动行或者说当前视频位置的时候，单击别的行更改别的行的文字。</p>
+<p><escape><div title="视频区下方" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/video-view-buttons.png" height="80%" width="80%"></div><div align="middle">视频区下方</div></escape></p>
+<p>至于视频区下方的控件，第一个播放按钮就是播放视频<code>Ctrl-P</code>，第二个则是播放字幕行内视频<code>Home</code>，建议修改为自己习惯用的按键。</p>
+<h4 id="音频区打轴"><a href="#音频区打轴" class="headerlink" title="音频区打轴"></a>音频区打轴</h4><p><escape><div title="音频区下方" align="middle"><img src="https://raw.githubusercontent.com/BingLingGroup/BingLingGroup.github.io/img/aegisub_guide/audio-view-buttons.png" height="80%" width="80%"></div><div align="middle">音频区下方</div></escape></p>
+<p>对音频区的编辑，需要用到的快捷键主要有这三个。</p>
+<ul>
+<li>R播放所选部分音频区间，对应上图左至右第二个按键。</li>
+<li>E播放所选部分头500毫秒，对应上图左至右第六个按键。</li>
+<li>D播放所选部分尾500毫秒，对应上图左至右第七个按键。</li>
+</ul>
+<p>如果焦点不在音频区，请用鼠标点击这一栏中的按键完成操作。<br>注意默认生成新行的计时长度，可以在选项-音频中进行调整。</p>
+<p>一种使用方法是左手食指D键，中指R键，无名指E键控制音频播放，右手鼠标控制始末时间。</p>
+<p>注意拖动时按左键和不拖动按左键的行为不一样，不拖动按左键是控制开始或者结束时间，但是拖动时按左键会让上一个结束时间成为开始时间，当前位置成为结束时间。右键没有这个逻辑，如果用不到这个逻辑，建议取消勾选选项-音频-左键点击拖动动作结束标记。</p>
+<p>注意编辑信息只有回车提交改动后才会保存，所以这段时间内不要切换到视频区。当一行时间轴制作完毕后，右手回车确认当前行，然后跳到下一行字幕。</p>
+<p>如果对时间轴的长句断句效果不满意，可以有两种方式重新分句，一种是将原本在剧本中的长句对应的多行字幕选中(多选请按住<code>Shift</code>键或者<code>Ctrl</code>键，效果不同)右键-合并(连接J)，然后根据自己的喜好将光标放在下半句的第一个词前面，右键-在光标处分割(概略计时)，如不满意再根据此结果微调。另一种则是直接拖动音频区开始结束时间进行调整，如果行数不够可以通过选中右键-插入(之后)来增加。</p>
+<p>如果要中途插入时间轴，那么选择最下方的字幕栏区域，根据你当前行的时间位置，右键选择插入(之前)或者插入(之后)，然后在新生成的字幕行中重复以上分句操作。</p>
+<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>如果是制作双语字幕，翻译前首先确认是否复制了时间轴，如果没有，点中字幕栏中任意一行字幕，使用快捷键<code>Ctrl-A</code>全选所有行字幕，使用<code>Ctrl-C</code>复制，然后选择最下面的空行，使用<code>Ctrl-V</code>粘贴，这样就获得了中文字幕的时间轴。如果没有空行，请选择最后一行后右键插入之后来添加一行，或者回车也可以。</p>
+<p>翻译时，可以在文字编辑区删除原文这样来进行翻译，不过我不太推荐。更好的方式则是选择菜单栏字幕-翻译助手，进行翻译，借助翻译助手的快捷键，翻译效率会更高一些。</p>
+<h3 id="压制"><a href="#压制" class="headerlink" title="压制"></a>压制</h3><p>字幕做好以后就是压制。如果你是普通搬运工，已经有生肉的情况下，不需要加特效那些必须要非编实现的东西，那么直接使用小丸工具箱压制即可，相关教程参见<a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv311967">磁爆线圈X的文章</a>。</p>
+<p>以下主要讲解较为冷门的，两种配合非编使用，输出带字幕视频的方法，一般多用于原创类视频压制。</p>
+<ul>
+<li>因为制作ass字幕时必须要有视频，所以你在正式输出带字幕的视频之前，肯定已经输出了一版不带字幕的视频了。这里介绍的方法则是从非编中只经过一次压制出来的带字幕视频的压制方法（俗称直出），而非在用于aegisub读取的无字幕视频上再压制得到的带字幕视频的压制方法（俗称二压，画质损失会比前者大）。当然这也暗示了你可以在第一版不带字幕视频上面用较差参数获得较快输出的速度，<del>反正也不是用在最终视频上面画质差一点无所谓。另行参考：画质大敌<a target="_blank" rel="noopener" href="https://github.com/zyzsdy/NegativeEncoder">消极压制</a>。</del></li>
+</ul>
+<h4 id="作为mov导入非编"><a href="#作为mov导入非编" class="headerlink" title="作为mov导入非编"></a>作为mov导入非编</h4><p>如果是作为mov导入非编，想要在非编里面把字幕压制上的，而不是通过帧服务器的，推荐使用<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/42359025/answer/277296784">ffmpeg的一条指令</a>来压制含透明通道的字幕视频。原理：通过lavfi生成mov封装的png视频流格式，参见<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/46315483/ffmpeg-create-a-transparent-background-with-lavfi">stackoverflow</a>以及ffmpeg官方的<a target="_blank" rel="noopener" href="https://ffmpeg.org/ffmpeg-filters.html">ffmpeg-filters文档</a>。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -y -f lavfi -i <span class="string">&quot;color=color=背景色:rate=帧率:size=尺寸,format=rgba,subtitles=字幕文件名:alpha=1&quot;</span> -c:v png -t <span class="string">&quot;hh:mm:ss.000&quot;</span> 目标文件名.mov -stats</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>背景色：空白视频的背景颜色，透明的背景可以使用<code>0xFFFFFF00</code>，颜色格式<a target="_blank" rel="noopener" href="https://ffmpeg.org/ffmpeg-utils.html#color-syntax">参考</a>。注意，虽然表面上看任何透明度设置为00的背景都为透明，但实际上在字体边缘会出现非透明色，而非透明色即为透明度值以外所设置的颜色，如0xFFFFFF为白色。所以正常情况下还是建议生成绿幕mp4视频，并用色键&#x2F;超级键之类的功能进行抠图后使用，这样不会有色边问题困扰。如果字幕边缘色，如边框以及阴影，只有一种，那么可以考虑设置为字幕边缘颜色，如字幕边缘颜色为黑色的情况下，设置为0x000000000。</li>
+<li>帧率：整数或者整数相除形式如<code>24000/1001</code>（23.976fps即NTSC）。这会直接影响到字幕特效的流畅度，建议至少达到你要导入的项目的帧率。</li>
+<li>尺寸：类似<code>1920x1080</code>的形式。</li>
+<li>字幕文件名：如果有空格，请用单引号包围。<ul>
+<li>暂时没找到填写绝对路径的方法，建议填写当前路径的文件。</li>
+<li>或者说在文件浏览器下使用<code>Shift - 左键</code>从当前文件夹打开Powershell后使用。</li>
+</ul>
+</li>
+<li>hh:mm:ss.000：小时：分钟：秒.毫秒，这个需要自己根据最晚一行字幕的时间填写，是空白视频的持续时间，至少应该达到你的字幕的持续时间，ffmpeg不会帮你判断你的字幕有多长时间。</li>
+<li>目标文件名：如果有空格，请用引号包围。</li>
+</ul>
+<p>而ffmpeg的安装建议使用<a target="_blank" rel="noopener" href="https://chocolatey.org/install">chocolatey</a>，这样可以把ffmpeg加到环境变量里面，可以在任意目录使用。</p>
+<p>安装时的命令为：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">choco install ffmpeg -y</span><br></pre></td></tr></table></figure>
+
+<p>请使用管理员权限打开cmd或者powershell后输入安装命令。</p>
+<p>Vegas导入mov后，记得在mov文件-属性-媒体-Alpha通道中，修改为<code>直接(非蒙版的)</code>即可。注意如果有色差，是vegas自己的问题，需要在项目属性中确保：</p>
+<ul>
+<li>像素格式 -<code>32-bit浮点（全范围）</code></li>
+<li>gamma合成量 -<code>2.222（视频）</code></li>
+<li>查看转变 -<code>关</code></li>
+</ul>
+<h4 id="使用帧服务器-avisynth压制"><a href="#使用帧服务器-avisynth压制" class="headerlink" title="使用帧服务器-avisynth压制"></a>使用帧服务器-avisynth压制</h4><p>推荐通过小丸工具箱配合使用，压制参数和相关教程参见<a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv311975">磁爆线圈X的文章</a>，搜索关键词<code>帧服务器</code>即可跳转到。注意vegas使用的帧服务器则是debug mode frameserver。</p>
+<p>主要是通过avs挂载字幕压制来做到的，在遵循前面的文章，打开小丸工具箱的avs界面准备填语句时，改成以下即可。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">plugin_source_name = <span class="string">&quot;小丸工具箱父目录\小丸工具箱236\tools\avs\plugins\VSFilter.DLL&quot;</span></span><br><span class="line">video_source_name = <span class="string">&quot;视频文件&quot;</span></span><br><span class="line">ass_source_name = <span class="string">&quot;字幕文件&quot;</span></span><br><span class="line"></span><br><span class="line">LoadPlugin(plugin_source_name)</span><br><span class="line">AVISource(video_source_name)</span><br><span class="line">ConvertToYV12(matrix = <span class="string">&quot;Rec709&quot;</span>)</span><br><span class="line">textsub(ass_source_name)</span><br></pre></td></tr></table></figure>
+
+<p>注意该教程还有<a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv311967">上篇</a>，上篇中的防二压参数对于大会员画质（分辨率不超过1080P，帧率30fps+或码率3000kbps-6000kbps）依然有效。</p>
+<p>虽然原作者只给出了在设置-自定义命令行来定义2pass参数的使用方法，但是我们也可以用在小丸工具箱前面的自定义模式下面自己创建CRF模式下的参数（当然CRF模式比较难控制码率，这个根据个人喜欢来使用），方法是将其参数复制下来之后，在视频-自定义模式下填入参数，然后按照个人喜好再加<code>--crf xx</code>即可，注意crf的值不要超过23，crf的值超过23画质损失就比较明显了，动态视力好的人可能就能发现了，传b站crf的值也不建议低于21，除非你的视频静态画面特别多，甚至是PPT的那种。</p>
+<p>注意不要轻信网上说的高压参数，这个世界上只有妥协压制没有真正的高压参数，即使是h265或者说HEVC也只能做到比h264高30%的效率而已（虽然现在b站还不支持）。或者换句话说磁爆线圈X的这套参数基本已经是对硬件要求比较高的情况下可以允许的最好的高压参数了，其他参数调了可能还会被b站二压，自己用倒无所谓，特别是他这套参数还是对b站进行优化的。</p>
+<p>以及，帧服务器的音轨要单独压制，可以用非编单独输出aac&#x2F;flac音频，然后用小丸封装&#x2F;压制后再封装。</p>
+<p>注意Vapoursynth不支持这种玩法。至少我没发现，有谁知道的可以分享出来。</p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>由于b站对1080P30fps以下且3000kbps以下的视频采取无条件二压，如果有人想要通过强行提帧率的方式而非提码率的方式进入大会员领域从而变相防止二压，可以了解一下<a target="_blank" rel="noopener" href="https://lolicon.link/2017/02/11/using-svp4-in-video-processing/">SVP补帧技术</a>，注意如果使用帧服务器源的avs似乎不能再套avs版的SVP，好像会炸，当然机器好的也可以试试。</p>
+<p>这里推荐用Vapoursynth（二压就二压吧，补帧要紧.jpg）+SVP的方法，Vapoursynth套字幕建议使用Vapoursynth版vsfilter，<del>在nmm的一个角落里可以下载到</del><a target="_blank" rel="noopener" href="https://github.com/sorayuki/VSFilterMod/releases">github上有</a>。</p>
+<p>Vapoursynth的使用方法，建议参考<a target="_blank" rel="noopener" href="https://vcb-s.nmm-hd.org/">VCB-S教程专栏</a>，或者去官网查文档。</p>
+<p>当然实际上用非编的话，也可以假补帧，通过关闭帧数重采样，但是输出超过30帧视频的方式。虽然这样有点浪费码率，但是对于字幕效果还是有加成的，你的字幕会按照高帧率的画面进行渲染，一些特效动画会更加细腻。</p>
+<p>附：</p>
+<p>我的SVP Vapoursynth参数是（个人已调整至最优，不太建议改动，除非你知道自己在做什么）：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> vapoursynth <span class="keyword">as</span> vs</span><br><span class="line"><span class="keyword">import</span> mvsfunc <span class="keyword">as</span> mvf</span><br><span class="line"></span><br><span class="line">core = vs.get_core()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 把这俩 DLL 拷贝到 VapourSynth\plugins64 先</span></span><br><span class="line"><span class="comment"># core.std.LoadPlugin(&quot;libsvpflow1_vs64.so&quot;)</span></span><br><span class="line"><span class="comment"># core.std.LoadPlugin(&quot;libsvpflow2_vs64.so&quot;)</span></span><br><span class="line"></span><br><span class="line">svp_frame_num = <span class="number">50</span></span><br><span class="line">svp_frame_den = <span class="number">1</span></span><br><span class="line"></span><br><span class="line">source_file = <span class="string">r&quot;视频文件&quot;</span></span><br><span class="line">sub_file = <span class="string">r&quot;字幕文件&quot;</span></span><br><span class="line"><span class="comment"># 不要删掉r，r表示Python原始字符串，这样可以在r修饰的字符串里面填写反斜线</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># source_0 open</span></span><br><span class="line">clip = core.lsmas.LWLibavSource(source=source_file, <span class="built_in">format</span>=<span class="string">&quot;yuv420p8&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 运动向量精度 0.5 像素</span></span><br><span class="line"><span class="comment"># 使用 GPU 渲染</span></span><br><span class="line"><span class="comment"># 放大使用 Wiener interpolation(类似 Lanczos 6tap)</span></span><br><span class="line"><span class="comment"># 缩小使用类似 BicubicResize(b=1,c=0) 的 cubic filter</span></span><br><span class="line"><span class="built_in">super</span> = core.svp1.Super(clip, <span class="string">&quot;&#123;scale:&#123;up:2, down:4&#125;, pel:2, gpu:1&#125;&quot;</span>)</span><br><span class="line"><span class="comment"># 使用 GPU 渲染</span></span><br><span class="line"><span class="comment"># 搜索的运动矢量的方向时包含前向后向</span></span><br><span class="line"><span class="comment"># 搜索的块大小 = 32x32 每个方向重叠四分之一个块</span></span><br><span class="line"><span class="comment"># 精细搜索使用彻底搜索</span></span><br><span class="line"><span class="comment"># 粗略搜索使用六边形搜索</span></span><br><span class="line">vectors = core.svp1.Analyse(</span><br><span class="line">    <span class="built_in">super</span>[<span class="string">&quot;clip&quot;</span>],</span><br><span class="line">    <span class="built_in">super</span>[<span class="string">&quot;data&quot;</span>],</span><br><span class="line">    clip,</span><br><span class="line">    <span class="string">&quot;&#123;gpu:1, vectors:3, block:&#123;w:32, overlap:3&#125;, main:&#123;type:4, search:&#123;coarse:&#123;type:2, distance:-6, bad:&#123;sad:2000, range:24&#125;&#125;&#125;&#125;, refine:[&#123;thsad:250&#125;]&#125;&quot;</span>)</span><br><span class="line"><span class="comment"># 渲染算法 =</span></span><br><span class="line"><span class="comment">#    时间加权之下混合前向和后向部分运动向量补偿 +</span></span><br><span class="line"><span class="comment">#    额外的遮罩减小光晕提升物体边缘线条质量 +</span></span><br><span class="line"><span class="comment">#    额外的运动向量进一步减少光晕</span></span><br><span class="line"><span class="comment"># 帧插补 = 自动判断</span></span><br><span class="line">smooth = core.svp2.SmoothFps(</span><br><span class="line">    clip, </span><br><span class="line">    <span class="built_in">super</span>[<span class="string">&quot;clip&quot;</span>], </span><br><span class="line">    <span class="built_in">super</span>[<span class="string">&quot;data&quot;</span>], </span><br><span class="line">    vectors[<span class="string">&quot;clip&quot;</span>], </span><br><span class="line">    vectors[<span class="string">&quot;data&quot;</span>],</span><br><span class="line">    <span class="string">&quot;&#123;&#123;gpuid:0, rate:&#123;&#123;num:&#123;sfn&#125;, den:&#123;sfd&#125;, abs:true&#125;&#125;, algo:2, mask:&#123;&#123;area:200&#125;&#125;, scene:&#123;&#123;mode:3&#125;&#125;&#125;&#125;&quot;</span>.<span class="built_in">format</span>(sfn=svp_frame_num, sfd=svp_frame_den))</span><br><span class="line"></span><br><span class="line">smooth = core.std.AssumeFPS(</span><br><span class="line">    smooth,</span><br><span class="line">    fpsnum=smooth.fps_num,</span><br><span class="line">    fpsden=smooth.fps_den)</span><br><span class="line"></span><br><span class="line">smooth = mvf.Depth(smooth, depth=<span class="number">10</span>)</span><br><span class="line"><span class="comment"># 添加字幕时使用10bit色深，觉得没用可以改回8bit</span></span><br><span class="line">ass_out = core.vsfm.TextSubMod(clip=smooth, file=sub_file)</span><br><span class="line"><span class="comment"># 注意这里字幕文件添加位置在补帧之后，补帧之前添加字幕会污染画面</span></span><br><span class="line">ass_out = mvf.Depth(ass_out, depth=<span class="number">8</span>)</span><br><span class="line">ass_out.set_output()</span><br></pre></td></tr></table></figure>
+
+<h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p>点击上箭头字符可返回原位置，方括号中的数字表示引用的次序。<br><escape><a name = "ref_1_d" href = "#ref_1_d">[1]</a></escape> <escape><a href = "#ref_1_s">↑</a></escape> <escape><a href = "http://www.aegisub.org/">aegisub官网</a></escape></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>原作者： </strong>冰灵
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://binglinggroup.github.io/archives/aegisub_guide.html" title="aegisub使用指南">https://binglinggroup.github.io/archives/aegisub_guide.html</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%AD%97%E5%B9%95/" rel="tag"># 字幕</a>
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+              <a href="/tags/%E6%97%B6%E9%97%B4%E8%BD%B4/" rel="tag"># 时间轴</a>
+              <a href="/tags/aegisub/" rel="tag"># aegisub</a>
+              <a href="/tags/x264/" rel="tag"># x264</a>
+              <a href="/tags/%E5%8E%8B%E5%88%B6/" rel="tag"># 压制</a>
+              <a href="/tags/Premiere/" rel="tag"># Premiere</a>
+              <a href="/tags/%E5%B8%A7%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="tag"># 帧服务器</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/Netch_guide.html" rel="prev" title="Netch使用指南(190627)">
+                  <i class="fa fa-angle-left"></i> Netch使用指南(190627)
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/archives/CUfOnwSLWxY.html" rel="next" title="【转载】每日宇航员和火箭实验室的Peter Beck对话电子火箭的回收-中文精简版">
+                  【转载】每日宇航员和火箭实验室的Peter Beck对话电子火箭的回收-中文精简版 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">冰灵</span>
+  </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"https-binglinggroup-github-io","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>
