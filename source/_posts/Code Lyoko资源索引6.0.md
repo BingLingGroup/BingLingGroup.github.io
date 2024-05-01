@@ -256,13 +256,16 @@ CLE在youtube上部分似乎有版权问题，有些被youtube地区封禁了。
 
 ### 游戏资源
 
-- [CL游戏资源][CL_games]\(awtx\)
+- [CL游戏资源][CL_games]
 
 主要内容
 
 - Flash小游戏
 - *Code Lyoko Quest For Infinity*/《虚幻勇士追求无限》
 - IFSCL
+  - 240501更新
+    - IFSCL 4.6.2 build2831 win64完整版压缩包(由在线下载器下载打包得到)
+    - IFSCL 4.6.X在线下载器
   - 201226更新
     - IFSCL 4.1.3 build1169 win64完整版压缩包(由在线下载器下载打包得到)
     - 该版本为IFSCL 4.1.X最终版
@@ -453,7 +456,7 @@ WEB-DL指从那些在线推流发行平台上直接下载下来未经压制的�
 [jijidown]: http://client.jijidown.com
 [code_lyoko_live_commenting_backup]: https://github.com/BingLingGroup/code-lyoko-live-commenting-backup
 [CL_music]: https://pan.baidu.com/s/1eRqHGdk
-[CL_games]: https://pan.baidu.com/s/1sk7qlRJ
+[CL_games]: https://pan.baidu.com/s/19ShdDvGryN-bRDue2mXanw?pwd=usrp
 [IFSCL_origin]: https://en.codelyoko.fr/ifscl/download.cl
 [CL_words]: https://pan.baidu.com/s/1eQKn1LK
 [CLCHR]: https://pan.baidu.com/s/1qZwGZnQ
